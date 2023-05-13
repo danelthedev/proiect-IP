@@ -70,6 +70,7 @@ namespace F1Aggregator
             // toolStrip1
             // 
             this.toolStrip1.AutoSize = false;
+            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(212)))), ((int)(((byte)(244)))));
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonSchedule2,
@@ -157,6 +158,7 @@ namespace F1Aggregator
             // 
             this.panelResults.AutoScroll = true;
             this.panelResults.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panelResults.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panelResults.Controls.Add(this.groupBoxResults);
             this.panelResults.Location = new System.Drawing.Point(0, 40);
             this.panelResults.Name = "panelResults";
@@ -178,11 +180,12 @@ namespace F1Aggregator
             this.groupBoxResults.Controls.Add(this.labelResults2nd);
             this.groupBoxResults.Controls.Add(this.labelResultsPeriod);
             this.groupBoxResults.Controls.Add(this.labelResultsLocation);
+            this.groupBoxResults.ForeColor = System.Drawing.Color.White;
             this.groupBoxResults.Location = new System.Drawing.Point(2, 2);
             this.groupBoxResults.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxResults.Name = "groupBoxResults";
             this.groupBoxResults.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxResults.Size = new System.Drawing.Size(1064, 177);
+            this.groupBoxResults.Size = new System.Drawing.Size(1057, 177);
             this.groupBoxResults.TabIndex = 5;
             this.groupBoxResults.TabStop = false;
             // 
@@ -215,52 +218,68 @@ namespace F1Aggregator
             // 
             // textBoxResults3rd
             // 
+            this.textBoxResults3rd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxResults3rd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxResults3rd.ForeColor = System.Drawing.Color.Transparent;
             this.textBoxResults3rd.Location = new System.Drawing.Point(868, 138);
             this.textBoxResults3rd.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxResults3rd.Name = "textBoxResults3rd";
             this.textBoxResults3rd.ReadOnly = true;
-            this.textBoxResults3rd.Size = new System.Drawing.Size(120, 20);
+            this.textBoxResults3rd.Size = new System.Drawing.Size(120, 13);
             this.textBoxResults3rd.TabIndex = 4;
             // 
             // textBoxResults1st
             // 
+            this.textBoxResults1st.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxResults1st.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxResults1st.ForeColor = System.Drawing.Color.Transparent;
             this.textBoxResults1st.Location = new System.Drawing.Point(613, 138);
             this.textBoxResults1st.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxResults1st.Name = "textBoxResults1st";
             this.textBoxResults1st.ReadOnly = true;
-            this.textBoxResults1st.Size = new System.Drawing.Size(120, 20);
+            this.textBoxResults1st.Size = new System.Drawing.Size(120, 13);
             this.textBoxResults1st.TabIndex = 4;
             // 
             // textBoxResults2nd
             // 
+            this.textBoxResults2nd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxResults2nd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxResults2nd.ForeColor = System.Drawing.Color.Transparent;
             this.textBoxResults2nd.Location = new System.Drawing.Point(339, 139);
             this.textBoxResults2nd.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxResults2nd.Name = "textBoxResults2nd";
             this.textBoxResults2nd.ReadOnly = true;
-            this.textBoxResults2nd.Size = new System.Drawing.Size(120, 20);
+            this.textBoxResults2nd.Size = new System.Drawing.Size(120, 13);
             this.textBoxResults2nd.TabIndex = 4;
             // 
             // textBoxResultsPeriod
             // 
+            this.textBoxResultsPeriod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxResultsPeriod.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxResultsPeriod.ForeColor = System.Drawing.Color.Transparent;
             this.textBoxResultsPeriod.Location = new System.Drawing.Point(62, 92);
             this.textBoxResultsPeriod.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxResultsPeriod.Name = "textBoxResultsPeriod";
             this.textBoxResultsPeriod.ReadOnly = true;
-            this.textBoxResultsPeriod.Size = new System.Drawing.Size(159, 20);
+            this.textBoxResultsPeriod.Size = new System.Drawing.Size(159, 13);
             this.textBoxResultsPeriod.TabIndex = 4;
             // 
             // textBoxResultsLocation
             // 
+            this.textBoxResultsLocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxResultsLocation.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxResultsLocation.ForeColor = System.Drawing.Color.Transparent;
             this.textBoxResultsLocation.Location = new System.Drawing.Point(62, 44);
             this.textBoxResultsLocation.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxResultsLocation.Name = "textBoxResultsLocation";
             this.textBoxResultsLocation.ReadOnly = true;
-            this.textBoxResultsLocation.Size = new System.Drawing.Size(159, 20);
+            this.textBoxResultsLocation.Size = new System.Drawing.Size(159, 13);
             this.textBoxResultsLocation.TabIndex = 3;
             // 
             // labelResults3rd
             // 
             this.labelResults3rd.AutoSize = true;
+            this.labelResults3rd.ForeColor = System.Drawing.Color.White;
             this.labelResults3rd.Location = new System.Drawing.Point(906, 158);
             this.labelResults3rd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelResults3rd.Name = "labelResults3rd";
@@ -271,6 +290,7 @@ namespace F1Aggregator
             // labelResults1st
             // 
             this.labelResults1st.AutoSize = true;
+            this.labelResults1st.ForeColor = System.Drawing.Color.White;
             this.labelResults1st.Location = new System.Drawing.Point(648, 158);
             this.labelResults1st.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelResults1st.Name = "labelResults1st";
@@ -281,6 +301,7 @@ namespace F1Aggregator
             // labelResults2nd
             // 
             this.labelResults2nd.AutoSize = true;
+            this.labelResults2nd.ForeColor = System.Drawing.Color.White;
             this.labelResults2nd.Location = new System.Drawing.Point(375, 159);
             this.labelResults2nd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelResults2nd.Name = "labelResults2nd";
@@ -291,6 +312,7 @@ namespace F1Aggregator
             // labelResultsPeriod
             // 
             this.labelResultsPeriod.AutoSize = true;
+            this.labelResultsPeriod.ForeColor = System.Drawing.Color.White;
             this.labelResultsPeriod.Location = new System.Drawing.Point(9, 92);
             this.labelResultsPeriod.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelResultsPeriod.Name = "labelResultsPeriod";
@@ -301,6 +323,7 @@ namespace F1Aggregator
             // labelResultsLocation
             // 
             this.labelResultsLocation.AutoSize = true;
+            this.labelResultsLocation.ForeColor = System.Drawing.Color.White;
             this.labelResultsLocation.Location = new System.Drawing.Point(9, 44);
             this.labelResultsLocation.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelResultsLocation.Name = "labelResultsLocation";
@@ -334,19 +357,23 @@ namespace F1Aggregator
             // 
             // buttonResultsDetails
             // 
+            this.buttonResultsDetails.BackColor = System.Drawing.Color.Black;
+            this.buttonResultsDetails.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonResultsDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonResultsDetails.ForeColor = System.Drawing.Color.Transparent;
             this.buttonResultsDetails.Location = new System.Drawing.Point(976, 630);
             this.buttonResultsDetails.Name = "buttonResultsDetails";
             this.buttonResultsDetails.Size = new System.Drawing.Size(96, 24);
             this.buttonResultsDetails.TabIndex = 4;
             this.buttonResultsDetails.Text = "More Details";
-            this.buttonResultsDetails.UseVisualStyleBackColor = true;
+            this.buttonResultsDetails.UseVisualStyleBackColor = false;
             this.buttonResultsDetails.Click += new System.EventHandler(this.buttonResultsDetails_Click);
             // 
             // Results
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1084, 681);
             this.Controls.Add(this.buttonResultsDetails);
             this.Controls.Add(this.menuStrip1);

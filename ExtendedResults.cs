@@ -135,10 +135,20 @@ namespace F1Aggregator
 
             //Add columns to the DataGridView
             _dataGridView3.Columns.Add("Position", "Position");
+            _dataGridView3.Columns["Position"].Width = 60;
+
             _dataGridView3.Columns.Add("Number", "Number");
+            _dataGridView3.Columns["Number"].Width = 60;
+
             _dataGridView3.Columns.Add("Driver", "Driver");
+            _dataGridView3.Columns["Driver"].Width = 200;
+
             _dataGridView3.Columns.Add("Car", "Car");
+            _dataGridView3.Columns["Car"].Width = 200;
+
             _dataGridView3.Columns.Add("Lap", "Lap");
+            _dataGridView3.Columns["Lap"].Width = 60;
+
             _dataGridView3.Columns.Add("Time of day", "Time of day");
             _dataGridView3.Columns.Add("Time", "Time");
             _dataGridView3.Columns.Add("AVG Speed", "AVG Speed");
@@ -168,11 +178,21 @@ namespace F1Aggregator
 
             //Add columns to the DataGridView
             _dataGridView4.Columns.Add("Position", "Position");
+            _dataGridView4.Columns["Position"].Width = 60;
+
             _dataGridView4.Columns.Add("Number", "Number");
+            _dataGridView4.Columns["Number"].Width = 60;
+
             _dataGridView4.Columns.Add("Driver", "Driver");
+            _dataGridView4.Columns["Driver"].Width = 210;
+
             _dataGridView4.Columns.Add("Car", "Car");
+            _dataGridView4.Columns["Car"].Width = 210;
+
             _dataGridView4.Columns.Add("Laps", "Laps");
             _dataGridView4.Columns.Add("Time/Retired", "Time/Retired");
+            _dataGridView4.Columns["Time/Retired"].Width = 140;
+
             _dataGridView4.Columns.Add("Points", "Points");
 
             //Add rows to the DataGridView

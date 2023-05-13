@@ -63,10 +63,20 @@ namespace F1Aggregator
 
             //Add columns to the DataGridView
             _dataGridView1.Columns.Add("Position", "Position");
+            _dataGridView1.Columns["Position"].Width = 200;
+
             _dataGridView1.Columns.Add("Name", "Name");
+            _dataGridView1.Columns["Name"].Width = 200;
+
             _dataGridView1.Columns.Add("Nationality", "Nationality");
+            _dataGridView1.Columns["Nationality"].Width = 200;
+
             _dataGridView1.Columns.Add("Car", "Car");
+            _dataGridView1.Columns["Car"].Width = 200;
+
             _dataGridView1.Columns.Add("Points", "Points");
+            _dataGridView1.Columns["Points"].Width = 157;
+
 
             //Add rows to the DataGridView
             _dataGridView1.Rows.Add("Value1", "Value2", "Value3", "Value4", "Value5");
@@ -92,8 +102,14 @@ namespace F1Aggregator
 
             //Add columns to the DataGridView
             _dataGridView2.Columns.Add("Position", "Position");
+            _dataGridView2.Columns["Position"].Width = 319;
+
             _dataGridView2.Columns.Add("Name", "Name");
+            _dataGridView2.Columns["Name"].Width = 319;
+
             _dataGridView2.Columns.Add("Points", "Points");
+            _dataGridView2.Columns["Points"].Width = 319;
+
 
             //Add rows to the DataGridView
             _dataGridView2.Rows.Add("Value1", "Value2", "Value3");

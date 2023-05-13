@@ -35,7 +35,7 @@ namespace F1Aggregator.DynamicFormObjs
                 {
                     foreach(Control T in C.Controls)
                     {
-                        if (T is TextBox || T is RichTextBox)
+                        if (T is TextBox)
                         {
                             T.Enabled = true;
                             T.Enabled = false;

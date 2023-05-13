@@ -164,6 +164,9 @@ namespace F1Aggregator
             // 
             // comboBoxExtendedResults
             // 
+            this.comboBoxExtendedResults.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.comboBoxExtendedResults.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.comboBoxExtendedResults.ForeColor = System.Drawing.SystemColors.Window;
             this.comboBoxExtendedResults.FormattingEnabled = true;
             this.comboBoxExtendedResults.Location = new System.Drawing.Point(345, 39);
             this.comboBoxExtendedResults.Name = "comboBoxExtendedResults";
@@ -199,6 +202,7 @@ namespace F1Aggregator
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1084, 681);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.comboBoxExtendedResults);
