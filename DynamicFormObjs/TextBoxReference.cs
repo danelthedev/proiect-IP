@@ -21,7 +21,10 @@ namespace F1Aggregator.DynamicFormObjs
         public TextBoxReference(System.Windows.Forms.TextBox textBoxReference, int index)
         {
             _textBoxCopy = new System.Windows.Forms.TextBox();
-            
+
+            _textBoxCopy.BackColor = textBoxReference.BackColor;
+            _textBoxCopy.ForeColor = textBoxReference.ForeColor;
+            _textBoxCopy.BorderStyle = textBoxReference.BorderStyle;
             _textBoxCopy.ReadOnly = textBoxReference.ReadOnly;
             _textBoxCopy.Name = textBoxReference.Name + index;
             _textBoxCopy.TabIndex = textBoxReference.TabIndex;

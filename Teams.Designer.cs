@@ -159,6 +159,7 @@ namespace F1Aggregator
             // toolStrip1
             // 
             this.toolStrip1.AutoSize = false;
+            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(212)))), ((int)(((byte)(244)))));
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonSchedule4,
@@ -181,6 +182,7 @@ namespace F1Aggregator
             this.toolStripButtonSchedule4.AutoSize = false;
             this.toolStripButtonSchedule4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButtonSchedule4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButtonSchedule4.ForeColor = System.Drawing.Color.Black;
             this.toolStripButtonSchedule4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonSchedule4.Name = "toolStripButtonSchedule4";
             this.toolStripButtonSchedule4.Size = new System.Drawing.Size(258, 42);
@@ -197,6 +199,7 @@ namespace F1Aggregator
             this.toolStripButtonResults4.AutoSize = false;
             this.toolStripButtonResults4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButtonResults4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButtonResults4.ForeColor = System.Drawing.Color.Black;
             this.toolStripButtonResults4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonResults4.Image")));
             this.toolStripButtonResults4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonResults4.Name = "toolStripButtonResults4";
@@ -214,6 +217,7 @@ namespace F1Aggregator
             this.toolStripButtonStandings4.AutoSize = false;
             this.toolStripButtonStandings4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButtonStandings4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButtonStandings4.ForeColor = System.Drawing.Color.Black;
             this.toolStripButtonStandings4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonStandings4.Image")));
             this.toolStripButtonStandings4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonStandings4.Name = "toolStripButtonStandings4";
@@ -231,6 +235,7 @@ namespace F1Aggregator
             this.toolStripButtonTeams4.AutoSize = false;
             this.toolStripButtonTeams4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButtonTeams4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButtonTeams4.ForeColor = System.Drawing.Color.Black;
             this.toolStripButtonTeams4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonTeams4.Image")));
             this.toolStripButtonTeams4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonTeams4.Name = "toolStripButtonTeams4";
@@ -245,7 +250,7 @@ namespace F1Aggregator
             // panelTeams
             // 
             this.panelTeams.AutoScroll = true;
-            this.panelTeams.BackColor = System.Drawing.SystemColors.Control;
+            this.panelTeams.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.panelTeams.Controls.Add(this.groupBox11);
             this.panelTeams.Controls.Add(this.groupBox12);
             this.panelTeams.Controls.Add(this.groupBox9);
@@ -263,6 +268,7 @@ namespace F1Aggregator
             // 
             // groupBox11
             // 
+            this.groupBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox11.Controls.Add(this.label8);
             this.groupBox11.Controls.Add(this.textBoxTeamsPTwo8);
             this.groupBox11.Controls.Add(this.pictureBoxTeamsCar8);
@@ -287,10 +293,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo8
             // 
+            this.textBoxTeamsPTwo8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo8.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo8.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo8.Name = "textBoxTeamsPTwo8";
             this.textBoxTeamsPTwo8.ReadOnly = true;
-            this.textBoxTeamsPTwo8.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo8.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo8.TabIndex = 5;
             // 
             // pictureBoxTeamsCar8
@@ -303,30 +312,40 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne8
             // 
+            this.textBoxTeamsPOne8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne8.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne8.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne8.Name = "textBoxTeamsPOne8";
             this.textBoxTeamsPOne8.ReadOnly = true;
-            this.textBoxTeamsPOne8.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne8.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne8.TabIndex = 3;
             // 
             // textBoxTeamsName8
             // 
+            this.textBoxTeamsName8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName8.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName8.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName8.Name = "textBoxTeamsName8";
             this.textBoxTeamsName8.ReadOnly = true;
-            this.textBoxTeamsName8.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName8.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName8.TabIndex = 2;
             // 
             // textBoxTeamsPoints8
             // 
+            this.textBoxTeamsPoints8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints8.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints8.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints8.Name = "textBoxTeamsPoints8";
             this.textBoxTeamsPoints8.ReadOnly = true;
-            this.textBoxTeamsPoints8.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints8.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints8.TabIndex = 1;
             // 
             // groupBox12
             // 
+            this.groupBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox12.Controls.Add(this.label7);
             this.groupBox12.Controls.Add(this.textBoxTeamsPTwo7);
             this.groupBox12.Controls.Add(this.pictureBoxTeamsCar7);
@@ -351,10 +370,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo7
             // 
+            this.textBoxTeamsPTwo7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo7.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo7.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo7.Name = "textBoxTeamsPTwo7";
             this.textBoxTeamsPTwo7.ReadOnly = true;
-            this.textBoxTeamsPTwo7.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo7.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo7.TabIndex = 5;
             // 
             // pictureBoxTeamsCar7
@@ -367,30 +389,40 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne7
             // 
+            this.textBoxTeamsPOne7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne7.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne7.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne7.Name = "textBoxTeamsPOne7";
             this.textBoxTeamsPOne7.ReadOnly = true;
-            this.textBoxTeamsPOne7.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne7.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne7.TabIndex = 3;
             // 
             // textBoxTeamsName7
             // 
+            this.textBoxTeamsName7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName7.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName7.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName7.Name = "textBoxTeamsName7";
             this.textBoxTeamsName7.ReadOnly = true;
-            this.textBoxTeamsName7.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName7.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName7.TabIndex = 2;
             // 
             // textBoxTeamsPoints7
             // 
+            this.textBoxTeamsPoints7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints7.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints7.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints7.Name = "textBoxTeamsPoints7";
             this.textBoxTeamsPoints7.ReadOnly = true;
-            this.textBoxTeamsPoints7.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints7.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints7.TabIndex = 1;
             // 
             // groupBox9
             // 
+            this.groupBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox9.Controls.Add(this.label6);
             this.groupBox9.Controls.Add(this.textBoxTeamsPTwo6);
             this.groupBox9.Controls.Add(this.pictureBoxTeamsCar6);
@@ -415,10 +447,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo6
             // 
+            this.textBoxTeamsPTwo6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo6.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo6.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo6.Name = "textBoxTeamsPTwo6";
             this.textBoxTeamsPTwo6.ReadOnly = true;
-            this.textBoxTeamsPTwo6.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo6.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo6.TabIndex = 5;
             // 
             // pictureBoxTeamsCar6
@@ -431,30 +466,40 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne6
             // 
+            this.textBoxTeamsPOne6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne6.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne6.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne6.Name = "textBoxTeamsPOne6";
             this.textBoxTeamsPOne6.ReadOnly = true;
-            this.textBoxTeamsPOne6.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne6.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne6.TabIndex = 3;
             // 
             // textBoxTeamsName6
             // 
+            this.textBoxTeamsName6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName6.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName6.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName6.Name = "textBoxTeamsName6";
             this.textBoxTeamsName6.ReadOnly = true;
-            this.textBoxTeamsName6.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName6.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName6.TabIndex = 2;
             // 
             // textBoxTeamsPoints6
             // 
+            this.textBoxTeamsPoints6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints6.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints6.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints6.Name = "textBoxTeamsPoints6";
             this.textBoxTeamsPoints6.ReadOnly = true;
-            this.textBoxTeamsPoints6.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints6.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints6.TabIndex = 1;
             // 
             // groupBox10
             // 
+            this.groupBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox10.Controls.Add(this.label5);
             this.groupBox10.Controls.Add(this.textBoxTeamsPTwo5);
             this.groupBox10.Controls.Add(this.pictureBoxTeamsCar5);
@@ -479,10 +524,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo5
             // 
+            this.textBoxTeamsPTwo5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo5.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo5.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo5.Name = "textBoxTeamsPTwo5";
             this.textBoxTeamsPTwo5.ReadOnly = true;
-            this.textBoxTeamsPTwo5.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo5.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo5.TabIndex = 5;
             // 
             // pictureBoxTeamsCar5
@@ -495,30 +543,40 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne5
             // 
+            this.textBoxTeamsPOne5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne5.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne5.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne5.Name = "textBoxTeamsPOne5";
             this.textBoxTeamsPOne5.ReadOnly = true;
-            this.textBoxTeamsPOne5.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne5.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne5.TabIndex = 3;
             // 
             // textBoxTeamsName5
             // 
+            this.textBoxTeamsName5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName5.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName5.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName5.Name = "textBoxTeamsName5";
             this.textBoxTeamsName5.ReadOnly = true;
-            this.textBoxTeamsName5.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName5.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName5.TabIndex = 2;
             // 
             // textBoxTeamsPoints5
             // 
+            this.textBoxTeamsPoints5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints5.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints5.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints5.Name = "textBoxTeamsPoints5";
             this.textBoxTeamsPoints5.ReadOnly = true;
-            this.textBoxTeamsPoints5.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints5.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints5.TabIndex = 1;
             // 
             // groupBox5
             // 
+            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox5.Controls.Add(this.label10);
             this.groupBox5.Controls.Add(this.textBoxTeamsPTwo10);
             this.groupBox5.Controls.Add(this.pictureBoxTeamsCar10);
@@ -543,10 +601,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo10
             // 
+            this.textBoxTeamsPTwo10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo10.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo10.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo10.Name = "textBoxTeamsPTwo10";
             this.textBoxTeamsPTwo10.ReadOnly = true;
-            this.textBoxTeamsPTwo10.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo10.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo10.TabIndex = 5;
             // 
             // pictureBoxTeamsCar10
@@ -559,30 +620,40 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne10
             // 
+            this.textBoxTeamsPOne10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne10.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne10.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne10.Name = "textBoxTeamsPOne10";
             this.textBoxTeamsPOne10.ReadOnly = true;
-            this.textBoxTeamsPOne10.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne10.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne10.TabIndex = 3;
             // 
             // textBoxTeamsName10
             // 
+            this.textBoxTeamsName10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName10.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName10.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName10.Name = "textBoxTeamsName10";
             this.textBoxTeamsName10.ReadOnly = true;
-            this.textBoxTeamsName10.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName10.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName10.TabIndex = 2;
             // 
             // textBoxTeamsPoints10
             // 
+            this.textBoxTeamsPoints10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints10.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints10.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints10.Name = "textBoxTeamsPoints10";
             this.textBoxTeamsPoints10.ReadOnly = true;
-            this.textBoxTeamsPoints10.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints10.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints10.TabIndex = 1;
             // 
             // groupBox6
             // 
+            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox6.Controls.Add(this.label9);
             this.groupBox6.Controls.Add(this.textBoxTeamsPTwo9);
             this.groupBox6.Controls.Add(this.pictureBoxTeamsCar9);
@@ -607,10 +678,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo9
             // 
+            this.textBoxTeamsPTwo9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo9.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo9.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo9.Name = "textBoxTeamsPTwo9";
             this.textBoxTeamsPTwo9.ReadOnly = true;
-            this.textBoxTeamsPTwo9.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo9.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo9.TabIndex = 5;
             // 
             // pictureBoxTeamsCar9
@@ -623,30 +697,40 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne9
             // 
+            this.textBoxTeamsPOne9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne9.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne9.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne9.Name = "textBoxTeamsPOne9";
             this.textBoxTeamsPOne9.ReadOnly = true;
-            this.textBoxTeamsPOne9.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne9.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne9.TabIndex = 3;
             // 
             // textBoxTeamsName9
             // 
+            this.textBoxTeamsName9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName9.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName9.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName9.Name = "textBoxTeamsName9";
             this.textBoxTeamsName9.ReadOnly = true;
-            this.textBoxTeamsName9.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName9.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName9.TabIndex = 2;
             // 
             // textBoxTeamsPoints9
             // 
+            this.textBoxTeamsPoints9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints9.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints9.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints9.Name = "textBoxTeamsPoints9";
             this.textBoxTeamsPoints9.ReadOnly = true;
-            this.textBoxTeamsPoints9.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints9.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints9.TabIndex = 1;
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.groupBox7);
             this.groupBox3.Controls.Add(this.groupBox8);
@@ -787,10 +871,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo4
             // 
+            this.textBoxTeamsPTwo4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo4.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo4.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo4.Name = "textBoxTeamsPTwo4";
             this.textBoxTeamsPTwo4.ReadOnly = true;
-            this.textBoxTeamsPTwo4.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo4.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo4.TabIndex = 5;
             // 
             // pictureBoxTeamsCar4
@@ -803,30 +890,40 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne4
             // 
+            this.textBoxTeamsPOne4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne4.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne4.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne4.Name = "textBoxTeamsPOne4";
             this.textBoxTeamsPOne4.ReadOnly = true;
-            this.textBoxTeamsPOne4.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne4.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne4.TabIndex = 3;
             // 
             // textBoxTeamsName4
             // 
+            this.textBoxTeamsName4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName4.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName4.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName4.Name = "textBoxTeamsName4";
             this.textBoxTeamsName4.ReadOnly = true;
-            this.textBoxTeamsName4.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName4.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName4.TabIndex = 2;
             // 
             // textBoxTeamsPoints4
             // 
+            this.textBoxTeamsPoints4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints4.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints4.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints4.Name = "textBoxTeamsPoints4";
             this.textBoxTeamsPoints4.ReadOnly = true;
-            this.textBoxTeamsPoints4.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints4.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints4.TabIndex = 1;
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox4.Controls.Add(this.label3);
             this.groupBox4.Controls.Add(this.textBoxTeamsPTwo3);
             this.groupBox4.Controls.Add(this.pictureBoxTeamsCar3);
@@ -851,10 +948,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo3
             // 
+            this.textBoxTeamsPTwo3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo3.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo3.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo3.Name = "textBoxTeamsPTwo3";
             this.textBoxTeamsPTwo3.ReadOnly = true;
-            this.textBoxTeamsPTwo3.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo3.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo3.TabIndex = 5;
             // 
             // pictureBoxTeamsCar3
@@ -867,30 +967,40 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne3
             // 
+            this.textBoxTeamsPOne3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne3.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne3.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne3.Name = "textBoxTeamsPOne3";
             this.textBoxTeamsPOne3.ReadOnly = true;
-            this.textBoxTeamsPOne3.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne3.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne3.TabIndex = 3;
             // 
             // textBoxTeamsName3
             // 
+            this.textBoxTeamsName3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName3.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName3.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName3.Name = "textBoxTeamsName3";
             this.textBoxTeamsName3.ReadOnly = true;
-            this.textBoxTeamsName3.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName3.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName3.TabIndex = 2;
             // 
             // textBoxTeamsPoints3
             // 
+            this.textBoxTeamsPoints3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints3.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints3.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints3.Name = "textBoxTeamsPoints3";
             this.textBoxTeamsPoints3.ReadOnly = true;
-            this.textBoxTeamsPoints3.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints3.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints3.TabIndex = 1;
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox2.Controls.Add(this.textBoxTeamsPoints2);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.textBoxTeamsPTwo2);
@@ -905,10 +1015,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPoints2
             // 
+            this.textBoxTeamsPoints2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints2.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints2.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints2.Name = "textBoxTeamsPoints2";
             this.textBoxTeamsPoints2.ReadOnly = true;
-            this.textBoxTeamsPoints2.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints2.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints2.TabIndex = 7;
             // 
             // label2
@@ -923,10 +1036,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo2
             // 
+            this.textBoxTeamsPTwo2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo2.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo2.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo2.Name = "textBoxTeamsPTwo2";
             this.textBoxTeamsPTwo2.ReadOnly = true;
-            this.textBoxTeamsPTwo2.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo2.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo2.TabIndex = 5;
             // 
             // pictureBoxTeamsCar2
@@ -939,22 +1055,29 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne2
             // 
+            this.textBoxTeamsPOne2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne2.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne2.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne2.Name = "textBoxTeamsPOne2";
             this.textBoxTeamsPOne2.ReadOnly = true;
-            this.textBoxTeamsPOne2.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne2.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne2.TabIndex = 3;
             // 
             // textBoxTeamsName2
             // 
+            this.textBoxTeamsName2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName2.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName2.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName2.Name = "textBoxTeamsName2";
             this.textBoxTeamsName2.ReadOnly = true;
-            this.textBoxTeamsName2.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName2.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName2.TabIndex = 2;
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.textBoxTeamsPTwo1);
             this.groupBox1.Controls.Add(this.pictureBoxTeamsCar1);
@@ -979,10 +1102,13 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPTwo1
             // 
+            this.textBoxTeamsPTwo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPTwo1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPTwo1.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPTwo1.Location = new System.Drawing.Point(353, 65);
             this.textBoxTeamsPTwo1.Name = "textBoxTeamsPTwo1";
             this.textBoxTeamsPTwo1.ReadOnly = true;
-            this.textBoxTeamsPTwo1.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPTwo1.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPTwo1.TabIndex = 5;
             // 
             // pictureBoxTeamsCar1
@@ -995,26 +1121,35 @@ namespace F1Aggregator
             // 
             // textBoxTeamsPOne1
             // 
+            this.textBoxTeamsPOne1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPOne1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPOne1.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPOne1.Location = new System.Drawing.Point(6, 65);
             this.textBoxTeamsPOne1.Name = "textBoxTeamsPOne1";
             this.textBoxTeamsPOne1.ReadOnly = true;
-            this.textBoxTeamsPOne1.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsPOne1.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsPOne1.TabIndex = 3;
             // 
             // textBoxTeamsName1
             // 
+            this.textBoxTeamsName1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsName1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsName1.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsName1.Location = new System.Drawing.Point(179, 31);
             this.textBoxTeamsName1.Name = "textBoxTeamsName1";
             this.textBoxTeamsName1.ReadOnly = true;
-            this.textBoxTeamsName1.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTeamsName1.Size = new System.Drawing.Size(155, 13);
             this.textBoxTeamsName1.TabIndex = 2;
             // 
             // textBoxTeamsPoints1
             // 
+            this.textBoxTeamsPoints1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.textBoxTeamsPoints1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTeamsPoints1.ForeColor = System.Drawing.Color.White;
             this.textBoxTeamsPoints1.Location = new System.Drawing.Point(408, 10);
             this.textBoxTeamsPoints1.Name = "textBoxTeamsPoints1";
             this.textBoxTeamsPoints1.ReadOnly = true;
-            this.textBoxTeamsPoints1.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTeamsPoints1.Size = new System.Drawing.Size(100, 13);
             this.textBoxTeamsPoints1.TabIndex = 1;
             // 
             // menuStrip1
@@ -1046,10 +1181,12 @@ namespace F1Aggregator
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1084, 681);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panelTeams);
             this.Controls.Add(this.toolStrip1);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
