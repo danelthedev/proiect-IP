@@ -44,11 +44,6 @@ namespace F1Aggregator
             this.pictureBoxResults3rd = new System.Windows.Forms.PictureBox();
             this.pictureBoxResults1st = new System.Windows.Forms.PictureBox();
             this.pictureBoxResults2nd = new System.Windows.Forms.PictureBox();
-            this.textBoxResults3rd = new System.Windows.Forms.TextBox();
-            this.textBoxResults1st = new System.Windows.Forms.TextBox();
-            this.textBoxResults2nd = new System.Windows.Forms.TextBox();
-            this.textBoxResultsPeriod = new System.Windows.Forms.TextBox();
-            this.textBoxResultsLocation = new System.Windows.Forms.TextBox();
             this.labelResults3rd = new System.Windows.Forms.Label();
             this.labelResults1st = new System.Windows.Forms.Label();
             this.labelResults2nd = new System.Windows.Forms.Label();
@@ -58,6 +53,11 @@ namespace F1Aggregator
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buttonResultsDetails = new System.Windows.Forms.Button();
+            this.labelResultsRaceLocation = new System.Windows.Forms.Label();
+            this.labelResultsRacePeriod = new System.Windows.Forms.Label();
+            this.labelResults2ndPlayer = new System.Windows.Forms.Label();
+            this.labelResults1stPlayer = new System.Windows.Forms.Label();
+            this.labelResults3rdPlayer = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.panelResults.SuspendLayout();
             this.groupBoxResults.SuspendLayout();
@@ -167,14 +167,14 @@ namespace F1Aggregator
             // 
             // groupBoxResults
             // 
+            this.groupBoxResults.Controls.Add(this.labelResults3rdPlayer);
+            this.groupBoxResults.Controls.Add(this.labelResults1stPlayer);
+            this.groupBoxResults.Controls.Add(this.labelResults2ndPlayer);
+            this.groupBoxResults.Controls.Add(this.labelResultsRacePeriod);
+            this.groupBoxResults.Controls.Add(this.labelResultsRaceLocation);
             this.groupBoxResults.Controls.Add(this.pictureBoxResults3rd);
             this.groupBoxResults.Controls.Add(this.pictureBoxResults1st);
             this.groupBoxResults.Controls.Add(this.pictureBoxResults2nd);
-            this.groupBoxResults.Controls.Add(this.textBoxResults3rd);
-            this.groupBoxResults.Controls.Add(this.textBoxResults1st);
-            this.groupBoxResults.Controls.Add(this.textBoxResults2nd);
-            this.groupBoxResults.Controls.Add(this.textBoxResultsPeriod);
-            this.groupBoxResults.Controls.Add(this.textBoxResultsLocation);
             this.groupBoxResults.Controls.Add(this.labelResults3rd);
             this.groupBoxResults.Controls.Add(this.labelResults1st);
             this.groupBoxResults.Controls.Add(this.labelResults2nd);
@@ -191,7 +191,7 @@ namespace F1Aggregator
             // 
             // pictureBoxResults3rd
             // 
-            this.pictureBoxResults3rd.Location = new System.Drawing.Point(834, 10);
+            this.pictureBoxResults3rd.Location = new System.Drawing.Point(828, 11);
             this.pictureBoxResults3rd.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxResults3rd.Name = "pictureBoxResults3rd";
             this.pictureBoxResults3rd.Size = new System.Drawing.Size(204, 124);
@@ -215,66 +215,6 @@ namespace F1Aggregator
             this.pictureBoxResults2nd.Size = new System.Drawing.Size(204, 124);
             this.pictureBoxResults2nd.TabIndex = 3;
             this.pictureBoxResults2nd.TabStop = false;
-            // 
-            // textBoxResults3rd
-            // 
-            this.textBoxResults3rd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxResults3rd.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxResults3rd.ForeColor = System.Drawing.Color.Transparent;
-            this.textBoxResults3rd.Location = new System.Drawing.Point(868, 138);
-            this.textBoxResults3rd.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxResults3rd.Name = "textBoxResults3rd";
-            this.textBoxResults3rd.ReadOnly = true;
-            this.textBoxResults3rd.Size = new System.Drawing.Size(120, 13);
-            this.textBoxResults3rd.TabIndex = 4;
-            // 
-            // textBoxResults1st
-            // 
-            this.textBoxResults1st.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxResults1st.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxResults1st.ForeColor = System.Drawing.Color.Transparent;
-            this.textBoxResults1st.Location = new System.Drawing.Point(613, 138);
-            this.textBoxResults1st.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxResults1st.Name = "textBoxResults1st";
-            this.textBoxResults1st.ReadOnly = true;
-            this.textBoxResults1st.Size = new System.Drawing.Size(120, 13);
-            this.textBoxResults1st.TabIndex = 4;
-            // 
-            // textBoxResults2nd
-            // 
-            this.textBoxResults2nd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxResults2nd.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxResults2nd.ForeColor = System.Drawing.Color.Transparent;
-            this.textBoxResults2nd.Location = new System.Drawing.Point(339, 139);
-            this.textBoxResults2nd.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxResults2nd.Name = "textBoxResults2nd";
-            this.textBoxResults2nd.ReadOnly = true;
-            this.textBoxResults2nd.Size = new System.Drawing.Size(120, 13);
-            this.textBoxResults2nd.TabIndex = 4;
-            // 
-            // textBoxResultsPeriod
-            // 
-            this.textBoxResultsPeriod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxResultsPeriod.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxResultsPeriod.ForeColor = System.Drawing.Color.Transparent;
-            this.textBoxResultsPeriod.Location = new System.Drawing.Point(62, 92);
-            this.textBoxResultsPeriod.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxResultsPeriod.Name = "textBoxResultsPeriod";
-            this.textBoxResultsPeriod.ReadOnly = true;
-            this.textBoxResultsPeriod.Size = new System.Drawing.Size(159, 13);
-            this.textBoxResultsPeriod.TabIndex = 4;
-            // 
-            // textBoxResultsLocation
-            // 
-            this.textBoxResultsLocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxResultsLocation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxResultsLocation.ForeColor = System.Drawing.Color.Transparent;
-            this.textBoxResultsLocation.Location = new System.Drawing.Point(62, 44);
-            this.textBoxResultsLocation.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxResultsLocation.Name = "textBoxResultsLocation";
-            this.textBoxResultsLocation.ReadOnly = true;
-            this.textBoxResultsLocation.Size = new System.Drawing.Size(159, 13);
-            this.textBoxResultsLocation.TabIndex = 3;
             // 
             // labelResults3rd
             // 
@@ -369,6 +309,46 @@ namespace F1Aggregator
             this.buttonResultsDetails.UseVisualStyleBackColor = false;
             this.buttonResultsDetails.Click += new System.EventHandler(this.buttonResultsDetails_Click);
             // 
+            // labelResultsRaceLocation
+            // 
+            this.labelResultsRaceLocation.AutoSize = true;
+            this.labelResultsRaceLocation.Location = new System.Drawing.Point(71, 44);
+            this.labelResultsRaceLocation.Name = "labelResultsRaceLocation";
+            this.labelResultsRaceLocation.Size = new System.Drawing.Size(0, 13);
+            this.labelResultsRaceLocation.TabIndex = 5;
+            // 
+            // labelResultsRacePeriod
+            // 
+            this.labelResultsRacePeriod.AutoSize = true;
+            this.labelResultsRacePeriod.Location = new System.Drawing.Point(71, 92);
+            this.labelResultsRacePeriod.Name = "labelResultsRacePeriod";
+            this.labelResultsRacePeriod.Size = new System.Drawing.Size(0, 13);
+            this.labelResultsRacePeriod.TabIndex = 6;
+            // 
+            // labelResults2ndPlayer
+            // 
+            this.labelResults2ndPlayer.AutoSize = true;
+            this.labelResults2ndPlayer.Location = new System.Drawing.Point(360, 137);
+            this.labelResults2ndPlayer.Name = "labelResults2ndPlayer";
+            this.labelResults2ndPlayer.Size = new System.Drawing.Size(0, 13);
+            this.labelResults2ndPlayer.TabIndex = 7;
+            // 
+            // labelResults1stPlayer
+            // 
+            this.labelResults1stPlayer.AutoSize = true;
+            this.labelResults1stPlayer.Location = new System.Drawing.Point(633, 136);
+            this.labelResults1stPlayer.Name = "labelResults1stPlayer";
+            this.labelResults1stPlayer.Size = new System.Drawing.Size(0, 13);
+            this.labelResults1stPlayer.TabIndex = 8;
+            // 
+            // labelResults3rdPlayer
+            // 
+            this.labelResults3rdPlayer.AutoSize = true;
+            this.labelResults3rdPlayer.Location = new System.Drawing.Point(888, 137);
+            this.labelResults3rdPlayer.Name = "labelResults3rdPlayer";
+            this.labelResults3rdPlayer.Size = new System.Drawing.Size(0, 13);
+            this.labelResults3rdPlayer.TabIndex = 9;
+            // 
             // Results
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -417,11 +397,6 @@ namespace F1Aggregator
         private System.Windows.Forms.PictureBox pictureBoxResults3rd;
         private System.Windows.Forms.PictureBox pictureBoxResults1st;
         private System.Windows.Forms.PictureBox pictureBoxResults2nd;
-        private System.Windows.Forms.TextBox textBoxResults3rd;
-        private System.Windows.Forms.TextBox textBoxResults1st;
-        private System.Windows.Forms.TextBox textBoxResults2nd;
-        private System.Windows.Forms.TextBox textBoxResultsPeriod;
-        private System.Windows.Forms.TextBox textBoxResultsLocation;
         private System.Windows.Forms.Label labelResults3rd;
         private System.Windows.Forms.Label labelResults1st;
         private System.Windows.Forms.Label labelResults2nd;
@@ -432,5 +407,10 @@ namespace F1Aggregator
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Button buttonResultsDetails;
+        private System.Windows.Forms.Label labelResults3rdPlayer;
+        private System.Windows.Forms.Label labelResults1stPlayer;
+        private System.Windows.Forms.Label labelResults2ndPlayer;
+        private System.Windows.Forms.Label labelResultsRacePeriod;
+        private System.Windows.Forms.Label labelResultsRaceLocation;
     }
 }

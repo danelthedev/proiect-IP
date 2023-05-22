@@ -41,110 +41,110 @@ namespace F1Aggregator
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.richTextBoxSchedule = new System.Windows.Forms.RichTextBox();
-            this.textBoxScheduleTime = new System.Windows.Forms.TextBox();
             this.pictureBoxSchedulePresentation = new System.Windows.Forms.PictureBox();
             this.pictureBoxScheduleTrack = new System.Windows.Forms.PictureBox();
-            this.textBoxScheduleRaceName = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow1 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime1 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName1 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow2 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime2 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName2 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow3 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime3 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName3 = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow6 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime6 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName6 = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow5 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime5 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName5 = new System.Windows.Forms.TextBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow4 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime4 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName4 = new System.Windows.Forms.TextBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow12 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime12 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName12 = new System.Windows.Forms.TextBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow11 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime11 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName11 = new System.Windows.Forms.TextBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow10 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime10 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName10 = new System.Windows.Forms.TextBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow9 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime9 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName9 = new System.Windows.Forms.TextBox();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow8 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime8 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName8 = new System.Windows.Forms.TextBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow7 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime7 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName7 = new System.Windows.Forms.TextBox();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow18 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime18 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName18 = new System.Windows.Forms.TextBox();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow17 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime17 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName17 = new System.Windows.Forms.TextBox();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow16 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime16 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName16 = new System.Windows.Forms.TextBox();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow15 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime15 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName15 = new System.Windows.Forms.TextBox();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow14 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime14 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName14 = new System.Windows.Forms.TextBox();
             this.groupBox19 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow13 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime13 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName13 = new System.Windows.Forms.TextBox();
             this.groupBox20 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow24 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime24 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName24 = new System.Windows.Forms.TextBox();
             this.groupBox21 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow23 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime23 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName23 = new System.Windows.Forms.TextBox();
             this.groupBox22 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow22 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime22 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName22 = new System.Windows.Forms.TextBox();
             this.groupBox23 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow21 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime21 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName21 = new System.Windows.Forms.TextBox();
             this.groupBox24 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow20 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime20 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName20 = new System.Windows.Forms.TextBox();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
             this.buttonScheduleShow19 = new System.Windows.Forms.Button();
-            this.textBoxScheduleTime19 = new System.Windows.Forms.TextBox();
-            this.textBoxScheduleName19 = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelSchedule = new System.Windows.Forms.Panel();
+            this.labelScheduleRaceName = new System.Windows.Forms.Label();
+            this.labelScheduleTime = new System.Windows.Forms.Label();
+            this.labelScheduleName1 = new System.Windows.Forms.Label();
+            this.labelScheduleTime1 = new System.Windows.Forms.Label();
+            this.labelScheduleName2 = new System.Windows.Forms.Label();
+            this.labelScheduleTime2 = new System.Windows.Forms.Label();
+            this.labelScheduleName3 = new System.Windows.Forms.Label();
+            this.labelScheduleTime3 = new System.Windows.Forms.Label();
+            this.labelScheduleName4 = new System.Windows.Forms.Label();
+            this.labelScheduleTime4 = new System.Windows.Forms.Label();
+            this.labelScheduleName5 = new System.Windows.Forms.Label();
+            this.labelScheduleTime5 = new System.Windows.Forms.Label();
+            this.labelScheduleName6 = new System.Windows.Forms.Label();
+            this.labelScheduleTime6 = new System.Windows.Forms.Label();
+            this.labelScheduleName7 = new System.Windows.Forms.Label();
+            this.labelScheduleTime7 = new System.Windows.Forms.Label();
+            this.labelScheduleName8 = new System.Windows.Forms.Label();
+            this.labelScheduleTime8 = new System.Windows.Forms.Label();
+            this.labelScheduleName9 = new System.Windows.Forms.Label();
+            this.labelScheduleTime9 = new System.Windows.Forms.Label();
+            this.labelScheduleName10 = new System.Windows.Forms.Label();
+            this.labelScheduleTime10 = new System.Windows.Forms.Label();
+            this.labelScheduleName11 = new System.Windows.Forms.Label();
+            this.labelScheduleTime11 = new System.Windows.Forms.Label();
+            this.labelScheduleName12 = new System.Windows.Forms.Label();
+            this.labelScheduleTime12 = new System.Windows.Forms.Label();
+            this.labelScheduleName13 = new System.Windows.Forms.Label();
+            this.labelScheduleTime13 = new System.Windows.Forms.Label();
+            this.labelScheduleName14 = new System.Windows.Forms.Label();
+            this.labelScheduleTime14 = new System.Windows.Forms.Label();
+            this.labelScheduleName15 = new System.Windows.Forms.Label();
+            this.labelScheduleTime15 = new System.Windows.Forms.Label();
+            this.labelScheduleName16 = new System.Windows.Forms.Label();
+            this.labelScheduleTime16 = new System.Windows.Forms.Label();
+            this.labelScheduleName17 = new System.Windows.Forms.Label();
+            this.labelScheduleTime17 = new System.Windows.Forms.Label();
+            this.labelScheduleName18 = new System.Windows.Forms.Label();
+            this.labelScheduleTime18 = new System.Windows.Forms.Label();
+            this.labelScheduleName19 = new System.Windows.Forms.Label();
+            this.labelScheduleTime19 = new System.Windows.Forms.Label();
+            this.labelScheduleName20 = new System.Windows.Forms.Label();
+            this.labelScheduleTime20 = new System.Windows.Forms.Label();
+            this.labelScheduleName21 = new System.Windows.Forms.Label();
+            this.labelScheduleTime21 = new System.Windows.Forms.Label();
+            this.labelScheduleName22 = new System.Windows.Forms.Label();
+            this.labelScheduleTime22 = new System.Windows.Forms.Label();
+            this.labelScheduleName23 = new System.Windows.Forms.Label();
+            this.labelScheduleTime23 = new System.Windows.Forms.Label();
+            this.labelScheduleName24 = new System.Windows.Forms.Label();
+            this.labelScheduleTime24 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSchedulePresentation)).BeginInit();
@@ -272,11 +272,11 @@ namespace F1Aggregator
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox1.Controls.Add(this.labelScheduleTime);
+            this.groupBox1.Controls.Add(this.labelScheduleRaceName);
             this.groupBox1.Controls.Add(this.richTextBoxSchedule);
-            this.groupBox1.Controls.Add(this.textBoxScheduleTime);
             this.groupBox1.Controls.Add(this.pictureBoxSchedulePresentation);
             this.groupBox1.Controls.Add(this.pictureBoxScheduleTrack);
-            this.groupBox1.Controls.Add(this.textBoxScheduleRaceName);
             this.groupBox1.Location = new System.Drawing.Point(8, 12);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
@@ -298,18 +298,6 @@ namespace F1Aggregator
             this.richTextBoxSchedule.TabIndex = 5;
             this.richTextBoxSchedule.Text = "";
             // 
-            // textBoxScheduleTime
-            // 
-            this.textBoxScheduleTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime.Location = new System.Drawing.Point(791, 9);
-            this.textBoxScheduleTime.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime.Name = "textBoxScheduleTime";
-            this.textBoxScheduleTime.ReadOnly = true;
-            this.textBoxScheduleTime.Size = new System.Drawing.Size(273, 13);
-            this.textBoxScheduleTime.TabIndex = 4;
-            // 
             // pictureBoxSchedulePresentation
             // 
             this.pictureBoxSchedulePresentation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
@@ -330,23 +318,11 @@ namespace F1Aggregator
             this.pictureBoxScheduleTrack.TabIndex = 1;
             this.pictureBoxScheduleTrack.TabStop = false;
             // 
-            // textBoxScheduleRaceName
-            // 
-            this.textBoxScheduleRaceName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleRaceName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleRaceName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleRaceName.Location = new System.Drawing.Point(4, 9);
-            this.textBoxScheduleRaceName.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleRaceName.Name = "textBoxScheduleRaceName";
-            this.textBoxScheduleRaceName.ReadOnly = true;
-            this.textBoxScheduleRaceName.Size = new System.Drawing.Size(270, 13);
-            this.textBoxScheduleRaceName.TabIndex = 0;
-            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.labelScheduleTime1);
+            this.groupBox2.Controls.Add(this.labelScheduleName1);
             this.groupBox2.Controls.Add(this.buttonScheduleShow1);
-            this.groupBox2.Controls.Add(this.textBoxScheduleTime1);
-            this.groupBox2.Controls.Add(this.textBoxScheduleName1);
             this.groupBox2.Location = new System.Drawing.Point(4, 210);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
@@ -367,35 +343,11 @@ namespace F1Aggregator
             this.buttonScheduleShow1.Text = "Show more";
             this.buttonScheduleShow1.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime1
-            // 
-            this.textBoxScheduleTime1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime1.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime1.Name = "textBoxScheduleTime1";
-            this.textBoxScheduleTime1.ReadOnly = true;
-            this.textBoxScheduleTime1.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime1.TabIndex = 1;
-            // 
-            // textBoxScheduleName1
-            // 
-            this.textBoxScheduleName1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName1.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName1.Name = "textBoxScheduleName1";
-            this.textBoxScheduleName1.ReadOnly = true;
-            this.textBoxScheduleName1.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName1.TabIndex = 0;
-            // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.labelScheduleTime2);
+            this.groupBox3.Controls.Add(this.labelScheduleName2);
             this.groupBox3.Controls.Add(this.buttonScheduleShow2);
-            this.groupBox3.Controls.Add(this.textBoxScheduleTime2);
-            this.groupBox3.Controls.Add(this.textBoxScheduleName2);
             this.groupBox3.Location = new System.Drawing.Point(184, 210);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
@@ -416,35 +368,11 @@ namespace F1Aggregator
             this.buttonScheduleShow2.Text = "Show more";
             this.buttonScheduleShow2.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime2
-            // 
-            this.textBoxScheduleTime2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime2.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime2.Name = "textBoxScheduleTime2";
-            this.textBoxScheduleTime2.ReadOnly = true;
-            this.textBoxScheduleTime2.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime2.TabIndex = 1;
-            // 
-            // textBoxScheduleName2
-            // 
-            this.textBoxScheduleName2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName2.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName2.Name = "textBoxScheduleName2";
-            this.textBoxScheduleName2.ReadOnly = true;
-            this.textBoxScheduleName2.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName2.TabIndex = 0;
-            // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.labelScheduleTime3);
+            this.groupBox4.Controls.Add(this.labelScheduleName3);
             this.groupBox4.Controls.Add(this.buttonScheduleShow3);
-            this.groupBox4.Controls.Add(this.textBoxScheduleTime3);
-            this.groupBox4.Controls.Add(this.textBoxScheduleName3);
             this.groupBox4.Location = new System.Drawing.Point(364, 210);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
@@ -465,35 +393,11 @@ namespace F1Aggregator
             this.buttonScheduleShow3.Text = "Show more";
             this.buttonScheduleShow3.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime3
-            // 
-            this.textBoxScheduleTime3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime3.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime3.Name = "textBoxScheduleTime3";
-            this.textBoxScheduleTime3.ReadOnly = true;
-            this.textBoxScheduleTime3.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime3.TabIndex = 1;
-            // 
-            // textBoxScheduleName3
-            // 
-            this.textBoxScheduleName3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName3.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName3.Name = "textBoxScheduleName3";
-            this.textBoxScheduleName3.ReadOnly = true;
-            this.textBoxScheduleName3.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName3.TabIndex = 0;
-            // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.labelScheduleTime6);
+            this.groupBox5.Controls.Add(this.labelScheduleName6);
             this.groupBox5.Controls.Add(this.buttonScheduleShow6);
-            this.groupBox5.Controls.Add(this.textBoxScheduleTime6);
-            this.groupBox5.Controls.Add(this.textBoxScheduleName6);
             this.groupBox5.Location = new System.Drawing.Point(904, 210);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
@@ -514,35 +418,11 @@ namespace F1Aggregator
             this.buttonScheduleShow6.Text = "Show more";
             this.buttonScheduleShow6.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime6
-            // 
-            this.textBoxScheduleTime6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime6.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime6.Name = "textBoxScheduleTime6";
-            this.textBoxScheduleTime6.ReadOnly = true;
-            this.textBoxScheduleTime6.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime6.TabIndex = 1;
-            // 
-            // textBoxScheduleName6
-            // 
-            this.textBoxScheduleName6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName6.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName6.Name = "textBoxScheduleName6";
-            this.textBoxScheduleName6.ReadOnly = true;
-            this.textBoxScheduleName6.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName6.TabIndex = 0;
-            // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.labelScheduleTime5);
+            this.groupBox6.Controls.Add(this.labelScheduleName5);
             this.groupBox6.Controls.Add(this.buttonScheduleShow5);
-            this.groupBox6.Controls.Add(this.textBoxScheduleTime5);
-            this.groupBox6.Controls.Add(this.textBoxScheduleName5);
             this.groupBox6.Location = new System.Drawing.Point(724, 210);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
@@ -563,35 +443,11 @@ namespace F1Aggregator
             this.buttonScheduleShow5.Text = "Show more";
             this.buttonScheduleShow5.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime5
-            // 
-            this.textBoxScheduleTime5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime5.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime5.Name = "textBoxScheduleTime5";
-            this.textBoxScheduleTime5.ReadOnly = true;
-            this.textBoxScheduleTime5.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime5.TabIndex = 1;
-            // 
-            // textBoxScheduleName5
-            // 
-            this.textBoxScheduleName5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName5.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName5.Name = "textBoxScheduleName5";
-            this.textBoxScheduleName5.ReadOnly = true;
-            this.textBoxScheduleName5.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName5.TabIndex = 0;
-            // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.labelScheduleTime4);
+            this.groupBox7.Controls.Add(this.labelScheduleName4);
             this.groupBox7.Controls.Add(this.buttonScheduleShow4);
-            this.groupBox7.Controls.Add(this.textBoxScheduleTime4);
-            this.groupBox7.Controls.Add(this.textBoxScheduleName4);
             this.groupBox7.Location = new System.Drawing.Point(544, 210);
             this.groupBox7.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox7.Name = "groupBox7";
@@ -612,35 +468,11 @@ namespace F1Aggregator
             this.buttonScheduleShow4.Text = "Show more";
             this.buttonScheduleShow4.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime4
-            // 
-            this.textBoxScheduleTime4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime4.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime4.Name = "textBoxScheduleTime4";
-            this.textBoxScheduleTime4.ReadOnly = true;
-            this.textBoxScheduleTime4.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime4.TabIndex = 1;
-            // 
-            // textBoxScheduleName4
-            // 
-            this.textBoxScheduleName4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName4.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName4.Name = "textBoxScheduleName4";
-            this.textBoxScheduleName4.ReadOnly = true;
-            this.textBoxScheduleName4.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName4.TabIndex = 0;
-            // 
             // groupBox8
             // 
+            this.groupBox8.Controls.Add(this.labelScheduleTime12);
+            this.groupBox8.Controls.Add(this.labelScheduleName12);
             this.groupBox8.Controls.Add(this.buttonScheduleShow12);
-            this.groupBox8.Controls.Add(this.textBoxScheduleTime12);
-            this.groupBox8.Controls.Add(this.textBoxScheduleName12);
             this.groupBox8.Location = new System.Drawing.Point(904, 314);
             this.groupBox8.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox8.Name = "groupBox8";
@@ -661,35 +493,11 @@ namespace F1Aggregator
             this.buttonScheduleShow12.Text = "Show more";
             this.buttonScheduleShow12.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime12
-            // 
-            this.textBoxScheduleTime12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime12.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime12.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime12.Name = "textBoxScheduleTime12";
-            this.textBoxScheduleTime12.ReadOnly = true;
-            this.textBoxScheduleTime12.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime12.TabIndex = 1;
-            // 
-            // textBoxScheduleName12
-            // 
-            this.textBoxScheduleName12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName12.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName12.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName12.Name = "textBoxScheduleName12";
-            this.textBoxScheduleName12.ReadOnly = true;
-            this.textBoxScheduleName12.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName12.TabIndex = 0;
-            // 
             // groupBox9
             // 
+            this.groupBox9.Controls.Add(this.labelScheduleTime11);
+            this.groupBox9.Controls.Add(this.labelScheduleName11);
             this.groupBox9.Controls.Add(this.buttonScheduleShow11);
-            this.groupBox9.Controls.Add(this.textBoxScheduleTime11);
-            this.groupBox9.Controls.Add(this.textBoxScheduleName11);
             this.groupBox9.Location = new System.Drawing.Point(724, 314);
             this.groupBox9.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox9.Name = "groupBox9";
@@ -710,35 +518,11 @@ namespace F1Aggregator
             this.buttonScheduleShow11.Text = "Show more";
             this.buttonScheduleShow11.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime11
-            // 
-            this.textBoxScheduleTime11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime11.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime11.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime11.Name = "textBoxScheduleTime11";
-            this.textBoxScheduleTime11.ReadOnly = true;
-            this.textBoxScheduleTime11.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime11.TabIndex = 1;
-            // 
-            // textBoxScheduleName11
-            // 
-            this.textBoxScheduleName11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName11.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName11.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName11.Name = "textBoxScheduleName11";
-            this.textBoxScheduleName11.ReadOnly = true;
-            this.textBoxScheduleName11.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName11.TabIndex = 0;
-            // 
             // groupBox10
             // 
+            this.groupBox10.Controls.Add(this.labelScheduleTime10);
+            this.groupBox10.Controls.Add(this.labelScheduleName10);
             this.groupBox10.Controls.Add(this.buttonScheduleShow10);
-            this.groupBox10.Controls.Add(this.textBoxScheduleTime10);
-            this.groupBox10.Controls.Add(this.textBoxScheduleName10);
             this.groupBox10.Location = new System.Drawing.Point(544, 314);
             this.groupBox10.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox10.Name = "groupBox10";
@@ -759,35 +543,11 @@ namespace F1Aggregator
             this.buttonScheduleShow10.Text = "Show more";
             this.buttonScheduleShow10.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime10
-            // 
-            this.textBoxScheduleTime10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime10.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime10.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime10.Name = "textBoxScheduleTime10";
-            this.textBoxScheduleTime10.ReadOnly = true;
-            this.textBoxScheduleTime10.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime10.TabIndex = 1;
-            // 
-            // textBoxScheduleName10
-            // 
-            this.textBoxScheduleName10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName10.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName10.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName10.Name = "textBoxScheduleName10";
-            this.textBoxScheduleName10.ReadOnly = true;
-            this.textBoxScheduleName10.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName10.TabIndex = 0;
-            // 
             // groupBox11
             // 
+            this.groupBox11.Controls.Add(this.labelScheduleTime9);
+            this.groupBox11.Controls.Add(this.labelScheduleName9);
             this.groupBox11.Controls.Add(this.buttonScheduleShow9);
-            this.groupBox11.Controls.Add(this.textBoxScheduleTime9);
-            this.groupBox11.Controls.Add(this.textBoxScheduleName9);
             this.groupBox11.Location = new System.Drawing.Point(364, 314);
             this.groupBox11.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox11.Name = "groupBox11";
@@ -808,35 +568,11 @@ namespace F1Aggregator
             this.buttonScheduleShow9.Text = "Show more";
             this.buttonScheduleShow9.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime9
-            // 
-            this.textBoxScheduleTime9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime9.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime9.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime9.Name = "textBoxScheduleTime9";
-            this.textBoxScheduleTime9.ReadOnly = true;
-            this.textBoxScheduleTime9.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime9.TabIndex = 1;
-            // 
-            // textBoxScheduleName9
-            // 
-            this.textBoxScheduleName9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName9.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName9.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName9.Name = "textBoxScheduleName9";
-            this.textBoxScheduleName9.ReadOnly = true;
-            this.textBoxScheduleName9.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName9.TabIndex = 0;
-            // 
             // groupBox12
             // 
+            this.groupBox12.Controls.Add(this.labelScheduleTime8);
+            this.groupBox12.Controls.Add(this.labelScheduleName8);
             this.groupBox12.Controls.Add(this.buttonScheduleShow8);
-            this.groupBox12.Controls.Add(this.textBoxScheduleTime8);
-            this.groupBox12.Controls.Add(this.textBoxScheduleName8);
             this.groupBox12.Location = new System.Drawing.Point(184, 314);
             this.groupBox12.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox12.Name = "groupBox12";
@@ -857,35 +593,11 @@ namespace F1Aggregator
             this.buttonScheduleShow8.Text = "Show more";
             this.buttonScheduleShow8.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime8
-            // 
-            this.textBoxScheduleTime8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime8.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime8.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime8.Name = "textBoxScheduleTime8";
-            this.textBoxScheduleTime8.ReadOnly = true;
-            this.textBoxScheduleTime8.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime8.TabIndex = 1;
-            // 
-            // textBoxScheduleName8
-            // 
-            this.textBoxScheduleName8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName8.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName8.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName8.Name = "textBoxScheduleName8";
-            this.textBoxScheduleName8.ReadOnly = true;
-            this.textBoxScheduleName8.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName8.TabIndex = 0;
-            // 
             // groupBox13
             // 
+            this.groupBox13.Controls.Add(this.labelScheduleTime7);
+            this.groupBox13.Controls.Add(this.labelScheduleName7);
             this.groupBox13.Controls.Add(this.buttonScheduleShow7);
-            this.groupBox13.Controls.Add(this.textBoxScheduleTime7);
-            this.groupBox13.Controls.Add(this.textBoxScheduleName7);
             this.groupBox13.Location = new System.Drawing.Point(4, 314);
             this.groupBox13.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox13.Name = "groupBox13";
@@ -906,35 +618,11 @@ namespace F1Aggregator
             this.buttonScheduleShow7.Text = "Show more";
             this.buttonScheduleShow7.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime7
-            // 
-            this.textBoxScheduleTime7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime7.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime7.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime7.Name = "textBoxScheduleTime7";
-            this.textBoxScheduleTime7.ReadOnly = true;
-            this.textBoxScheduleTime7.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime7.TabIndex = 1;
-            // 
-            // textBoxScheduleName7
-            // 
-            this.textBoxScheduleName7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName7.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName7.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName7.Name = "textBoxScheduleName7";
-            this.textBoxScheduleName7.ReadOnly = true;
-            this.textBoxScheduleName7.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName7.TabIndex = 0;
-            // 
             // groupBox14
             // 
+            this.groupBox14.Controls.Add(this.labelScheduleTime18);
+            this.groupBox14.Controls.Add(this.labelScheduleName18);
             this.groupBox14.Controls.Add(this.buttonScheduleShow18);
-            this.groupBox14.Controls.Add(this.textBoxScheduleTime18);
-            this.groupBox14.Controls.Add(this.textBoxScheduleName18);
             this.groupBox14.Location = new System.Drawing.Point(904, 418);
             this.groupBox14.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox14.Name = "groupBox14";
@@ -955,35 +643,11 @@ namespace F1Aggregator
             this.buttonScheduleShow18.Text = "Show more";
             this.buttonScheduleShow18.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime18
-            // 
-            this.textBoxScheduleTime18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime18.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime18.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime18.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime18.Name = "textBoxScheduleTime18";
-            this.textBoxScheduleTime18.ReadOnly = true;
-            this.textBoxScheduleTime18.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime18.TabIndex = 1;
-            // 
-            // textBoxScheduleName18
-            // 
-            this.textBoxScheduleName18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName18.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName18.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName18.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName18.Name = "textBoxScheduleName18";
-            this.textBoxScheduleName18.ReadOnly = true;
-            this.textBoxScheduleName18.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName18.TabIndex = 0;
-            // 
             // groupBox15
             // 
+            this.groupBox15.Controls.Add(this.labelScheduleTime17);
+            this.groupBox15.Controls.Add(this.labelScheduleName17);
             this.groupBox15.Controls.Add(this.buttonScheduleShow17);
-            this.groupBox15.Controls.Add(this.textBoxScheduleTime17);
-            this.groupBox15.Controls.Add(this.textBoxScheduleName17);
             this.groupBox15.Location = new System.Drawing.Point(724, 418);
             this.groupBox15.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox15.Name = "groupBox15";
@@ -1004,35 +668,11 @@ namespace F1Aggregator
             this.buttonScheduleShow17.Text = "Show more";
             this.buttonScheduleShow17.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime17
-            // 
-            this.textBoxScheduleTime17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime17.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime17.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime17.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime17.Name = "textBoxScheduleTime17";
-            this.textBoxScheduleTime17.ReadOnly = true;
-            this.textBoxScheduleTime17.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime17.TabIndex = 1;
-            // 
-            // textBoxScheduleName17
-            // 
-            this.textBoxScheduleName17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName17.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName17.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName17.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName17.Name = "textBoxScheduleName17";
-            this.textBoxScheduleName17.ReadOnly = true;
-            this.textBoxScheduleName17.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName17.TabIndex = 0;
-            // 
             // groupBox16
             // 
+            this.groupBox16.Controls.Add(this.labelScheduleTime16);
+            this.groupBox16.Controls.Add(this.labelScheduleName16);
             this.groupBox16.Controls.Add(this.buttonScheduleShow16);
-            this.groupBox16.Controls.Add(this.textBoxScheduleTime16);
-            this.groupBox16.Controls.Add(this.textBoxScheduleName16);
             this.groupBox16.Location = new System.Drawing.Point(544, 418);
             this.groupBox16.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox16.Name = "groupBox16";
@@ -1053,35 +693,11 @@ namespace F1Aggregator
             this.buttonScheduleShow16.Text = "Show more";
             this.buttonScheduleShow16.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime16
-            // 
-            this.textBoxScheduleTime16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime16.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime16.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime16.Name = "textBoxScheduleTime16";
-            this.textBoxScheduleTime16.ReadOnly = true;
-            this.textBoxScheduleTime16.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime16.TabIndex = 1;
-            // 
-            // textBoxScheduleName16
-            // 
-            this.textBoxScheduleName16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName16.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName16.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName16.Name = "textBoxScheduleName16";
-            this.textBoxScheduleName16.ReadOnly = true;
-            this.textBoxScheduleName16.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName16.TabIndex = 0;
-            // 
             // groupBox17
             // 
+            this.groupBox17.Controls.Add(this.labelScheduleTime15);
+            this.groupBox17.Controls.Add(this.labelScheduleName15);
             this.groupBox17.Controls.Add(this.buttonScheduleShow15);
-            this.groupBox17.Controls.Add(this.textBoxScheduleTime15);
-            this.groupBox17.Controls.Add(this.textBoxScheduleName15);
             this.groupBox17.Location = new System.Drawing.Point(364, 418);
             this.groupBox17.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox17.Name = "groupBox17";
@@ -1102,35 +718,11 @@ namespace F1Aggregator
             this.buttonScheduleShow15.Text = "Show more";
             this.buttonScheduleShow15.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime15
-            // 
-            this.textBoxScheduleTime15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime15.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime15.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime15.Name = "textBoxScheduleTime15";
-            this.textBoxScheduleTime15.ReadOnly = true;
-            this.textBoxScheduleTime15.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime15.TabIndex = 1;
-            // 
-            // textBoxScheduleName15
-            // 
-            this.textBoxScheduleName15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName15.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName15.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName15.Name = "textBoxScheduleName15";
-            this.textBoxScheduleName15.ReadOnly = true;
-            this.textBoxScheduleName15.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName15.TabIndex = 0;
-            // 
             // groupBox18
             // 
+            this.groupBox18.Controls.Add(this.labelScheduleTime14);
+            this.groupBox18.Controls.Add(this.labelScheduleName14);
             this.groupBox18.Controls.Add(this.buttonScheduleShow14);
-            this.groupBox18.Controls.Add(this.textBoxScheduleTime14);
-            this.groupBox18.Controls.Add(this.textBoxScheduleName14);
             this.groupBox18.Location = new System.Drawing.Point(184, 418);
             this.groupBox18.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox18.Name = "groupBox18";
@@ -1151,35 +743,11 @@ namespace F1Aggregator
             this.buttonScheduleShow14.Text = "Show more";
             this.buttonScheduleShow14.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime14
-            // 
-            this.textBoxScheduleTime14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime14.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime14.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime14.Name = "textBoxScheduleTime14";
-            this.textBoxScheduleTime14.ReadOnly = true;
-            this.textBoxScheduleTime14.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime14.TabIndex = 1;
-            // 
-            // textBoxScheduleName14
-            // 
-            this.textBoxScheduleName14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName14.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName14.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName14.Name = "textBoxScheduleName14";
-            this.textBoxScheduleName14.ReadOnly = true;
-            this.textBoxScheduleName14.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName14.TabIndex = 0;
-            // 
             // groupBox19
             // 
+            this.groupBox19.Controls.Add(this.labelScheduleTime13);
+            this.groupBox19.Controls.Add(this.labelScheduleName13);
             this.groupBox19.Controls.Add(this.buttonScheduleShow13);
-            this.groupBox19.Controls.Add(this.textBoxScheduleTime13);
-            this.groupBox19.Controls.Add(this.textBoxScheduleName13);
             this.groupBox19.Location = new System.Drawing.Point(4, 418);
             this.groupBox19.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox19.Name = "groupBox19";
@@ -1200,35 +768,11 @@ namespace F1Aggregator
             this.buttonScheduleShow13.Text = "Show more";
             this.buttonScheduleShow13.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime13
-            // 
-            this.textBoxScheduleTime13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime13.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime13.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime13.Name = "textBoxScheduleTime13";
-            this.textBoxScheduleTime13.ReadOnly = true;
-            this.textBoxScheduleTime13.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime13.TabIndex = 1;
-            // 
-            // textBoxScheduleName13
-            // 
-            this.textBoxScheduleName13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName13.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName13.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName13.Name = "textBoxScheduleName13";
-            this.textBoxScheduleName13.ReadOnly = true;
-            this.textBoxScheduleName13.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName13.TabIndex = 0;
-            // 
             // groupBox20
             // 
+            this.groupBox20.Controls.Add(this.labelScheduleTime24);
+            this.groupBox20.Controls.Add(this.labelScheduleName24);
             this.groupBox20.Controls.Add(this.buttonScheduleShow24);
-            this.groupBox20.Controls.Add(this.textBoxScheduleTime24);
-            this.groupBox20.Controls.Add(this.textBoxScheduleName24);
             this.groupBox20.Location = new System.Drawing.Point(904, 522);
             this.groupBox20.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox20.Name = "groupBox20";
@@ -1249,35 +793,11 @@ namespace F1Aggregator
             this.buttonScheduleShow24.Text = "Show more";
             this.buttonScheduleShow24.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime24
-            // 
-            this.textBoxScheduleTime24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime24.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime24.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime24.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime24.Name = "textBoxScheduleTime24";
-            this.textBoxScheduleTime24.ReadOnly = true;
-            this.textBoxScheduleTime24.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime24.TabIndex = 1;
-            // 
-            // textBoxScheduleName24
-            // 
-            this.textBoxScheduleName24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName24.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName24.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName24.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName24.Name = "textBoxScheduleName24";
-            this.textBoxScheduleName24.ReadOnly = true;
-            this.textBoxScheduleName24.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName24.TabIndex = 0;
-            // 
             // groupBox21
             // 
+            this.groupBox21.Controls.Add(this.labelScheduleTime23);
+            this.groupBox21.Controls.Add(this.labelScheduleName23);
             this.groupBox21.Controls.Add(this.buttonScheduleShow23);
-            this.groupBox21.Controls.Add(this.textBoxScheduleTime23);
-            this.groupBox21.Controls.Add(this.textBoxScheduleName23);
             this.groupBox21.Location = new System.Drawing.Point(724, 522);
             this.groupBox21.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox21.Name = "groupBox21";
@@ -1298,35 +818,11 @@ namespace F1Aggregator
             this.buttonScheduleShow23.Text = "Show more";
             this.buttonScheduleShow23.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime23
-            // 
-            this.textBoxScheduleTime23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime23.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime23.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime23.Name = "textBoxScheduleTime23";
-            this.textBoxScheduleTime23.ReadOnly = true;
-            this.textBoxScheduleTime23.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime23.TabIndex = 1;
-            // 
-            // textBoxScheduleName23
-            // 
-            this.textBoxScheduleName23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName23.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName23.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName23.Name = "textBoxScheduleName23";
-            this.textBoxScheduleName23.ReadOnly = true;
-            this.textBoxScheduleName23.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName23.TabIndex = 0;
-            // 
             // groupBox22
             // 
+            this.groupBox22.Controls.Add(this.labelScheduleTime22);
+            this.groupBox22.Controls.Add(this.labelScheduleName22);
             this.groupBox22.Controls.Add(this.buttonScheduleShow22);
-            this.groupBox22.Controls.Add(this.textBoxScheduleTime22);
-            this.groupBox22.Controls.Add(this.textBoxScheduleName22);
             this.groupBox22.Location = new System.Drawing.Point(544, 522);
             this.groupBox22.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox22.Name = "groupBox22";
@@ -1347,35 +843,11 @@ namespace F1Aggregator
             this.buttonScheduleShow22.Text = "Show more";
             this.buttonScheduleShow22.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime22
-            // 
-            this.textBoxScheduleTime22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime22.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime22.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime22.Name = "textBoxScheduleTime22";
-            this.textBoxScheduleTime22.ReadOnly = true;
-            this.textBoxScheduleTime22.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime22.TabIndex = 1;
-            // 
-            // textBoxScheduleName22
-            // 
-            this.textBoxScheduleName22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName22.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName22.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName22.Name = "textBoxScheduleName22";
-            this.textBoxScheduleName22.ReadOnly = true;
-            this.textBoxScheduleName22.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName22.TabIndex = 0;
-            // 
             // groupBox23
             // 
+            this.groupBox23.Controls.Add(this.labelScheduleTime21);
+            this.groupBox23.Controls.Add(this.labelScheduleName21);
             this.groupBox23.Controls.Add(this.buttonScheduleShow21);
-            this.groupBox23.Controls.Add(this.textBoxScheduleTime21);
-            this.groupBox23.Controls.Add(this.textBoxScheduleName21);
             this.groupBox23.Location = new System.Drawing.Point(364, 522);
             this.groupBox23.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox23.Name = "groupBox23";
@@ -1396,35 +868,11 @@ namespace F1Aggregator
             this.buttonScheduleShow21.Text = "Show more";
             this.buttonScheduleShow21.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime21
-            // 
-            this.textBoxScheduleTime21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime21.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime21.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime21.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime21.Name = "textBoxScheduleTime21";
-            this.textBoxScheduleTime21.ReadOnly = true;
-            this.textBoxScheduleTime21.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime21.TabIndex = 1;
-            // 
-            // textBoxScheduleName21
-            // 
-            this.textBoxScheduleName21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName21.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName21.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName21.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName21.Name = "textBoxScheduleName21";
-            this.textBoxScheduleName21.ReadOnly = true;
-            this.textBoxScheduleName21.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName21.TabIndex = 0;
-            // 
             // groupBox24
             // 
+            this.groupBox24.Controls.Add(this.labelScheduleTime20);
+            this.groupBox24.Controls.Add(this.labelScheduleName20);
             this.groupBox24.Controls.Add(this.buttonScheduleShow20);
-            this.groupBox24.Controls.Add(this.textBoxScheduleTime20);
-            this.groupBox24.Controls.Add(this.textBoxScheduleName20);
             this.groupBox24.Location = new System.Drawing.Point(184, 522);
             this.groupBox24.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox24.Name = "groupBox24";
@@ -1445,35 +893,11 @@ namespace F1Aggregator
             this.buttonScheduleShow20.Text = "Show more";
             this.buttonScheduleShow20.UseVisualStyleBackColor = false;
             // 
-            // textBoxScheduleTime20
-            // 
-            this.textBoxScheduleTime20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime20.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime20.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime20.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime20.Name = "textBoxScheduleTime20";
-            this.textBoxScheduleTime20.ReadOnly = true;
-            this.textBoxScheduleTime20.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime20.TabIndex = 1;
-            // 
-            // textBoxScheduleName20
-            // 
-            this.textBoxScheduleName20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName20.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName20.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName20.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName20.Name = "textBoxScheduleName20";
-            this.textBoxScheduleName20.ReadOnly = true;
-            this.textBoxScheduleName20.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName20.TabIndex = 0;
-            // 
             // groupBox25
             // 
+            this.groupBox25.Controls.Add(this.labelScheduleTime19);
+            this.groupBox25.Controls.Add(this.labelScheduleName19);
             this.groupBox25.Controls.Add(this.buttonScheduleShow19);
-            this.groupBox25.Controls.Add(this.textBoxScheduleTime19);
-            this.groupBox25.Controls.Add(this.textBoxScheduleName19);
             this.groupBox25.Location = new System.Drawing.Point(4, 522);
             this.groupBox25.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox25.Name = "groupBox25";
@@ -1493,30 +917,6 @@ namespace F1Aggregator
             this.buttonScheduleShow19.TabIndex = 9;
             this.buttonScheduleShow19.Text = "Show more";
             this.buttonScheduleShow19.UseVisualStyleBackColor = false;
-            // 
-            // textBoxScheduleTime19
-            // 
-            this.textBoxScheduleTime19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleTime19.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleTime19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleTime19.Location = new System.Drawing.Point(4, 45);
-            this.textBoxScheduleTime19.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleTime19.Name = "textBoxScheduleTime19";
-            this.textBoxScheduleTime19.ReadOnly = true;
-            this.textBoxScheduleTime19.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleTime19.TabIndex = 1;
-            // 
-            // textBoxScheduleName19
-            // 
-            this.textBoxScheduleName19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.textBoxScheduleName19.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxScheduleName19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxScheduleName19.Location = new System.Drawing.Point(4, 17);
-            this.textBoxScheduleName19.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxScheduleName19.Name = "textBoxScheduleName19";
-            this.textBoxScheduleName19.ReadOnly = true;
-            this.textBoxScheduleName19.Size = new System.Drawing.Size(168, 13);
-            this.textBoxScheduleName19.TabIndex = 0;
             // 
             // menuStrip1
             // 
@@ -1574,6 +974,406 @@ namespace F1Aggregator
             this.panelSchedule.Name = "panelSchedule";
             this.panelSchedule.Size = new System.Drawing.Size(1084, 641);
             this.panelSchedule.TabIndex = 6;
+            // 
+            // labelScheduleRaceName
+            // 
+            this.labelScheduleRaceName.AutoSize = true;
+            this.labelScheduleRaceName.Location = new System.Drawing.Point(5, 9);
+            this.labelScheduleRaceName.Name = "labelScheduleRaceName";
+            this.labelScheduleRaceName.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleRaceName.TabIndex = 6;
+            // 
+            // labelScheduleTime
+            // 
+            this.labelScheduleTime.AutoSize = true;
+            this.labelScheduleTime.Location = new System.Drawing.Point(788, 9);
+            this.labelScheduleTime.Name = "labelScheduleTime";
+            this.labelScheduleTime.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime.TabIndex = 7;
+            // 
+            // labelScheduleName1
+            // 
+            this.labelScheduleName1.AutoSize = true;
+            this.labelScheduleName1.Location = new System.Drawing.Point(9, 15);
+            this.labelScheduleName1.Name = "labelScheduleName1";
+            this.labelScheduleName1.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName1.TabIndex = 10;
+            // 
+            // labelScheduleTime1
+            // 
+            this.labelScheduleTime1.AutoSize = true;
+            this.labelScheduleTime1.Location = new System.Drawing.Point(9, 45);
+            this.labelScheduleTime1.Name = "labelScheduleTime1";
+            this.labelScheduleTime1.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime1.TabIndex = 11;
+            // 
+            // labelScheduleName2
+            // 
+            this.labelScheduleName2.AutoSize = true;
+            this.labelScheduleName2.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName2.Name = "labelScheduleName2";
+            this.labelScheduleName2.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName2.TabIndex = 10;
+            // 
+            // labelScheduleTime2
+            // 
+            this.labelScheduleTime2.AutoSize = true;
+            this.labelScheduleTime2.Location = new System.Drawing.Point(14, 45);
+            this.labelScheduleTime2.Name = "labelScheduleTime2";
+            this.labelScheduleTime2.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime2.TabIndex = 11;
+            // 
+            // labelScheduleName3
+            // 
+            this.labelScheduleName3.AutoSize = true;
+            this.labelScheduleName3.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName3.Name = "labelScheduleName3";
+            this.labelScheduleName3.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName3.TabIndex = 10;
+            // 
+            // labelScheduleTime3
+            // 
+            this.labelScheduleTime3.AutoSize = true;
+            this.labelScheduleTime3.Location = new System.Drawing.Point(14, 45);
+            this.labelScheduleTime3.Name = "labelScheduleTime3";
+            this.labelScheduleTime3.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime3.TabIndex = 11;
+            // 
+            // labelScheduleName4
+            // 
+            this.labelScheduleName4.AutoSize = true;
+            this.labelScheduleName4.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName4.Name = "labelScheduleName4";
+            this.labelScheduleName4.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName4.TabIndex = 10;
+            // 
+            // labelScheduleTime4
+            // 
+            this.labelScheduleTime4.AutoSize = true;
+            this.labelScheduleTime4.Location = new System.Drawing.Point(14, 45);
+            this.labelScheduleTime4.Name = "labelScheduleTime4";
+            this.labelScheduleTime4.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime4.TabIndex = 11;
+            // 
+            // labelScheduleName5
+            // 
+            this.labelScheduleName5.AutoSize = true;
+            this.labelScheduleName5.Location = new System.Drawing.Point(15, 15);
+            this.labelScheduleName5.Name = "labelScheduleName5";
+            this.labelScheduleName5.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName5.TabIndex = 10;
+            // 
+            // labelScheduleTime5
+            // 
+            this.labelScheduleTime5.AutoSize = true;
+            this.labelScheduleTime5.Location = new System.Drawing.Point(15, 45);
+            this.labelScheduleTime5.Name = "labelScheduleTime5";
+            this.labelScheduleTime5.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime5.TabIndex = 11;
+            // 
+            // labelScheduleName6
+            // 
+            this.labelScheduleName6.AutoSize = true;
+            this.labelScheduleName6.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName6.Name = "labelScheduleName6";
+            this.labelScheduleName6.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName6.TabIndex = 10;
+            // 
+            // labelScheduleTime6
+            // 
+            this.labelScheduleTime6.AutoSize = true;
+            this.labelScheduleTime6.Location = new System.Drawing.Point(14, 45);
+            this.labelScheduleTime6.Name = "labelScheduleTime6";
+            this.labelScheduleTime6.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime6.TabIndex = 11;
+            // 
+            // labelScheduleName7
+            // 
+            this.labelScheduleName7.AutoSize = true;
+            this.labelScheduleName7.Location = new System.Drawing.Point(9, 15);
+            this.labelScheduleName7.Name = "labelScheduleName7";
+            this.labelScheduleName7.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName7.TabIndex = 10;
+            // 
+            // labelScheduleTime7
+            // 
+            this.labelScheduleTime7.AutoSize = true;
+            this.labelScheduleTime7.Location = new System.Drawing.Point(9, 44);
+            this.labelScheduleTime7.Name = "labelScheduleTime7";
+            this.labelScheduleTime7.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime7.TabIndex = 11;
+            // 
+            // labelScheduleName8
+            // 
+            this.labelScheduleName8.AutoSize = true;
+            this.labelScheduleName8.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName8.Name = "labelScheduleName8";
+            this.labelScheduleName8.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName8.TabIndex = 10;
+            // 
+            // labelScheduleTime8
+            // 
+            this.labelScheduleTime8.AutoSize = true;
+            this.labelScheduleTime8.Location = new System.Drawing.Point(14, 44);
+            this.labelScheduleTime8.Name = "labelScheduleTime8";
+            this.labelScheduleTime8.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime8.TabIndex = 11;
+            // 
+            // labelScheduleName9
+            // 
+            this.labelScheduleName9.AutoSize = true;
+            this.labelScheduleName9.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName9.Name = "labelScheduleName9";
+            this.labelScheduleName9.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName9.TabIndex = 10;
+            // 
+            // labelScheduleTime9
+            // 
+            this.labelScheduleTime9.AutoSize = true;
+            this.labelScheduleTime9.Location = new System.Drawing.Point(14, 44);
+            this.labelScheduleTime9.Name = "labelScheduleTime9";
+            this.labelScheduleTime9.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime9.TabIndex = 11;
+            // 
+            // labelScheduleName10
+            // 
+            this.labelScheduleName10.AutoSize = true;
+            this.labelScheduleName10.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName10.Name = "labelScheduleName10";
+            this.labelScheduleName10.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName10.TabIndex = 10;
+            // 
+            // labelScheduleTime10
+            // 
+            this.labelScheduleTime10.AutoSize = true;
+            this.labelScheduleTime10.Location = new System.Drawing.Point(14, 44);
+            this.labelScheduleTime10.Name = "labelScheduleTime10";
+            this.labelScheduleTime10.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime10.TabIndex = 11;
+            // 
+            // labelScheduleName11
+            // 
+            this.labelScheduleName11.AutoSize = true;
+            this.labelScheduleName11.Location = new System.Drawing.Point(15, 15);
+            this.labelScheduleName11.Name = "labelScheduleName11";
+            this.labelScheduleName11.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName11.TabIndex = 10;
+            // 
+            // labelScheduleTime11
+            // 
+            this.labelScheduleTime11.AutoSize = true;
+            this.labelScheduleTime11.Location = new System.Drawing.Point(15, 44);
+            this.labelScheduleTime11.Name = "labelScheduleTime11";
+            this.labelScheduleTime11.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime11.TabIndex = 11;
+            // 
+            // labelScheduleName12
+            // 
+            this.labelScheduleName12.AutoSize = true;
+            this.labelScheduleName12.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName12.Name = "labelScheduleName12";
+            this.labelScheduleName12.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName12.TabIndex = 10;
+            // 
+            // labelScheduleTime12
+            // 
+            this.labelScheduleTime12.AutoSize = true;
+            this.labelScheduleTime12.Location = new System.Drawing.Point(14, 44);
+            this.labelScheduleTime12.Name = "labelScheduleTime12";
+            this.labelScheduleTime12.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime12.TabIndex = 11;
+            // 
+            // labelScheduleName13
+            // 
+            this.labelScheduleName13.AutoSize = true;
+            this.labelScheduleName13.Location = new System.Drawing.Point(9, 15);
+            this.labelScheduleName13.Name = "labelScheduleName13";
+            this.labelScheduleName13.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName13.TabIndex = 10;
+            // 
+            // labelScheduleTime13
+            // 
+            this.labelScheduleTime13.AutoSize = true;
+            this.labelScheduleTime13.Location = new System.Drawing.Point(9, 44);
+            this.labelScheduleTime13.Name = "labelScheduleTime13";
+            this.labelScheduleTime13.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime13.TabIndex = 11;
+            // 
+            // labelScheduleName14
+            // 
+            this.labelScheduleName14.AutoSize = true;
+            this.labelScheduleName14.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName14.Name = "labelScheduleName14";
+            this.labelScheduleName14.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName14.TabIndex = 10;
+            // 
+            // labelScheduleTime14
+            // 
+            this.labelScheduleTime14.AutoSize = true;
+            this.labelScheduleTime14.Location = new System.Drawing.Point(14, 44);
+            this.labelScheduleTime14.Name = "labelScheduleTime14";
+            this.labelScheduleTime14.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime14.TabIndex = 11;
+            // 
+            // labelScheduleName15
+            // 
+            this.labelScheduleName15.AutoSize = true;
+            this.labelScheduleName15.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName15.Name = "labelScheduleName15";
+            this.labelScheduleName15.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName15.TabIndex = 10;
+            // 
+            // labelScheduleTime15
+            // 
+            this.labelScheduleTime15.AutoSize = true;
+            this.labelScheduleTime15.Location = new System.Drawing.Point(14, 44);
+            this.labelScheduleTime15.Name = "labelScheduleTime15";
+            this.labelScheduleTime15.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime15.TabIndex = 11;
+            // 
+            // labelScheduleName16
+            // 
+            this.labelScheduleName16.AutoSize = true;
+            this.labelScheduleName16.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName16.Name = "labelScheduleName16";
+            this.labelScheduleName16.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName16.TabIndex = 10;
+            // 
+            // labelScheduleTime16
+            // 
+            this.labelScheduleTime16.AutoSize = true;
+            this.labelScheduleTime16.Location = new System.Drawing.Point(14, 44);
+            this.labelScheduleTime16.Name = "labelScheduleTime16";
+            this.labelScheduleTime16.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime16.TabIndex = 11;
+            // 
+            // labelScheduleName17
+            // 
+            this.labelScheduleName17.AutoSize = true;
+            this.labelScheduleName17.Location = new System.Drawing.Point(15, 15);
+            this.labelScheduleName17.Name = "labelScheduleName17";
+            this.labelScheduleName17.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName17.TabIndex = 10;
+            // 
+            // labelScheduleTime17
+            // 
+            this.labelScheduleTime17.AutoSize = true;
+            this.labelScheduleTime17.Location = new System.Drawing.Point(15, 44);
+            this.labelScheduleTime17.Name = "labelScheduleTime17";
+            this.labelScheduleTime17.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime17.TabIndex = 11;
+            // 
+            // labelScheduleName18
+            // 
+            this.labelScheduleName18.AutoSize = true;
+            this.labelScheduleName18.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName18.Name = "labelScheduleName18";
+            this.labelScheduleName18.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName18.TabIndex = 10;
+            // 
+            // labelScheduleTime18
+            // 
+            this.labelScheduleTime18.AutoSize = true;
+            this.labelScheduleTime18.Location = new System.Drawing.Point(14, 44);
+            this.labelScheduleTime18.Name = "labelScheduleTime18";
+            this.labelScheduleTime18.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime18.TabIndex = 11;
+            // 
+            // labelScheduleName19
+            // 
+            this.labelScheduleName19.AutoSize = true;
+            this.labelScheduleName19.Location = new System.Drawing.Point(9, 15);
+            this.labelScheduleName19.Name = "labelScheduleName19";
+            this.labelScheduleName19.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName19.TabIndex = 10;
+            // 
+            // labelScheduleTime19
+            // 
+            this.labelScheduleTime19.AutoSize = true;
+            this.labelScheduleTime19.Location = new System.Drawing.Point(9, 43);
+            this.labelScheduleTime19.Name = "labelScheduleTime19";
+            this.labelScheduleTime19.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime19.TabIndex = 11;
+            // 
+            // labelScheduleName20
+            // 
+            this.labelScheduleName20.AutoSize = true;
+            this.labelScheduleName20.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName20.Name = "labelScheduleName20";
+            this.labelScheduleName20.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName20.TabIndex = 10;
+            // 
+            // labelScheduleTime20
+            // 
+            this.labelScheduleTime20.AutoSize = true;
+            this.labelScheduleTime20.Location = new System.Drawing.Point(14, 43);
+            this.labelScheduleTime20.Name = "labelScheduleTime20";
+            this.labelScheduleTime20.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime20.TabIndex = 11;
+            // 
+            // labelScheduleName21
+            // 
+            this.labelScheduleName21.AutoSize = true;
+            this.labelScheduleName21.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName21.Name = "labelScheduleName21";
+            this.labelScheduleName21.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName21.TabIndex = 10;
+            // 
+            // labelScheduleTime21
+            // 
+            this.labelScheduleTime21.AutoSize = true;
+            this.labelScheduleTime21.Location = new System.Drawing.Point(14, 43);
+            this.labelScheduleTime21.Name = "labelScheduleTime21";
+            this.labelScheduleTime21.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime21.TabIndex = 11;
+            // 
+            // labelScheduleName22
+            // 
+            this.labelScheduleName22.AutoSize = true;
+            this.labelScheduleName22.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName22.Name = "labelScheduleName22";
+            this.labelScheduleName22.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName22.TabIndex = 10;
+            // 
+            // labelScheduleTime22
+            // 
+            this.labelScheduleTime22.AutoSize = true;
+            this.labelScheduleTime22.Location = new System.Drawing.Point(14, 43);
+            this.labelScheduleTime22.Name = "labelScheduleTime22";
+            this.labelScheduleTime22.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime22.TabIndex = 11;
+            // 
+            // labelScheduleName23
+            // 
+            this.labelScheduleName23.AutoSize = true;
+            this.labelScheduleName23.Location = new System.Drawing.Point(15, 15);
+            this.labelScheduleName23.Name = "labelScheduleName23";
+            this.labelScheduleName23.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName23.TabIndex = 10;
+            // 
+            // labelScheduleTime23
+            // 
+            this.labelScheduleTime23.AutoSize = true;
+            this.labelScheduleTime23.Location = new System.Drawing.Point(15, 43);
+            this.labelScheduleTime23.Name = "labelScheduleTime23";
+            this.labelScheduleTime23.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime23.TabIndex = 11;
+            // 
+            // labelScheduleName24
+            // 
+            this.labelScheduleName24.AutoSize = true;
+            this.labelScheduleName24.Location = new System.Drawing.Point(14, 15);
+            this.labelScheduleName24.Name = "labelScheduleName24";
+            this.labelScheduleName24.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleName24.TabIndex = 10;
+            // 
+            // labelScheduleTime24
+            // 
+            this.labelScheduleTime24.AutoSize = true;
+            this.labelScheduleTime24.Location = new System.Drawing.Point(14, 43);
+            this.labelScheduleTime24.Name = "labelScheduleTime24";
+            this.labelScheduleTime24.Size = new System.Drawing.Size(0, 13);
+            this.labelScheduleTime24.TabIndex = 11;
             // 
             // Schedule
             // 
@@ -1669,108 +1469,108 @@ namespace F1Aggregator
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBoxSchedulePresentation;
         private System.Windows.Forms.PictureBox pictureBoxScheduleTrack;
-        private System.Windows.Forms.TextBox textBoxScheduleRaceName;
         private System.Windows.Forms.RichTextBox richTextBoxSchedule;
-        private System.Windows.Forms.TextBox textBoxScheduleTime;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBoxScheduleTime1;
-        private System.Windows.Forms.TextBox textBoxScheduleName1;
         private System.Windows.Forms.Button buttonScheduleShow1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button buttonScheduleShow2;
-        private System.Windows.Forms.TextBox textBoxScheduleTime2;
-        private System.Windows.Forms.TextBox textBoxScheduleName2;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button buttonScheduleShow3;
-        private System.Windows.Forms.TextBox textBoxScheduleTime3;
-        private System.Windows.Forms.TextBox textBoxScheduleName3;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button buttonScheduleShow6;
-        private System.Windows.Forms.TextBox textBoxScheduleTime6;
-        private System.Windows.Forms.TextBox textBoxScheduleName6;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Button buttonScheduleShow5;
-        private System.Windows.Forms.TextBox textBoxScheduleTime5;
-        private System.Windows.Forms.TextBox textBoxScheduleName5;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.Button buttonScheduleShow4;
-        private System.Windows.Forms.TextBox textBoxScheduleTime4;
-        private System.Windows.Forms.TextBox textBoxScheduleName4;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.Button buttonScheduleShow12;
-        private System.Windows.Forms.TextBox textBoxScheduleTime12;
-        private System.Windows.Forms.TextBox textBoxScheduleName12;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.Button buttonScheduleShow11;
-        private System.Windows.Forms.TextBox textBoxScheduleTime11;
-        private System.Windows.Forms.TextBox textBoxScheduleName11;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.Button buttonScheduleShow10;
-        private System.Windows.Forms.TextBox textBoxScheduleTime10;
-        private System.Windows.Forms.TextBox textBoxScheduleName10;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.Button buttonScheduleShow9;
-        private System.Windows.Forms.TextBox textBoxScheduleTime9;
-        private System.Windows.Forms.TextBox textBoxScheduleName9;
         private System.Windows.Forms.GroupBox groupBox12;
         private System.Windows.Forms.Button buttonScheduleShow8;
-        private System.Windows.Forms.TextBox textBoxScheduleTime8;
-        private System.Windows.Forms.TextBox textBoxScheduleName8;
         private System.Windows.Forms.GroupBox groupBox13;
         private System.Windows.Forms.Button buttonScheduleShow7;
-        private System.Windows.Forms.TextBox textBoxScheduleTime7;
-        private System.Windows.Forms.TextBox textBoxScheduleName7;
         private System.Windows.Forms.GroupBox groupBox14;
         private System.Windows.Forms.Button buttonScheduleShow18;
-        private System.Windows.Forms.TextBox textBoxScheduleTime18;
-        private System.Windows.Forms.TextBox textBoxScheduleName18;
         private System.Windows.Forms.GroupBox groupBox15;
         private System.Windows.Forms.Button buttonScheduleShow17;
-        private System.Windows.Forms.TextBox textBoxScheduleTime17;
-        private System.Windows.Forms.TextBox textBoxScheduleName17;
         private System.Windows.Forms.GroupBox groupBox16;
         private System.Windows.Forms.Button buttonScheduleShow16;
-        private System.Windows.Forms.TextBox textBoxScheduleTime16;
-        private System.Windows.Forms.TextBox textBoxScheduleName16;
         private System.Windows.Forms.GroupBox groupBox17;
         private System.Windows.Forms.Button buttonScheduleShow15;
-        private System.Windows.Forms.TextBox textBoxScheduleTime15;
-        private System.Windows.Forms.TextBox textBoxScheduleName15;
         private System.Windows.Forms.GroupBox groupBox18;
         private System.Windows.Forms.Button buttonScheduleShow14;
-        private System.Windows.Forms.TextBox textBoxScheduleTime14;
-        private System.Windows.Forms.TextBox textBoxScheduleName14;
         private System.Windows.Forms.GroupBox groupBox19;
         private System.Windows.Forms.Button buttonScheduleShow13;
-        private System.Windows.Forms.TextBox textBoxScheduleTime13;
-        private System.Windows.Forms.TextBox textBoxScheduleName13;
         private System.Windows.Forms.GroupBox groupBox20;
         private System.Windows.Forms.Button buttonScheduleShow24;
-        private System.Windows.Forms.TextBox textBoxScheduleTime24;
-        private System.Windows.Forms.TextBox textBoxScheduleName24;
         private System.Windows.Forms.GroupBox groupBox21;
         private System.Windows.Forms.Button buttonScheduleShow23;
-        private System.Windows.Forms.TextBox textBoxScheduleTime23;
-        private System.Windows.Forms.TextBox textBoxScheduleName23;
         private System.Windows.Forms.GroupBox groupBox22;
         private System.Windows.Forms.Button buttonScheduleShow22;
-        private System.Windows.Forms.TextBox textBoxScheduleTime22;
-        private System.Windows.Forms.TextBox textBoxScheduleName22;
         private System.Windows.Forms.GroupBox groupBox23;
         private System.Windows.Forms.Button buttonScheduleShow21;
-        private System.Windows.Forms.TextBox textBoxScheduleTime21;
-        private System.Windows.Forms.TextBox textBoxScheduleName21;
         private System.Windows.Forms.GroupBox groupBox24;
         private System.Windows.Forms.Button buttonScheduleShow20;
-        private System.Windows.Forms.TextBox textBoxScheduleTime20;
-        private System.Windows.Forms.TextBox textBoxScheduleName20;
         private System.Windows.Forms.GroupBox groupBox25;
         private System.Windows.Forms.Button buttonScheduleShow19;
-        private System.Windows.Forms.TextBox textBoxScheduleTime19;
-        private System.Windows.Forms.TextBox textBoxScheduleName19;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Panel panelSchedule;
+        private System.Windows.Forms.Label labelScheduleTime;
+        private System.Windows.Forms.Label labelScheduleRaceName;
+        private System.Windows.Forms.Label labelScheduleTime1;
+        private System.Windows.Forms.Label labelScheduleName1;
+        private System.Windows.Forms.Label labelScheduleTime2;
+        private System.Windows.Forms.Label labelScheduleName2;
+        private System.Windows.Forms.Label labelScheduleTime3;
+        private System.Windows.Forms.Label labelScheduleName3;
+        private System.Windows.Forms.Label labelScheduleTime6;
+        private System.Windows.Forms.Label labelScheduleName6;
+        private System.Windows.Forms.Label labelScheduleTime5;
+        private System.Windows.Forms.Label labelScheduleName5;
+        private System.Windows.Forms.Label labelScheduleTime4;
+        private System.Windows.Forms.Label labelScheduleName4;
+        private System.Windows.Forms.Label labelScheduleTime12;
+        private System.Windows.Forms.Label labelScheduleName12;
+        private System.Windows.Forms.Label labelScheduleTime11;
+        private System.Windows.Forms.Label labelScheduleName11;
+        private System.Windows.Forms.Label labelScheduleTime10;
+        private System.Windows.Forms.Label labelScheduleName10;
+        private System.Windows.Forms.Label labelScheduleTime9;
+        private System.Windows.Forms.Label labelScheduleName9;
+        private System.Windows.Forms.Label labelScheduleTime8;
+        private System.Windows.Forms.Label labelScheduleName8;
+        private System.Windows.Forms.Label labelScheduleTime7;
+        private System.Windows.Forms.Label labelScheduleName7;
+        private System.Windows.Forms.Label labelScheduleTime18;
+        private System.Windows.Forms.Label labelScheduleName18;
+        private System.Windows.Forms.Label labelScheduleTime17;
+        private System.Windows.Forms.Label labelScheduleName17;
+        private System.Windows.Forms.Label labelScheduleTime16;
+        private System.Windows.Forms.Label labelScheduleName16;
+        private System.Windows.Forms.Label labelScheduleTime15;
+        private System.Windows.Forms.Label labelScheduleName15;
+        private System.Windows.Forms.Label labelScheduleTime14;
+        private System.Windows.Forms.Label labelScheduleName14;
+        private System.Windows.Forms.Label labelScheduleTime13;
+        private System.Windows.Forms.Label labelScheduleName13;
+        private System.Windows.Forms.Label labelScheduleTime24;
+        private System.Windows.Forms.Label labelScheduleName24;
+        private System.Windows.Forms.Label labelScheduleTime23;
+        private System.Windows.Forms.Label labelScheduleName23;
+        private System.Windows.Forms.Label labelScheduleTime22;
+        private System.Windows.Forms.Label labelScheduleName22;
+        private System.Windows.Forms.Label labelScheduleTime21;
+        private System.Windows.Forms.Label labelScheduleName21;
+        private System.Windows.Forms.Label labelScheduleTime20;
+        private System.Windows.Forms.Label labelScheduleName20;
+        private System.Windows.Forms.Label labelScheduleTime19;
+        private System.Windows.Forms.Label labelScheduleName19;
     }
 }

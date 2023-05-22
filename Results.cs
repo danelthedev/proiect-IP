@@ -98,35 +98,35 @@ namespace F1Aggregator
                 //Adding the new object to the panel
                 groupBoxElement.Controls.Add(label3rdElement);
 
-                //TextBox Location
-                TextBoxReference textBoxLocationCopy = new TextBoxReference(textBoxResultsLocation, index);
-                System.Windows.Forms.TextBox textBoxLocationElement = textBoxLocationCopy.TextBox;
+                //Label Location
+                LabelReference labelRaceLocationCopy = new LabelReference(labelResultsRaceLocation, index);
+                System.Windows.Forms.Label labelRaceLocationElement = labelRaceLocationCopy.Label;
                 //Adding the new object to the panel
-                groupBoxElement.Controls.Add(textBoxLocationElement);
+                groupBoxElement.Controls.Add(labelRaceLocationElement);
 
-                //TextBox Period
-                TextBoxReference textBoxPeriodCopy = new TextBoxReference(textBoxResultsPeriod, index);
-                System.Windows.Forms.TextBox textBoxPeriodElement = textBoxPeriodCopy.TextBox;
+                //Label Period
+                LabelReference labelRacePeriodCopy = new LabelReference(labelResultsRacePeriod, index);
+                System.Windows.Forms.Label labelRacePeriodElement = labelRacePeriodCopy.Label;
                 //Adding the new object to the panel
-                groupBoxElement.Controls.Add(textBoxPeriodElement);
+                groupBoxElement.Controls.Add(labelRacePeriodElement);
 
-                //TextBox 1st Place
-                TextBoxReference textBox1stCopy = new TextBoxReference(textBoxResults1st, index);
-                System.Windows.Forms.TextBox textBox1stElement = textBox1stCopy.TextBox;
+                //Label 1st Place
+                LabelReference label1stPlayerCopy = new LabelReference(labelResults1stPlayer, index);
+                System.Windows.Forms.Label label1stPlayerElement = label1stPlayerCopy.Label;
                 //Adding the new object to the panel
-                groupBoxElement.Controls.Add(textBox1stElement);
+                groupBoxElement.Controls.Add(label1stPlayerElement);
 
-                //TextBox 2nd Place
-                TextBoxReference textBox2ndCopy = new TextBoxReference(textBoxResults2nd, index);
-                System.Windows.Forms.TextBox textBox2ndElement = textBox2ndCopy.TextBox;
+                //Label 2nd Place
+                LabelReference label2ndPlayerCopy = new LabelReference(labelResults2ndPlayer, index);
+                System.Windows.Forms.Label label2ndPlayerElement = label2ndPlayerCopy.Label;
                 //Adding the new object to the panel
-                groupBoxElement.Controls.Add(textBox2ndElement);
+                groupBoxElement.Controls.Add(label2ndPlayerElement);
 
-                //TextBox 3rd Place
-                TextBoxReference textBox3rdCopy = new TextBoxReference(textBoxResults3rd, index);
-                System.Windows.Forms.TextBox textBox3rdElement = textBox3rdCopy.TextBox;
+                //Label 3rd Place
+                LabelReference label3rdPlayerCopy = new LabelReference(labelResults3rdPlayer, index);
+                System.Windows.Forms.Label label3rdPlayerElement = label3rdPlayerCopy.Label;
                 //Adding the new object to the panel
-                groupBoxElement.Controls.Add(textBox3rdElement);
+                groupBoxElement.Controls.Add(label3rdPlayerElement);
 
                 //PictureBox 1st Place
                 PictureBoxReference pictureBox1stCopy = new PictureBoxReference(pictureBoxResults1st, index);
