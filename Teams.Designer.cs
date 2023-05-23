@@ -41,24 +41,52 @@ namespace F1Aggregator
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.panelTeams = new System.Windows.Forms.Panel();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo8 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne8 = new System.Windows.Forms.Label();
+            this.labelTeamsName8 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints8 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar8 = new System.Windows.Forms.PictureBox();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo7 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne7 = new System.Windows.Forms.Label();
+            this.labelTeamsName7 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints7 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar7 = new System.Windows.Forms.PictureBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo6 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne6 = new System.Windows.Forms.Label();
+            this.labelTeamsName6 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints6 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar6 = new System.Windows.Forms.PictureBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo5 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne5 = new System.Windows.Forms.Label();
+            this.labelTeamsName5 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints5 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar5 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo10 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne10 = new System.Windows.Forms.Label();
+            this.labelTeamsName10 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints10 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar10 = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo9 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne9 = new System.Windows.Forms.Label();
+            this.labelTeamsName9 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints9 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar9 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo4 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne4 = new System.Windows.Forms.Label();
+            this.labelTeamsName4 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints4 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.textBox31 = new System.Windows.Forms.TextBox();
@@ -76,57 +104,29 @@ namespace F1Aggregator
             this.textBox40 = new System.Windows.Forms.TextBox();
             this.pictureBoxTeamsCar4 = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo3 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne3 = new System.Windows.Forms.Label();
+            this.labelTeamsName3 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints3 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar3 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo2 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne2 = new System.Windows.Forms.Label();
+            this.labelTeamsName2 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.labelTeamsPTwo1 = new System.Windows.Forms.Label();
+            this.labelTeamsPOne1 = new System.Windows.Forms.Label();
+            this.labelTeamsName1 = new System.Windows.Forms.Label();
+            this.labelTeamsPoints1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.labelTeamsPoints1 = new System.Windows.Forms.Label();
-            this.labelTeamsName1 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne1 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo1 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo2 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne2 = new System.Windows.Forms.Label();
-            this.labelTeamsName2 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints2 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo3 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne3 = new System.Windows.Forms.Label();
-            this.labelTeamsName3 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints3 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo4 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne4 = new System.Windows.Forms.Label();
-            this.labelTeamsName4 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints4 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo5 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne5 = new System.Windows.Forms.Label();
-            this.labelTeamsName5 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints5 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo6 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne6 = new System.Windows.Forms.Label();
-            this.labelTeamsName6 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints6 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo7 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne7 = new System.Windows.Forms.Label();
-            this.labelTeamsName7 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints7 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo8 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne8 = new System.Windows.Forms.Label();
-            this.labelTeamsName8 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints8 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo9 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne9 = new System.Windows.Forms.Label();
-            this.labelTeamsName9 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints9 = new System.Windows.Forms.Label();
-            this.labelTeamsPTwo10 = new System.Windows.Forms.Label();
-            this.labelTeamsPOne10 = new System.Windows.Forms.Label();
-            this.labelTeamsName10 = new System.Windows.Forms.Label();
-            this.labelTeamsPoints10 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.panelTeams.SuspendLayout();
             this.groupBox11.SuspendLayout();
@@ -281,6 +281,42 @@ namespace F1Aggregator
             this.groupBox11.TabIndex = 15;
             this.groupBox11.TabStop = false;
             // 
+            // labelTeamsPTwo8
+            // 
+            this.labelTeamsPTwo8.AutoSize = true;
+            this.labelTeamsPTwo8.Location = new System.Drawing.Point(379, 79);
+            this.labelTeamsPTwo8.Name = "labelTeamsPTwo8";
+            this.labelTeamsPTwo8.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo8.TabIndex = 12;
+            this.labelTeamsPTwo8.Text = "a";
+            // 
+            // labelTeamsPOne8
+            // 
+            this.labelTeamsPOne8.AutoSize = true;
+            this.labelTeamsPOne8.Location = new System.Drawing.Point(38, 79);
+            this.labelTeamsPOne8.Name = "labelTeamsPOne8";
+            this.labelTeamsPOne8.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne8.TabIndex = 11;
+            this.labelTeamsPOne8.Text = "a";
+            // 
+            // labelTeamsName8
+            // 
+            this.labelTeamsName8.AutoSize = true;
+            this.labelTeamsName8.Location = new System.Drawing.Point(214, 47);
+            this.labelTeamsName8.Name = "labelTeamsName8";
+            this.labelTeamsName8.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName8.TabIndex = 10;
+            this.labelTeamsName8.Text = "a";
+            // 
+            // labelTeamsPoints8
+            // 
+            this.labelTeamsPoints8.AutoSize = true;
+            this.labelTeamsPoints8.Location = new System.Drawing.Point(434, 18);
+            this.labelTeamsPoints8.Name = "labelTeamsPoints8";
+            this.labelTeamsPoints8.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints8.TabIndex = 9;
+            this.labelTeamsPoints8.Text = "a";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -313,6 +349,42 @@ namespace F1Aggregator
             this.groupBox12.Size = new System.Drawing.Size(514, 258);
             this.groupBox12.TabIndex = 14;
             this.groupBox12.TabStop = false;
+            // 
+            // labelTeamsPTwo7
+            // 
+            this.labelTeamsPTwo7.AutoSize = true;
+            this.labelTeamsPTwo7.Location = new System.Drawing.Point(377, 79);
+            this.labelTeamsPTwo7.Name = "labelTeamsPTwo7";
+            this.labelTeamsPTwo7.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo7.TabIndex = 12;
+            this.labelTeamsPTwo7.Text = "a";
+            // 
+            // labelTeamsPOne7
+            // 
+            this.labelTeamsPOne7.AutoSize = true;
+            this.labelTeamsPOne7.Location = new System.Drawing.Point(36, 79);
+            this.labelTeamsPOne7.Name = "labelTeamsPOne7";
+            this.labelTeamsPOne7.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne7.TabIndex = 11;
+            this.labelTeamsPOne7.Text = "a";
+            // 
+            // labelTeamsName7
+            // 
+            this.labelTeamsName7.AutoSize = true;
+            this.labelTeamsName7.Location = new System.Drawing.Point(213, 47);
+            this.labelTeamsName7.Name = "labelTeamsName7";
+            this.labelTeamsName7.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName7.TabIndex = 10;
+            this.labelTeamsName7.Text = "a";
+            // 
+            // labelTeamsPoints7
+            // 
+            this.labelTeamsPoints7.AutoSize = true;
+            this.labelTeamsPoints7.Location = new System.Drawing.Point(433, 18);
+            this.labelTeamsPoints7.Name = "labelTeamsPoints7";
+            this.labelTeamsPoints7.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints7.TabIndex = 9;
+            this.labelTeamsPoints7.Text = "a";
             // 
             // label7
             // 
@@ -347,6 +419,42 @@ namespace F1Aggregator
             this.groupBox9.TabIndex = 13;
             this.groupBox9.TabStop = false;
             // 
+            // labelTeamsPTwo6
+            // 
+            this.labelTeamsPTwo6.AutoSize = true;
+            this.labelTeamsPTwo6.Location = new System.Drawing.Point(379, 72);
+            this.labelTeamsPTwo6.Name = "labelTeamsPTwo6";
+            this.labelTeamsPTwo6.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo6.TabIndex = 12;
+            this.labelTeamsPTwo6.Text = "a";
+            // 
+            // labelTeamsPOne6
+            // 
+            this.labelTeamsPOne6.AutoSize = true;
+            this.labelTeamsPOne6.Location = new System.Drawing.Point(38, 72);
+            this.labelTeamsPOne6.Name = "labelTeamsPOne6";
+            this.labelTeamsPOne6.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne6.TabIndex = 11;
+            this.labelTeamsPOne6.Text = "a";
+            // 
+            // labelTeamsName6
+            // 
+            this.labelTeamsName6.AutoSize = true;
+            this.labelTeamsName6.Location = new System.Drawing.Point(214, 40);
+            this.labelTeamsName6.Name = "labelTeamsName6";
+            this.labelTeamsName6.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName6.TabIndex = 10;
+            this.labelTeamsName6.Text = "a";
+            // 
+            // labelTeamsPoints6
+            // 
+            this.labelTeamsPoints6.AutoSize = true;
+            this.labelTeamsPoints6.Location = new System.Drawing.Point(434, 11);
+            this.labelTeamsPoints6.Name = "labelTeamsPoints6";
+            this.labelTeamsPoints6.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints6.TabIndex = 9;
+            this.labelTeamsPoints6.Text = "a";
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -379,6 +487,42 @@ namespace F1Aggregator
             this.groupBox10.Size = new System.Drawing.Size(514, 258);
             this.groupBox10.TabIndex = 12;
             this.groupBox10.TabStop = false;
+            // 
+            // labelTeamsPTwo5
+            // 
+            this.labelTeamsPTwo5.AutoSize = true;
+            this.labelTeamsPTwo5.Location = new System.Drawing.Point(377, 72);
+            this.labelTeamsPTwo5.Name = "labelTeamsPTwo5";
+            this.labelTeamsPTwo5.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo5.TabIndex = 12;
+            this.labelTeamsPTwo5.Text = "a";
+            // 
+            // labelTeamsPOne5
+            // 
+            this.labelTeamsPOne5.AutoSize = true;
+            this.labelTeamsPOne5.Location = new System.Drawing.Point(36, 72);
+            this.labelTeamsPOne5.Name = "labelTeamsPOne5";
+            this.labelTeamsPOne5.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne5.TabIndex = 11;
+            this.labelTeamsPOne5.Text = "a";
+            // 
+            // labelTeamsName5
+            // 
+            this.labelTeamsName5.AutoSize = true;
+            this.labelTeamsName5.Location = new System.Drawing.Point(213, 40);
+            this.labelTeamsName5.Name = "labelTeamsName5";
+            this.labelTeamsName5.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName5.TabIndex = 10;
+            this.labelTeamsName5.Text = "a";
+            // 
+            // labelTeamsPoints5
+            // 
+            this.labelTeamsPoints5.AutoSize = true;
+            this.labelTeamsPoints5.Location = new System.Drawing.Point(433, 11);
+            this.labelTeamsPoints5.Name = "labelTeamsPoints5";
+            this.labelTeamsPoints5.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints5.TabIndex = 9;
+            this.labelTeamsPoints5.Text = "a";
             // 
             // label5
             // 
@@ -413,6 +557,42 @@ namespace F1Aggregator
             this.groupBox5.TabIndex = 11;
             this.groupBox5.TabStop = false;
             // 
+            // labelTeamsPTwo10
+            // 
+            this.labelTeamsPTwo10.AutoSize = true;
+            this.labelTeamsPTwo10.Location = new System.Drawing.Point(379, 75);
+            this.labelTeamsPTwo10.Name = "labelTeamsPTwo10";
+            this.labelTeamsPTwo10.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo10.TabIndex = 12;
+            this.labelTeamsPTwo10.Text = "a";
+            // 
+            // labelTeamsPOne10
+            // 
+            this.labelTeamsPOne10.AutoSize = true;
+            this.labelTeamsPOne10.Location = new System.Drawing.Point(38, 75);
+            this.labelTeamsPOne10.Name = "labelTeamsPOne10";
+            this.labelTeamsPOne10.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne10.TabIndex = 11;
+            this.labelTeamsPOne10.Text = "a";
+            // 
+            // labelTeamsName10
+            // 
+            this.labelTeamsName10.AutoSize = true;
+            this.labelTeamsName10.Location = new System.Drawing.Point(214, 43);
+            this.labelTeamsName10.Name = "labelTeamsName10";
+            this.labelTeamsName10.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName10.TabIndex = 10;
+            this.labelTeamsName10.Text = "a";
+            // 
+            // labelTeamsPoints10
+            // 
+            this.labelTeamsPoints10.AutoSize = true;
+            this.labelTeamsPoints10.Location = new System.Drawing.Point(434, 14);
+            this.labelTeamsPoints10.Name = "labelTeamsPoints10";
+            this.labelTeamsPoints10.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints10.TabIndex = 9;
+            this.labelTeamsPoints10.Text = "a";
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -445,6 +625,42 @@ namespace F1Aggregator
             this.groupBox6.Size = new System.Drawing.Size(514, 258);
             this.groupBox6.TabIndex = 10;
             this.groupBox6.TabStop = false;
+            // 
+            // labelTeamsPTwo9
+            // 
+            this.labelTeamsPTwo9.AutoSize = true;
+            this.labelTeamsPTwo9.Location = new System.Drawing.Point(377, 75);
+            this.labelTeamsPTwo9.Name = "labelTeamsPTwo9";
+            this.labelTeamsPTwo9.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo9.TabIndex = 12;
+            this.labelTeamsPTwo9.Text = "a";
+            // 
+            // labelTeamsPOne9
+            // 
+            this.labelTeamsPOne9.AutoSize = true;
+            this.labelTeamsPOne9.Location = new System.Drawing.Point(36, 75);
+            this.labelTeamsPOne9.Name = "labelTeamsPOne9";
+            this.labelTeamsPOne9.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne9.TabIndex = 11;
+            this.labelTeamsPOne9.Text = "a";
+            // 
+            // labelTeamsName9
+            // 
+            this.labelTeamsName9.AutoSize = true;
+            this.labelTeamsName9.Location = new System.Drawing.Point(213, 43);
+            this.labelTeamsName9.Name = "labelTeamsName9";
+            this.labelTeamsName9.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName9.TabIndex = 10;
+            this.labelTeamsName9.Text = "a";
+            // 
+            // labelTeamsPoints9
+            // 
+            this.labelTeamsPoints9.AutoSize = true;
+            this.labelTeamsPoints9.Location = new System.Drawing.Point(433, 14);
+            this.labelTeamsPoints9.Name = "labelTeamsPoints9";
+            this.labelTeamsPoints9.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints9.TabIndex = 9;
+            this.labelTeamsPoints9.Text = "a";
             // 
             // label9
             // 
@@ -480,6 +696,42 @@ namespace F1Aggregator
             this.groupBox3.Size = new System.Drawing.Size(514, 258);
             this.groupBox3.TabIndex = 9;
             this.groupBox3.TabStop = false;
+            // 
+            // labelTeamsPTwo4
+            // 
+            this.labelTeamsPTwo4.AutoSize = true;
+            this.labelTeamsPTwo4.Location = new System.Drawing.Point(379, 75);
+            this.labelTeamsPTwo4.Name = "labelTeamsPTwo4";
+            this.labelTeamsPTwo4.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo4.TabIndex = 18;
+            this.labelTeamsPTwo4.Text = "a";
+            // 
+            // labelTeamsPOne4
+            // 
+            this.labelTeamsPOne4.AutoSize = true;
+            this.labelTeamsPOne4.Location = new System.Drawing.Point(38, 75);
+            this.labelTeamsPOne4.Name = "labelTeamsPOne4";
+            this.labelTeamsPOne4.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne4.TabIndex = 17;
+            this.labelTeamsPOne4.Text = "a";
+            // 
+            // labelTeamsName4
+            // 
+            this.labelTeamsName4.AutoSize = true;
+            this.labelTeamsName4.Location = new System.Drawing.Point(214, 43);
+            this.labelTeamsName4.Name = "labelTeamsName4";
+            this.labelTeamsName4.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName4.TabIndex = 16;
+            this.labelTeamsName4.Text = "a";
+            // 
+            // labelTeamsPoints4
+            // 
+            this.labelTeamsPoints4.AutoSize = true;
+            this.labelTeamsPoints4.Location = new System.Drawing.Point(434, 14);
+            this.labelTeamsPoints4.Name = "labelTeamsPoints4";
+            this.labelTeamsPoints4.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints4.TabIndex = 15;
+            this.labelTeamsPoints4.Text = "a";
             // 
             // label4
             // 
@@ -628,6 +880,42 @@ namespace F1Aggregator
             this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
             // 
+            // labelTeamsPTwo3
+            // 
+            this.labelTeamsPTwo3.AutoSize = true;
+            this.labelTeamsPTwo3.Location = new System.Drawing.Point(377, 75);
+            this.labelTeamsPTwo3.Name = "labelTeamsPTwo3";
+            this.labelTeamsPTwo3.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo3.TabIndex = 12;
+            this.labelTeamsPTwo3.Text = "a";
+            // 
+            // labelTeamsPOne3
+            // 
+            this.labelTeamsPOne3.AutoSize = true;
+            this.labelTeamsPOne3.Location = new System.Drawing.Point(36, 75);
+            this.labelTeamsPOne3.Name = "labelTeamsPOne3";
+            this.labelTeamsPOne3.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne3.TabIndex = 11;
+            this.labelTeamsPOne3.Text = "a";
+            // 
+            // labelTeamsName3
+            // 
+            this.labelTeamsName3.AutoSize = true;
+            this.labelTeamsName3.Location = new System.Drawing.Point(213, 43);
+            this.labelTeamsName3.Name = "labelTeamsName3";
+            this.labelTeamsName3.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName3.TabIndex = 10;
+            this.labelTeamsName3.Text = "a";
+            // 
+            // labelTeamsPoints3
+            // 
+            this.labelTeamsPoints3.AutoSize = true;
+            this.labelTeamsPoints3.Location = new System.Drawing.Point(433, 14);
+            this.labelTeamsPoints3.Name = "labelTeamsPoints3";
+            this.labelTeamsPoints3.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints3.TabIndex = 9;
+            this.labelTeamsPoints3.Text = "a";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -661,6 +949,42 @@ namespace F1Aggregator
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             // 
+            // labelTeamsPTwo2
+            // 
+            this.labelTeamsPTwo2.AutoSize = true;
+            this.labelTeamsPTwo2.Location = new System.Drawing.Point(379, 77);
+            this.labelTeamsPTwo2.Name = "labelTeamsPTwo2";
+            this.labelTeamsPTwo2.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo2.TabIndex = 12;
+            this.labelTeamsPTwo2.Text = "a";
+            // 
+            // labelTeamsPOne2
+            // 
+            this.labelTeamsPOne2.AutoSize = true;
+            this.labelTeamsPOne2.Location = new System.Drawing.Point(38, 77);
+            this.labelTeamsPOne2.Name = "labelTeamsPOne2";
+            this.labelTeamsPOne2.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne2.TabIndex = 11;
+            this.labelTeamsPOne2.Text = "a";
+            // 
+            // labelTeamsName2
+            // 
+            this.labelTeamsName2.AutoSize = true;
+            this.labelTeamsName2.Location = new System.Drawing.Point(214, 45);
+            this.labelTeamsName2.Name = "labelTeamsName2";
+            this.labelTeamsName2.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName2.TabIndex = 10;
+            this.labelTeamsName2.Text = "a";
+            // 
+            // labelTeamsPoints2
+            // 
+            this.labelTeamsPoints2.AutoSize = true;
+            this.labelTeamsPoints2.Location = new System.Drawing.Point(434, 16);
+            this.labelTeamsPoints2.Name = "labelTeamsPoints2";
+            this.labelTeamsPoints2.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints2.TabIndex = 9;
+            this.labelTeamsPoints2.Text = "a";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -693,6 +1017,42 @@ namespace F1Aggregator
             this.groupBox1.Size = new System.Drawing.Size(514, 258);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
+            // 
+            // labelTeamsPTwo1
+            // 
+            this.labelTeamsPTwo1.AutoSize = true;
+            this.labelTeamsPTwo1.Location = new System.Drawing.Point(377, 77);
+            this.labelTeamsPTwo1.Name = "labelTeamsPTwo1";
+            this.labelTeamsPTwo1.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPTwo1.TabIndex = 8;
+            this.labelTeamsPTwo1.Text = "a";
+            // 
+            // labelTeamsPOne1
+            // 
+            this.labelTeamsPOne1.AutoSize = true;
+            this.labelTeamsPOne1.Location = new System.Drawing.Point(39, 77);
+            this.labelTeamsPOne1.Name = "labelTeamsPOne1";
+            this.labelTeamsPOne1.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPOne1.TabIndex = 7;
+            this.labelTeamsPOne1.Text = "a";
+            // 
+            // labelTeamsName1
+            // 
+            this.labelTeamsName1.AutoSize = true;
+            this.labelTeamsName1.Location = new System.Drawing.Point(213, 45);
+            this.labelTeamsName1.Name = "labelTeamsName1";
+            this.labelTeamsName1.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsName1.TabIndex = 6;
+            this.labelTeamsName1.Text = "a";
+            // 
+            // labelTeamsPoints1
+            // 
+            this.labelTeamsPoints1.AutoSize = true;
+            this.labelTeamsPoints1.Location = new System.Drawing.Point(433, 16);
+            this.labelTeamsPoints1.Name = "labelTeamsPoints1";
+            this.labelTeamsPoints1.Size = new System.Drawing.Size(13, 13);
+            this.labelTeamsPoints1.TabIndex = 5;
+            this.labelTeamsPoints1.Text = "a";
             // 
             // label1
             // 
@@ -735,326 +1095,6 @@ namespace F1Aggregator
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
-            // 
-            // labelTeamsPoints1
-            // 
-            this.labelTeamsPoints1.AutoSize = true;
-            this.labelTeamsPoints1.Location = new System.Drawing.Point(433, 16);
-            this.labelTeamsPoints1.Name = "labelTeamsPoints1";
-            this.labelTeamsPoints1.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints1.TabIndex = 5;
-            // 
-            // labelTeamsName1
-            // 
-            this.labelTeamsName1.AutoSize = true;
-            this.labelTeamsName1.Location = new System.Drawing.Point(213, 45);
-            this.labelTeamsName1.Name = "labelTeamsName1";
-            this.labelTeamsName1.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName1.TabIndex = 6;
-            // 
-            // labelTeamsPOne1
-            // 
-            this.labelTeamsPOne1.AutoSize = true;
-            this.labelTeamsPOne1.Location = new System.Drawing.Point(39, 77);
-            this.labelTeamsPOne1.Name = "labelTeamsPOne1";
-            this.labelTeamsPOne1.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne1.TabIndex = 7;
-            // 
-            // labelTeamsPTwo1
-            // 
-            this.labelTeamsPTwo1.AutoSize = true;
-            this.labelTeamsPTwo1.Location = new System.Drawing.Point(377, 77);
-            this.labelTeamsPTwo1.Name = "labelTeamsPTwo1";
-            this.labelTeamsPTwo1.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo1.TabIndex = 8;
-            // 
-            // labelTeamsPTwo2
-            // 
-            this.labelTeamsPTwo2.AutoSize = true;
-            this.labelTeamsPTwo2.Location = new System.Drawing.Point(379, 77);
-            this.labelTeamsPTwo2.Name = "labelTeamsPTwo2";
-            this.labelTeamsPTwo2.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo2.TabIndex = 12;
-            // 
-            // labelTeamsPOne2
-            // 
-            this.labelTeamsPOne2.AutoSize = true;
-            this.labelTeamsPOne2.Location = new System.Drawing.Point(38, 77);
-            this.labelTeamsPOne2.Name = "labelTeamsPOne2";
-            this.labelTeamsPOne2.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne2.TabIndex = 11;
-            // 
-            // labelTeamsName2
-            // 
-            this.labelTeamsName2.AutoSize = true;
-            this.labelTeamsName2.Location = new System.Drawing.Point(214, 45);
-            this.labelTeamsName2.Name = "labelTeamsName2";
-            this.labelTeamsName2.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName2.TabIndex = 10;
-            // 
-            // labelTeamsPoints2
-            // 
-            this.labelTeamsPoints2.AutoSize = true;
-            this.labelTeamsPoints2.Location = new System.Drawing.Point(434, 16);
-            this.labelTeamsPoints2.Name = "labelTeamsPoints2";
-            this.labelTeamsPoints2.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints2.TabIndex = 9;
-            // 
-            // labelTeamsPTwo3
-            // 
-            this.labelTeamsPTwo3.AutoSize = true;
-            this.labelTeamsPTwo3.Location = new System.Drawing.Point(377, 75);
-            this.labelTeamsPTwo3.Name = "labelTeamsPTwo3";
-            this.labelTeamsPTwo3.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo3.TabIndex = 12;
-            // 
-            // labelTeamsPOne3
-            // 
-            this.labelTeamsPOne3.AutoSize = true;
-            this.labelTeamsPOne3.Location = new System.Drawing.Point(36, 75);
-            this.labelTeamsPOne3.Name = "labelTeamsPOne3";
-            this.labelTeamsPOne3.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne3.TabIndex = 11;
-            // 
-            // labelTeamsName3
-            // 
-            this.labelTeamsName3.AutoSize = true;
-            this.labelTeamsName3.Location = new System.Drawing.Point(213, 43);
-            this.labelTeamsName3.Name = "labelTeamsName3";
-            this.labelTeamsName3.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName3.TabIndex = 10;
-            // 
-            // labelTeamsPoints3
-            // 
-            this.labelTeamsPoints3.AutoSize = true;
-            this.labelTeamsPoints3.Location = new System.Drawing.Point(433, 14);
-            this.labelTeamsPoints3.Name = "labelTeamsPoints3";
-            this.labelTeamsPoints3.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints3.TabIndex = 9;
-            // 
-            // labelTeamsPTwo4
-            // 
-            this.labelTeamsPTwo4.AutoSize = true;
-            this.labelTeamsPTwo4.Location = new System.Drawing.Point(379, 75);
-            this.labelTeamsPTwo4.Name = "labelTeamsPTwo4";
-            this.labelTeamsPTwo4.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo4.TabIndex = 18;
-            // 
-            // labelTeamsPOne4
-            // 
-            this.labelTeamsPOne4.AutoSize = true;
-            this.labelTeamsPOne4.Location = new System.Drawing.Point(38, 75);
-            this.labelTeamsPOne4.Name = "labelTeamsPOne4";
-            this.labelTeamsPOne4.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne4.TabIndex = 17;
-            // 
-            // labelTeamsName4
-            // 
-            this.labelTeamsName4.AutoSize = true;
-            this.labelTeamsName4.Location = new System.Drawing.Point(214, 43);
-            this.labelTeamsName4.Name = "labelTeamsName4";
-            this.labelTeamsName4.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName4.TabIndex = 16;
-            // 
-            // labelTeamsPoints4
-            // 
-            this.labelTeamsPoints4.AutoSize = true;
-            this.labelTeamsPoints4.Location = new System.Drawing.Point(434, 14);
-            this.labelTeamsPoints4.Name = "labelTeamsPoints4";
-            this.labelTeamsPoints4.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints4.TabIndex = 15;
-            // 
-            // labelTeamsPTwo5
-            // 
-            this.labelTeamsPTwo5.AutoSize = true;
-            this.labelTeamsPTwo5.Location = new System.Drawing.Point(377, 72);
-            this.labelTeamsPTwo5.Name = "labelTeamsPTwo5";
-            this.labelTeamsPTwo5.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo5.TabIndex = 12;
-            // 
-            // labelTeamsPOne5
-            // 
-            this.labelTeamsPOne5.AutoSize = true;
-            this.labelTeamsPOne5.Location = new System.Drawing.Point(36, 72);
-            this.labelTeamsPOne5.Name = "labelTeamsPOne5";
-            this.labelTeamsPOne5.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne5.TabIndex = 11;
-            // 
-            // labelTeamsName5
-            // 
-            this.labelTeamsName5.AutoSize = true;
-            this.labelTeamsName5.Location = new System.Drawing.Point(213, 40);
-            this.labelTeamsName5.Name = "labelTeamsName5";
-            this.labelTeamsName5.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName5.TabIndex = 10;
-            // 
-            // labelTeamsPoints5
-            // 
-            this.labelTeamsPoints5.AutoSize = true;
-            this.labelTeamsPoints5.Location = new System.Drawing.Point(433, 11);
-            this.labelTeamsPoints5.Name = "labelTeamsPoints5";
-            this.labelTeamsPoints5.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints5.TabIndex = 9;
-            // 
-            // labelTeamsPTwo6
-            // 
-            this.labelTeamsPTwo6.AutoSize = true;
-            this.labelTeamsPTwo6.Location = new System.Drawing.Point(379, 72);
-            this.labelTeamsPTwo6.Name = "labelTeamsPTwo6";
-            this.labelTeamsPTwo6.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo6.TabIndex = 12;
-            // 
-            // labelTeamsPOne6
-            // 
-            this.labelTeamsPOne6.AutoSize = true;
-            this.labelTeamsPOne6.Location = new System.Drawing.Point(38, 72);
-            this.labelTeamsPOne6.Name = "labelTeamsPOne6";
-            this.labelTeamsPOne6.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne6.TabIndex = 11;
-            // 
-            // labelTeamsName6
-            // 
-            this.labelTeamsName6.AutoSize = true;
-            this.labelTeamsName6.Location = new System.Drawing.Point(214, 40);
-            this.labelTeamsName6.Name = "labelTeamsName6";
-            this.labelTeamsName6.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName6.TabIndex = 10;
-            // 
-            // labelTeamsPoints6
-            // 
-            this.labelTeamsPoints6.AutoSize = true;
-            this.labelTeamsPoints6.Location = new System.Drawing.Point(434, 11);
-            this.labelTeamsPoints6.Name = "labelTeamsPoints6";
-            this.labelTeamsPoints6.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints6.TabIndex = 9;
-            // 
-            // labelTeamsPTwo7
-            // 
-            this.labelTeamsPTwo7.AutoSize = true;
-            this.labelTeamsPTwo7.Location = new System.Drawing.Point(377, 79);
-            this.labelTeamsPTwo7.Name = "labelTeamsPTwo7";
-            this.labelTeamsPTwo7.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo7.TabIndex = 12;
-            // 
-            // labelTeamsPOne7
-            // 
-            this.labelTeamsPOne7.AutoSize = true;
-            this.labelTeamsPOne7.Location = new System.Drawing.Point(36, 79);
-            this.labelTeamsPOne7.Name = "labelTeamsPOne7";
-            this.labelTeamsPOne7.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne7.TabIndex = 11;
-            // 
-            // labelTeamsName7
-            // 
-            this.labelTeamsName7.AutoSize = true;
-            this.labelTeamsName7.Location = new System.Drawing.Point(213, 47);
-            this.labelTeamsName7.Name = "labelTeamsName7";
-            this.labelTeamsName7.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName7.TabIndex = 10;
-            // 
-            // labelTeamsPoints7
-            // 
-            this.labelTeamsPoints7.AutoSize = true;
-            this.labelTeamsPoints7.Location = new System.Drawing.Point(433, 18);
-            this.labelTeamsPoints7.Name = "labelTeamsPoints7";
-            this.labelTeamsPoints7.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints7.TabIndex = 9;
-            // 
-            // labelTeamsPTwo8
-            // 
-            this.labelTeamsPTwo8.AutoSize = true;
-            this.labelTeamsPTwo8.Location = new System.Drawing.Point(379, 79);
-            this.labelTeamsPTwo8.Name = "labelTeamsPTwo8";
-            this.labelTeamsPTwo8.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo8.TabIndex = 12;
-            // 
-            // labelTeamsPOne8
-            // 
-            this.labelTeamsPOne8.AutoSize = true;
-            this.labelTeamsPOne8.Location = new System.Drawing.Point(38, 79);
-            this.labelTeamsPOne8.Name = "labelTeamsPOne8";
-            this.labelTeamsPOne8.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne8.TabIndex = 11;
-            // 
-            // labelTeamsName8
-            // 
-            this.labelTeamsName8.AutoSize = true;
-            this.labelTeamsName8.Location = new System.Drawing.Point(214, 47);
-            this.labelTeamsName8.Name = "labelTeamsName8";
-            this.labelTeamsName8.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName8.TabIndex = 10;
-            // 
-            // labelTeamsPoints8
-            // 
-            this.labelTeamsPoints8.AutoSize = true;
-            this.labelTeamsPoints8.Location = new System.Drawing.Point(434, 18);
-            this.labelTeamsPoints8.Name = "labelTeamsPoints8";
-            this.labelTeamsPoints8.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints8.TabIndex = 9;
-            // 
-            // labelTeamsPTwo9
-            // 
-            this.labelTeamsPTwo9.AutoSize = true;
-            this.labelTeamsPTwo9.Location = new System.Drawing.Point(377, 75);
-            this.labelTeamsPTwo9.Name = "labelTeamsPTwo9";
-            this.labelTeamsPTwo9.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo9.TabIndex = 12;
-            // 
-            // labelTeamsPOne9
-            // 
-            this.labelTeamsPOne9.AutoSize = true;
-            this.labelTeamsPOne9.Location = new System.Drawing.Point(36, 75);
-            this.labelTeamsPOne9.Name = "labelTeamsPOne9";
-            this.labelTeamsPOne9.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne9.TabIndex = 11;
-            // 
-            // labelTeamsName9
-            // 
-            this.labelTeamsName9.AutoSize = true;
-            this.labelTeamsName9.Location = new System.Drawing.Point(213, 43);
-            this.labelTeamsName9.Name = "labelTeamsName9";
-            this.labelTeamsName9.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName9.TabIndex = 10;
-            // 
-            // labelTeamsPoints9
-            // 
-            this.labelTeamsPoints9.AutoSize = true;
-            this.labelTeamsPoints9.Location = new System.Drawing.Point(433, 14);
-            this.labelTeamsPoints9.Name = "labelTeamsPoints9";
-            this.labelTeamsPoints9.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints9.TabIndex = 9;
-            // 
-            // labelTeamsPTwo10
-            // 
-            this.labelTeamsPTwo10.AutoSize = true;
-            this.labelTeamsPTwo10.Location = new System.Drawing.Point(379, 75);
-            this.labelTeamsPTwo10.Name = "labelTeamsPTwo10";
-            this.labelTeamsPTwo10.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPTwo10.TabIndex = 12;
-            // 
-            // labelTeamsPOne10
-            // 
-            this.labelTeamsPOne10.AutoSize = true;
-            this.labelTeamsPOne10.Location = new System.Drawing.Point(38, 75);
-            this.labelTeamsPOne10.Name = "labelTeamsPOne10";
-            this.labelTeamsPOne10.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPOne10.TabIndex = 11;
-            // 
-            // labelTeamsName10
-            // 
-            this.labelTeamsName10.AutoSize = true;
-            this.labelTeamsName10.Location = new System.Drawing.Point(214, 43);
-            this.labelTeamsName10.Name = "labelTeamsName10";
-            this.labelTeamsName10.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsName10.TabIndex = 10;
-            // 
-            // labelTeamsPoints10
-            // 
-            this.labelTeamsPoints10.AutoSize = true;
-            this.labelTeamsPoints10.Location = new System.Drawing.Point(434, 14);
-            this.labelTeamsPoints10.Name = "labelTeamsPoints10";
-            this.labelTeamsPoints10.Size = new System.Drawing.Size(0, 13);
-            this.labelTeamsPoints10.TabIndex = 9;
             // 
             // Teams
             // 
