@@ -30,21 +30,10 @@ namespace F1Aggregator
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Schedule));
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButtonSchedule1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButtonResults1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButtonStandings1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButtonTeams1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.labelScheduleTime = new System.Windows.Forms.Label();
             this.labelScheduleRaceName = new System.Windows.Forms.Label();
             this.richTextBoxSchedule = new System.Windows.Forms.RichTextBox();
-            this.pictureBoxSchedulePresentation = new System.Windows.Forms.PictureBox();
-            this.pictureBoxScheduleTrack = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.labelScheduleTime1 = new System.Windows.Forms.Label();
             this.labelScheduleName1 = new System.Windows.Forms.Label();
@@ -85,14 +74,10 @@ namespace F1Aggregator
             this.labelScheduleTime7 = new System.Windows.Forms.Label();
             this.labelScheduleName7 = new System.Windows.Forms.Label();
             this.buttonScheduleShow7 = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelSchedule = new System.Windows.Forms.Panel();
-            this.toolStrip1.SuspendLayout();
+            this.pictureBoxSchedulePresentation = new System.Windows.Forms.PictureBox();
+            this.pictureBoxScheduleTrack = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSchedulePresentation)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScheduleTrack)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -103,114 +88,23 @@ namespace F1Aggregator
             this.groupBox11.SuspendLayout();
             this.groupBox12.SuspendLayout();
             this.groupBox13.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.panelSchedule.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSchedulePresentation)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScheduleTrack)).BeginInit();
             this.SuspendLayout();
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.AutoSize = false;
-            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(212)))), ((int)(((byte)(244)))));
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButtonSchedule1,
-            this.toolStripSeparator1,
-            this.toolStripButtonResults1,
-            this.toolStripSeparator2,
-            this.toolStripButtonStandings1,
-            this.toolStripSeparator3,
-            this.toolStripButtonTeams1,
-            this.toolStripSeparator4});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStrip1.Size = new System.Drawing.Size(1084, 37);
-            this.toolStrip1.TabIndex = 1;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButtonSchedule1
-            // 
-            this.toolStripButtonSchedule1.AutoSize = false;
-            this.toolStripButtonSchedule1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonSchedule1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButtonSchedule1.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButtonSchedule1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonSchedule1.Name = "toolStripButtonSchedule1";
-            this.toolStripButtonSchedule1.Size = new System.Drawing.Size(258, 42);
-            this.toolStripButtonSchedule1.Text = "Schedule";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 37);
-            // 
-            // toolStripButtonResults1
-            // 
-            this.toolStripButtonResults1.AutoSize = false;
-            this.toolStripButtonResults1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonResults1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButtonResults1.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButtonResults1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonResults1.Image")));
-            this.toolStripButtonResults1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonResults1.Name = "toolStripButtonResults1";
-            this.toolStripButtonResults1.Size = new System.Drawing.Size(258, 42);
-            this.toolStripButtonResults1.Text = "Results";
-            this.toolStripButtonResults1.Click += new System.EventHandler(this.toolStripButtonResults1_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 37);
-            // 
-            // toolStripButtonStandings1
-            // 
-            this.toolStripButtonStandings1.AutoSize = false;
-            this.toolStripButtonStandings1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonStandings1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButtonStandings1.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButtonStandings1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonStandings1.Image")));
-            this.toolStripButtonStandings1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonStandings1.Name = "toolStripButtonStandings1";
-            this.toolStripButtonStandings1.Size = new System.Drawing.Size(258, 42);
-            this.toolStripButtonStandings1.Text = "Standings";
-            this.toolStripButtonStandings1.Click += new System.EventHandler(this.toolStripButtonStandings1_Click);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 37);
-            // 
-            // toolStripButtonTeams1
-            // 
-            this.toolStripButtonTeams1.AutoSize = false;
-            this.toolStripButtonTeams1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonTeams1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButtonTeams1.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButtonTeams1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonTeams1.Image")));
-            this.toolStripButtonTeams1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonTeams1.Name = "toolStripButtonTeams1";
-            this.toolStripButtonTeams1.Size = new System.Drawing.Size(258, 42);
-            this.toolStripButtonTeams1.Text = "Teams";
-            this.toolStripButtonTeams1.Click += new System.EventHandler(this.toolStripButtonTeams1_Click);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 37);
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.labelScheduleTime);
             this.groupBox1.Controls.Add(this.labelScheduleRaceName);
             this.groupBox1.Controls.Add(this.richTextBoxSchedule);
             this.groupBox1.Controls.Add(this.pictureBoxSchedulePresentation);
             this.groupBox1.Controls.Add(this.pictureBoxScheduleTrack);
             this.groupBox1.Location = new System.Drawing.Point(8, 12);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(1068, 264);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
@@ -218,6 +112,7 @@ namespace F1Aggregator
             // labelScheduleTime
             // 
             this.labelScheduleTime.AutoSize = true;
+            this.labelScheduleTime.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime.Location = new System.Drawing.Point(788, 15);
             this.labelScheduleTime.Name = "labelScheduleTime";
             this.labelScheduleTime.Size = new System.Drawing.Size(26, 13);
@@ -227,6 +122,7 @@ namespace F1Aggregator
             // labelScheduleRaceName
             // 
             this.labelScheduleRaceName.AutoSize = true;
+            this.labelScheduleRaceName.ForeColor = System.Drawing.Color.White;
             this.labelScheduleRaceName.Location = new System.Drawing.Point(5, 15);
             this.labelScheduleRaceName.Name = "labelScheduleRaceName";
             this.labelScheduleRaceName.Size = new System.Drawing.Size(61, 13);
@@ -235,46 +131,27 @@ namespace F1Aggregator
             // 
             // richTextBoxSchedule
             // 
-            this.richTextBoxSchedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.richTextBoxSchedule.BackColor = System.Drawing.SystemColors.Info;
             this.richTextBoxSchedule.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxSchedule.Cursor = System.Windows.Forms.Cursors.No;
             this.richTextBoxSchedule.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.richTextBoxSchedule.Location = new System.Drawing.Point(791, 41);
-            this.richTextBoxSchedule.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBoxSchedule.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBoxSchedule.Name = "richTextBoxSchedule";
             this.richTextBoxSchedule.ReadOnly = true;
             this.richTextBoxSchedule.Size = new System.Drawing.Size(273, 210);
             this.richTextBoxSchedule.TabIndex = 5;
             this.richTextBoxSchedule.Text = "";
             // 
-            // pictureBoxSchedulePresentation
-            // 
-            this.pictureBoxSchedulePresentation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.pictureBoxSchedulePresentation.Location = new System.Drawing.Point(329, 9);
-            this.pictureBoxSchedulePresentation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBoxSchedulePresentation.Name = "pictureBoxSchedulePresentation";
-            this.pictureBoxSchedulePresentation.Size = new System.Drawing.Size(428, 242);
-            this.pictureBoxSchedulePresentation.TabIndex = 3;
-            this.pictureBoxSchedulePresentation.TabStop = false;
-            // 
-            // pictureBoxScheduleTrack
-            // 
-            this.pictureBoxScheduleTrack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.pictureBoxScheduleTrack.Location = new System.Drawing.Point(4, 41);
-            this.pictureBoxScheduleTrack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBoxScheduleTrack.Name = "pictureBoxScheduleTrack";
-            this.pictureBoxScheduleTrack.Size = new System.Drawing.Size(293, 210);
-            this.pictureBoxScheduleTrack.TabIndex = 1;
-            this.pictureBoxScheduleTrack.TabStop = false;
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.labelScheduleTime1);
             this.groupBox2.Controls.Add(this.labelScheduleName1);
             this.groupBox2.Controls.Add(this.buttonScheduleShow1);
-            this.groupBox2.Location = new System.Drawing.Point(8, 289);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Location = new System.Drawing.Point(8, 307);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(210, 147);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
@@ -282,6 +159,7 @@ namespace F1Aggregator
             // labelScheduleTime1
             // 
             this.labelScheduleTime1.AutoSize = true;
+            this.labelScheduleTime1.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime1.Location = new System.Drawing.Point(14, 57);
             this.labelScheduleTime1.Name = "labelScheduleTime1";
             this.labelScheduleTime1.Size = new System.Drawing.Size(26, 13);
@@ -291,6 +169,7 @@ namespace F1Aggregator
             // labelScheduleName1
             // 
             this.labelScheduleName1.AutoSize = true;
+            this.labelScheduleName1.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName1.Location = new System.Drawing.Point(14, 27);
             this.labelScheduleName1.Name = "labelScheduleName1";
             this.labelScheduleName1.Size = new System.Drawing.Size(33, 13);
@@ -314,10 +193,10 @@ namespace F1Aggregator
             this.groupBox3.Controls.Add(this.labelScheduleTime2);
             this.groupBox3.Controls.Add(this.labelScheduleName2);
             this.groupBox3.Controls.Add(this.buttonScheduleShow2);
-            this.groupBox3.Location = new System.Drawing.Point(222, 289);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Location = new System.Drawing.Point(222, 307);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(210, 147);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
@@ -325,6 +204,7 @@ namespace F1Aggregator
             // labelScheduleTime2
             // 
             this.labelScheduleTime2.AutoSize = true;
+            this.labelScheduleTime2.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime2.Location = new System.Drawing.Point(18, 57);
             this.labelScheduleTime2.Name = "labelScheduleTime2";
             this.labelScheduleTime2.Size = new System.Drawing.Size(26, 13);
@@ -334,6 +214,7 @@ namespace F1Aggregator
             // labelScheduleName2
             // 
             this.labelScheduleName2.AutoSize = true;
+            this.labelScheduleName2.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName2.Location = new System.Drawing.Point(18, 27);
             this.labelScheduleName2.Name = "labelScheduleName2";
             this.labelScheduleName2.Size = new System.Drawing.Size(33, 13);
@@ -357,10 +238,10 @@ namespace F1Aggregator
             this.groupBox4.Controls.Add(this.labelScheduleTime3);
             this.groupBox4.Controls.Add(this.labelScheduleName3);
             this.groupBox4.Controls.Add(this.buttonScheduleShow3);
-            this.groupBox4.Location = new System.Drawing.Point(436, 289);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Location = new System.Drawing.Point(436, 307);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4.Size = new System.Drawing.Size(210, 147);
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
@@ -368,6 +249,7 @@ namespace F1Aggregator
             // labelScheduleTime3
             // 
             this.labelScheduleTime3.AutoSize = true;
+            this.labelScheduleTime3.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime3.Location = new System.Drawing.Point(24, 57);
             this.labelScheduleTime3.Name = "labelScheduleTime3";
             this.labelScheduleTime3.Size = new System.Drawing.Size(26, 13);
@@ -377,6 +259,7 @@ namespace F1Aggregator
             // labelScheduleName3
             // 
             this.labelScheduleName3.AutoSize = true;
+            this.labelScheduleName3.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName3.Location = new System.Drawing.Point(24, 27);
             this.labelScheduleName3.Name = "labelScheduleName3";
             this.labelScheduleName3.Size = new System.Drawing.Size(33, 13);
@@ -400,10 +283,10 @@ namespace F1Aggregator
             this.groupBox5.Controls.Add(this.labelScheduleTime6);
             this.groupBox5.Controls.Add(this.labelScheduleName6);
             this.groupBox5.Controls.Add(this.buttonScheduleShow6);
-            this.groupBox5.Location = new System.Drawing.Point(8, 456);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Location = new System.Drawing.Point(8, 486);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox5.Size = new System.Drawing.Size(210, 147);
             this.groupBox5.TabIndex = 8;
             this.groupBox5.TabStop = false;
@@ -411,6 +294,7 @@ namespace F1Aggregator
             // labelScheduleTime6
             // 
             this.labelScheduleTime6.AutoSize = true;
+            this.labelScheduleTime6.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime6.Location = new System.Drawing.Point(14, 65);
             this.labelScheduleTime6.Name = "labelScheduleTime6";
             this.labelScheduleTime6.Size = new System.Drawing.Size(26, 13);
@@ -420,6 +304,7 @@ namespace F1Aggregator
             // labelScheduleName6
             // 
             this.labelScheduleName6.AutoSize = true;
+            this.labelScheduleName6.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName6.Location = new System.Drawing.Point(14, 35);
             this.labelScheduleName6.Name = "labelScheduleName6";
             this.labelScheduleName6.Size = new System.Drawing.Size(33, 13);
@@ -443,10 +328,10 @@ namespace F1Aggregator
             this.groupBox6.Controls.Add(this.labelScheduleTime5);
             this.groupBox6.Controls.Add(this.labelScheduleName5);
             this.groupBox6.Controls.Add(this.buttonScheduleShow5);
-            this.groupBox6.Location = new System.Drawing.Point(866, 289);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox6.Location = new System.Drawing.Point(866, 307);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox6.Size = new System.Drawing.Size(210, 147);
             this.groupBox6.TabIndex = 7;
             this.groupBox6.TabStop = false;
@@ -454,6 +339,7 @@ namespace F1Aggregator
             // labelScheduleTime5
             // 
             this.labelScheduleTime5.AutoSize = true;
+            this.labelScheduleTime5.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime5.Location = new System.Drawing.Point(25, 57);
             this.labelScheduleTime5.Name = "labelScheduleTime5";
             this.labelScheduleTime5.Size = new System.Drawing.Size(26, 13);
@@ -463,6 +349,7 @@ namespace F1Aggregator
             // labelScheduleName5
             // 
             this.labelScheduleName5.AutoSize = true;
+            this.labelScheduleName5.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName5.Location = new System.Drawing.Point(25, 27);
             this.labelScheduleName5.Name = "labelScheduleName5";
             this.labelScheduleName5.Size = new System.Drawing.Size(33, 13);
@@ -486,10 +373,10 @@ namespace F1Aggregator
             this.groupBox7.Controls.Add(this.labelScheduleTime4);
             this.groupBox7.Controls.Add(this.labelScheduleName4);
             this.groupBox7.Controls.Add(this.buttonScheduleShow4);
-            this.groupBox7.Location = new System.Drawing.Point(650, 289);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox7.Location = new System.Drawing.Point(650, 307);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox7.Size = new System.Drawing.Size(210, 147);
             this.groupBox7.TabIndex = 6;
             this.groupBox7.TabStop = false;
@@ -497,6 +384,7 @@ namespace F1Aggregator
             // labelScheduleTime4
             // 
             this.labelScheduleTime4.AutoSize = true;
+            this.labelScheduleTime4.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime4.Location = new System.Drawing.Point(23, 57);
             this.labelScheduleTime4.Name = "labelScheduleTime4";
             this.labelScheduleTime4.Size = new System.Drawing.Size(26, 13);
@@ -506,6 +394,7 @@ namespace F1Aggregator
             // labelScheduleName4
             // 
             this.labelScheduleName4.AutoSize = true;
+            this.labelScheduleName4.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName4.Location = new System.Drawing.Point(23, 27);
             this.labelScheduleName4.Name = "labelScheduleName4";
             this.labelScheduleName4.Size = new System.Drawing.Size(33, 13);
@@ -529,10 +418,10 @@ namespace F1Aggregator
             this.groupBox10.Controls.Add(this.labelScheduleTime10);
             this.groupBox10.Controls.Add(this.labelScheduleName10);
             this.groupBox10.Controls.Add(this.buttonScheduleShow10);
-            this.groupBox10.Location = new System.Drawing.Point(866, 456);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox10.Location = new System.Drawing.Point(866, 486);
+            this.groupBox10.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox10.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox10.Size = new System.Drawing.Size(210, 147);
             this.groupBox10.TabIndex = 12;
             this.groupBox10.TabStop = false;
@@ -540,6 +429,7 @@ namespace F1Aggregator
             // labelScheduleTime10
             // 
             this.labelScheduleTime10.AutoSize = true;
+            this.labelScheduleTime10.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime10.Location = new System.Drawing.Point(25, 64);
             this.labelScheduleTime10.Name = "labelScheduleTime10";
             this.labelScheduleTime10.Size = new System.Drawing.Size(26, 13);
@@ -549,6 +439,7 @@ namespace F1Aggregator
             // labelScheduleName10
             // 
             this.labelScheduleName10.AutoSize = true;
+            this.labelScheduleName10.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName10.Location = new System.Drawing.Point(25, 35);
             this.labelScheduleName10.Name = "labelScheduleName10";
             this.labelScheduleName10.Size = new System.Drawing.Size(33, 13);
@@ -572,10 +463,10 @@ namespace F1Aggregator
             this.groupBox11.Controls.Add(this.labelScheduleTime9);
             this.groupBox11.Controls.Add(this.labelScheduleName9);
             this.groupBox11.Controls.Add(this.buttonScheduleShow9);
-            this.groupBox11.Location = new System.Drawing.Point(650, 456);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox11.Location = new System.Drawing.Point(650, 486);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox11.Size = new System.Drawing.Size(210, 147);
             this.groupBox11.TabIndex = 11;
             this.groupBox11.TabStop = false;
@@ -583,6 +474,7 @@ namespace F1Aggregator
             // labelScheduleTime9
             // 
             this.labelScheduleTime9.AutoSize = true;
+            this.labelScheduleTime9.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime9.Location = new System.Drawing.Point(23, 64);
             this.labelScheduleTime9.Name = "labelScheduleTime9";
             this.labelScheduleTime9.Size = new System.Drawing.Size(26, 13);
@@ -592,6 +484,7 @@ namespace F1Aggregator
             // labelScheduleName9
             // 
             this.labelScheduleName9.AutoSize = true;
+            this.labelScheduleName9.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName9.Location = new System.Drawing.Point(23, 35);
             this.labelScheduleName9.Name = "labelScheduleName9";
             this.labelScheduleName9.Size = new System.Drawing.Size(33, 13);
@@ -615,10 +508,10 @@ namespace F1Aggregator
             this.groupBox12.Controls.Add(this.labelScheduleTime8);
             this.groupBox12.Controls.Add(this.labelScheduleName8);
             this.groupBox12.Controls.Add(this.buttonScheduleShow8);
-            this.groupBox12.Location = new System.Drawing.Point(436, 456);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox12.Location = new System.Drawing.Point(436, 486);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox12.Size = new System.Drawing.Size(210, 147);
             this.groupBox12.TabIndex = 10;
             this.groupBox12.TabStop = false;
@@ -626,6 +519,7 @@ namespace F1Aggregator
             // labelScheduleTime8
             // 
             this.labelScheduleTime8.AutoSize = true;
+            this.labelScheduleTime8.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime8.Location = new System.Drawing.Point(24, 64);
             this.labelScheduleTime8.Name = "labelScheduleTime8";
             this.labelScheduleTime8.Size = new System.Drawing.Size(26, 13);
@@ -635,6 +529,7 @@ namespace F1Aggregator
             // labelScheduleName8
             // 
             this.labelScheduleName8.AutoSize = true;
+            this.labelScheduleName8.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName8.Location = new System.Drawing.Point(24, 35);
             this.labelScheduleName8.Name = "labelScheduleName8";
             this.labelScheduleName8.Size = new System.Drawing.Size(33, 13);
@@ -658,10 +553,10 @@ namespace F1Aggregator
             this.groupBox13.Controls.Add(this.labelScheduleTime7);
             this.groupBox13.Controls.Add(this.labelScheduleName7);
             this.groupBox13.Controls.Add(this.buttonScheduleShow7);
-            this.groupBox13.Location = new System.Drawing.Point(222, 456);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox13.Location = new System.Drawing.Point(222, 486);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox13.Size = new System.Drawing.Size(210, 147);
             this.groupBox13.TabIndex = 9;
             this.groupBox13.TabStop = false;
@@ -669,6 +564,7 @@ namespace F1Aggregator
             // labelScheduleTime7
             // 
             this.labelScheduleTime7.AutoSize = true;
+            this.labelScheduleTime7.ForeColor = System.Drawing.Color.White;
             this.labelScheduleTime7.Location = new System.Drawing.Point(18, 64);
             this.labelScheduleTime7.Name = "labelScheduleTime7";
             this.labelScheduleTime7.Size = new System.Drawing.Size(26, 13);
@@ -678,6 +574,7 @@ namespace F1Aggregator
             // labelScheduleName7
             // 
             this.labelScheduleName7.AutoSize = true;
+            this.labelScheduleName7.ForeColor = System.Drawing.Color.White;
             this.labelScheduleName7.Location = new System.Drawing.Point(18, 35);
             this.labelScheduleName7.Name = "labelScheduleName7";
             this.labelScheduleName7.Size = new System.Drawing.Size(33, 13);
@@ -696,34 +593,9 @@ namespace F1Aggregator
             this.buttonScheduleShow7.Text = "Show more";
             this.buttonScheduleShow7.UseVisualStyleBackColor = false;
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.helpToolStripMenuItem,
-            this.aboutToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 657);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1084, 24);
-            this.menuStrip1.TabIndex = 27;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem.Text = "About";
-            // 
             // panelSchedule
             // 
+            this.panelSchedule.BackColor = System.Drawing.Color.Transparent;
             this.panelSchedule.Controls.Add(this.groupBox1);
             this.panelSchedule.Controls.Add(this.groupBox2);
             this.panelSchedule.Controls.Add(this.groupBox3);
@@ -735,36 +607,52 @@ namespace F1Aggregator
             this.panelSchedule.Controls.Add(this.groupBox13);
             this.panelSchedule.Controls.Add(this.groupBox12);
             this.panelSchedule.Controls.Add(this.groupBox10);
-            this.panelSchedule.Location = new System.Drawing.Point(0, 30);
-            this.panelSchedule.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelSchedule.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelSchedule.Location = new System.Drawing.Point(0, 0);
+            this.panelSchedule.Margin = new System.Windows.Forms.Padding(2);
             this.panelSchedule.Name = "panelSchedule";
-            this.panelSchedule.Size = new System.Drawing.Size(1084, 641);
+            this.panelSchedule.Size = new System.Drawing.Size(1084, 681);
             this.panelSchedule.TabIndex = 6;
+            // 
+            // pictureBoxSchedulePresentation
+            // 
+            this.pictureBoxSchedulePresentation.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxSchedulePresentation.Location = new System.Drawing.Point(329, 9);
+            this.pictureBoxSchedulePresentation.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxSchedulePresentation.Name = "pictureBoxSchedulePresentation";
+            this.pictureBoxSchedulePresentation.Size = new System.Drawing.Size(428, 242);
+            this.pictureBoxSchedulePresentation.TabIndex = 3;
+            this.pictureBoxSchedulePresentation.TabStop = false;
+            // 
+            // pictureBoxScheduleTrack
+            // 
+            this.pictureBoxScheduleTrack.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxScheduleTrack.Location = new System.Drawing.Point(4, 41);
+            this.pictureBoxScheduleTrack.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxScheduleTrack.Name = "pictureBoxScheduleTrack";
+            this.pictureBoxScheduleTrack.Size = new System.Drawing.Size(293, 210);
+            this.pictureBoxScheduleTrack.TabIndex = 1;
+            this.pictureBoxScheduleTrack.TabStop = false;
             // 
             // Schedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.BackColor = System.Drawing.Color.Silver;
+            this.BackgroundImage = global::F1Aggregator.Properties.Resources.backgroundTintBlur;
             this.ClientSize = new System.Drawing.Size(1084, 681);
-            this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.panelSchedule);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Schedule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Schedule";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Schedule_FormClosed);
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
+            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSchedulePresentation)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScheduleTrack)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -785,25 +673,14 @@ namespace F1Aggregator
             this.groupBox12.PerformLayout();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.panelSchedule.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSchedulePresentation)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScheduleTrack)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButtonSchedule1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton toolStripButtonResults1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripButton toolStripButtonStandings1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripButton toolStripButtonTeams1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBoxSchedulePresentation;
         private System.Windows.Forms.PictureBox pictureBoxScheduleTrack;
@@ -828,9 +705,6 @@ namespace F1Aggregator
         private System.Windows.Forms.Button buttonScheduleShow8;
         private System.Windows.Forms.GroupBox groupBox13;
         private System.Windows.Forms.Button buttonScheduleShow7;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Panel panelSchedule;
         private System.Windows.Forms.Label labelScheduleTime;
         private System.Windows.Forms.Label labelScheduleRaceName;

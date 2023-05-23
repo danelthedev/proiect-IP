@@ -8,11 +8,6 @@ namespace F1Aggregator
 {
     static class Program
     {
-        public static Schedule schedule;
-        public static Results results;
-        public static Standings standings;
-        public static Teams teams;
-        public static ExtendedResults extendedResults;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -22,14 +17,7 @@ namespace F1Aggregator
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            schedule = new Schedule();
-            results = new Results();
-            standings = new Standings();
-            teams = new Teams();
-            extendedResults = new ExtendedResults();
-
-            Application.Run(schedule);
+            Application.Run(new MainForm());
         }
     }
 }

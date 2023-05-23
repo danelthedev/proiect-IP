@@ -30,15 +30,6 @@ namespace F1Aggregator
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Teams));
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButtonSchedule4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButtonResults4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButtonStandings4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButtonTeams4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.panelTeams = new System.Windows.Forms.Panel();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.labelTeamsPTwo8 = new System.Windows.Forms.Label();
@@ -124,10 +115,6 @@ namespace F1Aggregator
             this.labelTeamsPoints1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBoxTeamsCar1 = new System.Windows.Forms.PictureBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip1.SuspendLayout();
             this.panelTeams.SuspendLayout();
             this.groupBox11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTeamsCar8)).BeginInit();
@@ -153,104 +140,13 @@ namespace F1Aggregator
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTeamsCar2)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTeamsCar1)).BeginInit();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.AutoSize = false;
-            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(212)))), ((int)(((byte)(244)))));
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButtonSchedule4,
-            this.toolStripSeparator1,
-            this.toolStripButtonResults4,
-            this.toolStripSeparator2,
-            this.toolStripButtonStandings4,
-            this.toolStripSeparator3,
-            this.toolStripButtonTeams4,
-            this.toolStripSeparator4});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStrip1.Size = new System.Drawing.Size(1084, 37);
-            this.toolStrip1.TabIndex = 2;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButtonSchedule4
-            // 
-            this.toolStripButtonSchedule4.AutoSize = false;
-            this.toolStripButtonSchedule4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonSchedule4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButtonSchedule4.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButtonSchedule4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonSchedule4.Name = "toolStripButtonSchedule4";
-            this.toolStripButtonSchedule4.Size = new System.Drawing.Size(258, 42);
-            this.toolStripButtonSchedule4.Text = "Schedule";
-            this.toolStripButtonSchedule4.Click += new System.EventHandler(this.toolStripButtonSchedule4_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 37);
-            // 
-            // toolStripButtonResults4
-            // 
-            this.toolStripButtonResults4.AutoSize = false;
-            this.toolStripButtonResults4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonResults4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButtonResults4.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButtonResults4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonResults4.Image")));
-            this.toolStripButtonResults4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonResults4.Name = "toolStripButtonResults4";
-            this.toolStripButtonResults4.Size = new System.Drawing.Size(258, 42);
-            this.toolStripButtonResults4.Text = "Results";
-            this.toolStripButtonResults4.Click += new System.EventHandler(this.toolStripButtonResults4_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 37);
-            // 
-            // toolStripButtonStandings4
-            // 
-            this.toolStripButtonStandings4.AutoSize = false;
-            this.toolStripButtonStandings4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonStandings4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButtonStandings4.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButtonStandings4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonStandings4.Image")));
-            this.toolStripButtonStandings4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonStandings4.Name = "toolStripButtonStandings4";
-            this.toolStripButtonStandings4.Size = new System.Drawing.Size(258, 42);
-            this.toolStripButtonStandings4.Text = "Standings";
-            this.toolStripButtonStandings4.Click += new System.EventHandler(this.toolStripButtonStandings4_Click);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 37);
-            // 
-            // toolStripButtonTeams4
-            // 
-            this.toolStripButtonTeams4.AutoSize = false;
-            this.toolStripButtonTeams4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonTeams4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButtonTeams4.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButtonTeams4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonTeams4.Image")));
-            this.toolStripButtonTeams4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonTeams4.Name = "toolStripButtonTeams4";
-            this.toolStripButtonTeams4.Size = new System.Drawing.Size(258, 42);
-            this.toolStripButtonTeams4.Text = "Teams";
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 37);
             // 
             // panelTeams
             // 
             this.panelTeams.AutoScroll = true;
-            this.panelTeams.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.panelTeams.BackColor = System.Drawing.Color.Transparent;
+            this.panelTeams.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelTeams.Controls.Add(this.groupBox11);
             this.panelTeams.Controls.Add(this.groupBox12);
             this.panelTeams.Controls.Add(this.groupBox9);
@@ -261,14 +157,15 @@ namespace F1Aggregator
             this.panelTeams.Controls.Add(this.groupBox4);
             this.panelTeams.Controls.Add(this.groupBox2);
             this.panelTeams.Controls.Add(this.groupBox1);
-            this.panelTeams.Location = new System.Drawing.Point(12, 40);
+            this.panelTeams.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelTeams.Location = new System.Drawing.Point(0, 0);
             this.panelTeams.Name = "panelTeams";
-            this.panelTeams.Size = new System.Drawing.Size(1072, 614);
+            this.panelTeams.Size = new System.Drawing.Size(1084, 681);
             this.panelTeams.TabIndex = 3;
             // 
             // groupBox11
             // 
-            this.groupBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox11.BackColor = System.Drawing.Color.Transparent;
             this.groupBox11.Controls.Add(this.labelTeamsPTwo8);
             this.groupBox11.Controls.Add(this.labelTeamsPOne8);
             this.groupBox11.Controls.Add(this.labelTeamsName8);
@@ -337,7 +234,7 @@ namespace F1Aggregator
             // 
             // groupBox12
             // 
-            this.groupBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox12.BackColor = System.Drawing.Color.Transparent;
             this.groupBox12.Controls.Add(this.labelTeamsPTwo7);
             this.groupBox12.Controls.Add(this.labelTeamsPOne7);
             this.groupBox12.Controls.Add(this.labelTeamsName7);
@@ -406,7 +303,7 @@ namespace F1Aggregator
             // 
             // groupBox9
             // 
-            this.groupBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox9.BackColor = System.Drawing.Color.Transparent;
             this.groupBox9.Controls.Add(this.labelTeamsPTwo6);
             this.groupBox9.Controls.Add(this.labelTeamsPOne6);
             this.groupBox9.Controls.Add(this.labelTeamsName6);
@@ -475,7 +372,7 @@ namespace F1Aggregator
             // 
             // groupBox10
             // 
-            this.groupBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox10.BackColor = System.Drawing.Color.Transparent;
             this.groupBox10.Controls.Add(this.labelTeamsPTwo5);
             this.groupBox10.Controls.Add(this.labelTeamsPOne5);
             this.groupBox10.Controls.Add(this.labelTeamsName5);
@@ -544,7 +441,7 @@ namespace F1Aggregator
             // 
             // groupBox5
             // 
-            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox5.BackColor = System.Drawing.Color.Transparent;
             this.groupBox5.Controls.Add(this.labelTeamsPTwo10);
             this.groupBox5.Controls.Add(this.labelTeamsPOne10);
             this.groupBox5.Controls.Add(this.labelTeamsName10);
@@ -613,7 +510,7 @@ namespace F1Aggregator
             // 
             // groupBox6
             // 
-            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox6.BackColor = System.Drawing.Color.Transparent;
             this.groupBox6.Controls.Add(this.labelTeamsPTwo9);
             this.groupBox6.Controls.Add(this.labelTeamsPOne9);
             this.groupBox6.Controls.Add(this.labelTeamsName9);
@@ -682,7 +579,7 @@ namespace F1Aggregator
             // 
             // groupBox3
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.labelTeamsPTwo4);
             this.groupBox3.Controls.Add(this.labelTeamsPOne4);
             this.groupBox3.Controls.Add(this.labelTeamsName4);
@@ -867,7 +764,7 @@ namespace F1Aggregator
             // 
             // groupBox4
             // 
-            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
             this.groupBox4.Controls.Add(this.labelTeamsPTwo3);
             this.groupBox4.Controls.Add(this.labelTeamsPOne3);
             this.groupBox4.Controls.Add(this.labelTeamsName3);
@@ -936,7 +833,7 @@ namespace F1Aggregator
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.labelTeamsPTwo2);
             this.groupBox2.Controls.Add(this.labelTeamsPOne2);
             this.groupBox2.Controls.Add(this.labelTeamsName2);
@@ -1005,7 +902,7 @@ namespace F1Aggregator
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.labelTeamsPTwo1);
             this.groupBox1.Controls.Add(this.labelTeamsPOne1);
             this.groupBox1.Controls.Add(this.labelTeamsName1);
@@ -1072,42 +969,17 @@ namespace F1Aggregator
             this.pictureBoxTeamsCar1.TabIndex = 4;
             this.pictureBoxTeamsCar1.TabStop = false;
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.helpToolStripMenuItem,
-            this.aboutToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 657);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1084, 24);
-            this.menuStrip1.TabIndex = 4;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem.Text = "About";
-            // 
             // Teams
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
+            this.BackgroundImage = global::F1Aggregator.Properties.Resources.backgroundTintBlur;
             this.ClientSize = new System.Drawing.Size(1084, 681);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panelTeams);
-            this.Controls.Add(this.toolStrip1);
             this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
@@ -1115,8 +987,6 @@ namespace F1Aggregator
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Teams";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Teams_FormClosed);
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.panelTeams.ResumeLayout(false);
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
@@ -1154,24 +1024,11 @@ namespace F1Aggregator
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTeamsCar1)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButtonSchedule4;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton toolStripButtonResults4;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripButton toolStripButtonStandings4;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripButton toolStripButtonTeams4;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.Panel panelTeams;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.PictureBox pictureBoxTeamsCar10;
@@ -1217,9 +1074,6 @@ namespace F1Aggregator
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Label labelTeamsPoints1;
         private System.Windows.Forms.Label labelTeamsPTwo8;
         private System.Windows.Forms.Label labelTeamsPOne8;

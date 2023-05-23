@@ -46,24 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DynamicFormObjs\GroupBoxReference.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="DynamicFormObjs\LabelReference.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="DynamicFormObjs\PictureBoxReference.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="DynamicFormObjs\ReadOnlyTBObjs.cs" />
-    <Compile Include="DynamicFormObjs\TextBoxReference.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="ExtendedResults.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExtendedResults.Designer.cs">
-      <DependentUpon>ExtendedResults.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,8 +78,8 @@
     <Compile Include="Teams.Designer.cs">
       <DependentUpon>Teams.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ExtendedResults.resx">
-      <DependentUpon>ExtendedResults.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -102,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Results.resx">
       <DependentUpon>Results.cs</DependentUpon>
@@ -127,6 +115,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\menuBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\TintedBackground.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\backgroundTintBlur.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
