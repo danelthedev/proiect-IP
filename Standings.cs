@@ -18,24 +18,6 @@ namespace F1Aggregator
             InitializeComponent();
         }
 
-        private void toolStripButtonSchedule3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Program.schedule.Show();
-        }
-
-        private void toolStripButtonResults3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Program.results.Show();
-        }
-
-        private void toolStripButtonTeams3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Program.teams.Show();
-        }
-
         private void buttonStandingsPlayers_Click(object sender, EventArgs e)
         {
             panelStandings.Controls.Clear();
