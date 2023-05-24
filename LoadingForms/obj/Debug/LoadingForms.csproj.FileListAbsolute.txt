@@ -1,0 +1,6 @@
+C:\Proiect_IP\LoadingForms\bin\Debug\LoadingForms.dll
+C:\Proiect_IP\LoadingForms\bin\Debug\LoadingForms.pdb
+C:\Proiect_IP\LoadingForms\obj\Debug\LoadingForms.csproj.AssemblyReference.cache
+C:\Proiect_IP\LoadingForms\obj\Debug\LoadingForms.csproj.CoreCompileInputs.cache
+C:\Proiect_IP\LoadingForms\obj\Debug\LoadingForms.dll
+C:\Proiect_IP\LoadingForms\obj\Debug\LoadingForms.pdb

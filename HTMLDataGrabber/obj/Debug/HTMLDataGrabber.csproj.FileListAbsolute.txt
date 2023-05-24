@@ -1,0 +1,10 @@
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\bin\Debug\HTMLDataGrabber.dll
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\bin\Debug\HTMLDataGrabber.pdb
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\obj\Debug\HTMLDataGrabber.csproj.AssemblyReference.cache
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\obj\Debug\HTMLDataGrabber.csproj.CoreCompileInputs.cache
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\obj\Debug\HTMLDataGrabber.csproj.CopyComplete
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\obj\Debug\HTMLDataGrabber.dll
+C:\Users\Danel\Desktop\proiect ip\HTMLDataGrabber\obj\Debug\HTMLDataGrabber.pdb
