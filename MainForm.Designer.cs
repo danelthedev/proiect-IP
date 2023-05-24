@@ -30,12 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panelTabs = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonHome = new System.Windows.Forms.Button();
             this.buttonAbout = new System.Windows.Forms.Button();
             this.buttonHelp = new System.Windows.Forms.Button();
             this.buttonResults = new System.Windows.Forms.Button();
             this.buttonTeams = new System.Windows.Forms.Button();
             this.buttonStandings = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonSchedule = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.panelTabs.SuspendLayout();
@@ -45,18 +46,47 @@
             // panelTabs
             // 
             this.panelTabs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
+            this.panelTabs.Controls.Add(this.pictureBox1);
+            this.panelTabs.Controls.Add(this.buttonHome);
             this.panelTabs.Controls.Add(this.buttonAbout);
             this.panelTabs.Controls.Add(this.buttonHelp);
             this.panelTabs.Controls.Add(this.buttonResults);
             this.panelTabs.Controls.Add(this.buttonTeams);
             this.panelTabs.Controls.Add(this.buttonStandings);
-            this.panelTabs.Controls.Add(this.pictureBox1);
             this.panelTabs.Controls.Add(this.buttonSchedule);
             this.panelTabs.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelTabs.Location = new System.Drawing.Point(0, 0);
             this.panelTabs.Name = "panelTabs";
             this.panelTabs.Size = new System.Drawing.Size(270, 681);
             this.panelTabs.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::F1Aggregator.Properties.Resources.logo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(241, 174);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // buttonHome
+            // 
+            this.buttonHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
+            this.buttonHome.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.buttonHome.FlatAppearance.BorderSize = 0;
+            this.buttonHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHome.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHome.ForeColor = System.Drawing.Color.White;
+            this.buttonHome.Location = new System.Drawing.Point(33, 219);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(196, 41);
+            this.buttonHome.TabIndex = 10;
+            this.buttonHome.Text = "Home";
+            this.buttonHome.UseVisualStyleBackColor = false;
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // buttonAbout
             // 
@@ -66,7 +96,7 @@
             this.buttonAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAbout.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAbout.ForeColor = System.Drawing.Color.White;
-            this.buttonAbout.Location = new System.Drawing.Point(33, 462);
+            this.buttonAbout.Location = new System.Drawing.Point(33, 501);
             this.buttonAbout.Name = "buttonAbout";
             this.buttonAbout.Size = new System.Drawing.Size(196, 41);
             this.buttonAbout.TabIndex = 9;
@@ -81,7 +111,7 @@
             this.buttonHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHelp.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonHelp.ForeColor = System.Drawing.Color.White;
-            this.buttonHelp.Location = new System.Drawing.Point(33, 415);
+            this.buttonHelp.Location = new System.Drawing.Point(33, 454);
             this.buttonHelp.Name = "buttonHelp";
             this.buttonHelp.Size = new System.Drawing.Size(196, 41);
             this.buttonHelp.TabIndex = 8;
@@ -96,7 +126,7 @@
             this.buttonResults.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonResults.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonResults.ForeColor = System.Drawing.Color.White;
-            this.buttonResults.Location = new System.Drawing.Point(33, 368);
+            this.buttonResults.Location = new System.Drawing.Point(33, 407);
             this.buttonResults.Name = "buttonResults";
             this.buttonResults.Size = new System.Drawing.Size(196, 41);
             this.buttonResults.TabIndex = 7;
@@ -112,7 +142,7 @@
             this.buttonTeams.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonTeams.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTeams.ForeColor = System.Drawing.Color.White;
-            this.buttonTeams.Location = new System.Drawing.Point(33, 321);
+            this.buttonTeams.Location = new System.Drawing.Point(33, 360);
             this.buttonTeams.Name = "buttonTeams";
             this.buttonTeams.Size = new System.Drawing.Size(196, 41);
             this.buttonTeams.TabIndex = 6;
@@ -128,24 +158,13 @@
             this.buttonStandings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonStandings.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonStandings.ForeColor = System.Drawing.Color.White;
-            this.buttonStandings.Location = new System.Drawing.Point(33, 274);
+            this.buttonStandings.Location = new System.Drawing.Point(33, 313);
             this.buttonStandings.Name = "buttonStandings";
             this.buttonStandings.Size = new System.Drawing.Size(196, 41);
             this.buttonStandings.TabIndex = 5;
             this.buttonStandings.Text = "Standings";
             this.buttonStandings.UseVisualStyleBackColor = false;
             this.buttonStandings.Click += new System.EventHandler(this.buttonStandings_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::F1Aggregator.Properties.Resources.logo;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(241, 174);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // buttonSchedule
             // 
@@ -155,7 +174,7 @@
             this.buttonSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSchedule.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSchedule.ForeColor = System.Drawing.Color.White;
-            this.buttonSchedule.Location = new System.Drawing.Point(33, 227);
+            this.buttonSchedule.Location = new System.Drawing.Point(33, 266);
             this.buttonSchedule.Name = "buttonSchedule";
             this.buttonSchedule.Size = new System.Drawing.Size(196, 41);
             this.buttonSchedule.TabIndex = 1;
@@ -166,7 +185,7 @@
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.DarkGray;
-            this.mainPanel.BackgroundImage = global::F1Aggregator.Properties.Resources.TintedBackground;
+            this.mainPanel.BackgroundImage = global::F1Aggregator.Properties.Resources.menuBG;
             this.mainPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(270, 0);
@@ -206,5 +225,6 @@
         private System.Windows.Forms.Button buttonStandings;
         private System.Windows.Forms.Button buttonAbout;
         private System.Windows.Forms.Button buttonHelp;
+        private System.Windows.Forms.Button buttonHome;
     }
 }

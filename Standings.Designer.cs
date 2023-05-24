@@ -30,38 +30,12 @@ namespace F1Aggregator
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Standings));
-            this.buttonStandingsPlayers = new System.Windows.Forms.Button();
-            this.buttonStandingsTeams = new System.Windows.Forms.Button();
             this.panelStandings = new System.Windows.Forms.Panel();
             this.panelMenuButtons = new System.Windows.Forms.Panel();
+            this.buttonStandingsPlayers = new System.Windows.Forms.Button();
+            this.buttonStandingsTeams = new System.Windows.Forms.Button();
             this.panelMenuButtons.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // buttonStandingsPlayers
-            // 
-            this.buttonStandingsPlayers.BackColor = System.Drawing.Color.Black;
-            this.buttonStandingsPlayers.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonStandingsPlayers.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonStandingsPlayers.Location = new System.Drawing.Point(384, 22);
-            this.buttonStandingsPlayers.Name = "buttonStandingsPlayers";
-            this.buttonStandingsPlayers.Size = new System.Drawing.Size(142, 31);
-            this.buttonStandingsPlayers.TabIndex = 3;
-            this.buttonStandingsPlayers.Text = "Players";
-            this.buttonStandingsPlayers.UseVisualStyleBackColor = false;
-            this.buttonStandingsPlayers.Click += new System.EventHandler(this.buttonStandingsPlayers_Click);
-            // 
-            // buttonStandingsTeams
-            // 
-            this.buttonStandingsTeams.BackColor = System.Drawing.Color.Black;
-            this.buttonStandingsTeams.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonStandingsTeams.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonStandingsTeams.Location = new System.Drawing.Point(545, 22);
-            this.buttonStandingsTeams.Name = "buttonStandingsTeams";
-            this.buttonStandingsTeams.Size = new System.Drawing.Size(142, 31);
-            this.buttonStandingsTeams.TabIndex = 4;
-            this.buttonStandingsTeams.Text = "Teams";
-            this.buttonStandingsTeams.UseVisualStyleBackColor = false;
-            this.buttonStandingsTeams.Click += new System.EventHandler(this.buttonStandingsTeams_Click);
             // 
             // panelStandings
             // 
@@ -83,16 +57,50 @@ namespace F1Aggregator
             this.panelMenuButtons.Size = new System.Drawing.Size(1084, 100);
             this.panelMenuButtons.TabIndex = 6;
             // 
+            // buttonStandingsPlayers
+            // 
+            this.buttonStandingsPlayers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
+            this.buttonStandingsPlayers.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.buttonStandingsPlayers.FlatAppearance.BorderSize = 0;
+            this.buttonStandingsPlayers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonStandingsPlayers.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStandingsPlayers.ForeColor = System.Drawing.Color.White;
+            this.buttonStandingsPlayers.Location = new System.Drawing.Point(392, 22);
+            this.buttonStandingsPlayers.Name = "buttonStandingsPlayers";
+            this.buttonStandingsPlayers.Size = new System.Drawing.Size(147, 41);
+            this.buttonStandingsPlayers.TabIndex = 13;
+            this.buttonStandingsPlayers.Text = "Players";
+            this.buttonStandingsPlayers.UseVisualStyleBackColor = false;
+            this.buttonStandingsPlayers.Click += new System.EventHandler(this.buttonStandingsPlayers_Click);
+            // 
+            // buttonStandingsTeams
+            // 
+            this.buttonStandingsTeams.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
+            this.buttonStandingsTeams.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.buttonStandingsTeams.FlatAppearance.BorderSize = 0;
+            this.buttonStandingsTeams.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonStandingsTeams.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStandingsTeams.ForeColor = System.Drawing.Color.White;
+            this.buttonStandingsTeams.Location = new System.Drawing.Point(545, 22);
+            this.buttonStandingsTeams.Name = "buttonStandingsTeams";
+            this.buttonStandingsTeams.Size = new System.Drawing.Size(147, 41);
+            this.buttonStandingsTeams.TabIndex = 14;
+            this.buttonStandingsTeams.Text = "Teams";
+            this.buttonStandingsTeams.UseVisualStyleBackColor = false;
+            this.buttonStandingsTeams.Click += new System.EventHandler(this.buttonStandingsTeams_Click);
+            // 
             // Standings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(48)))), ((int)(((byte)(58)))));
-            this.BackgroundImage = global::F1Aggregator.Properties.Resources.backgroundTintBlur;
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::F1Aggregator.Properties.Resources.standingsBG_2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1084, 681);
             this.Controls.Add(this.panelStandings);
             this.Controls.Add(this.panelMenuButtons);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -107,9 +115,9 @@ namespace F1Aggregator
         }
 
         #endregion
-        private System.Windows.Forms.Button buttonStandingsPlayers;
-        private System.Windows.Forms.Button buttonStandingsTeams;
         private System.Windows.Forms.Panel panelStandings;
         private System.Windows.Forms.Panel panelMenuButtons;
+        private System.Windows.Forms.Button buttonStandingsPlayers;
+        private System.Windows.Forms.Button buttonStandingsTeams;
     }
 }

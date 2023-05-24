@@ -63,16 +63,6 @@ namespace F1Aggregator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap backgroundTintBlur {
-            get {
-                object obj = ResourceManager.GetObject("backgroundTintBlur", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
@@ -83,9 +73,9 @@ namespace F1Aggregator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap menuBackground {
+        internal static System.Drawing.Bitmap menuBG {
             get {
-                object obj = ResourceManager.GetObject("menuBackground", resourceCulture);
+                object obj = ResourceManager.GetObject("menuBG", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +83,79 @@ namespace F1Aggregator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TintedBackground {
+        internal static System.Drawing.Bitmap ResultsBG {
             get {
-                object obj = ResourceManager.GetObject("TintedBackground", resourceCulture);
+                object obj = ResourceManager.GetObject("ResultsBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ResultsBG_v2 {
+            get {
+                object obj = ResourceManager.GetObject("ResultsBG_v2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ScheduleBG {
+            get {
+                object obj = ResourceManager.GetObject("ScheduleBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ScheduleBG_v2 {
+            get {
+                object obj = ResourceManager.GetObject("ScheduleBG_v2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap standingsBG {
+            get {
+                object obj = ResourceManager.GetObject("standingsBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap standingsBG_2 {
+            get {
+                object obj = ResourceManager.GetObject("standingsBG_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap teamsBG {
+            get {
+                object obj = ResourceManager.GetObject("teamsBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap teamsBG_v2 {
+            get {
+                object obj = ResourceManager.GetObject("teamsBG_v2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

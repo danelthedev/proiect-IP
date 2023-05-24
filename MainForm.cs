@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LoadingForms;
 
 namespace F1Aggregator
 {
@@ -17,38 +18,30 @@ namespace F1Aggregator
             InitializeComponent();
         }
 
-        public void loadform(object Form)
-        {
-            if(this.mainPanel.Controls.Count > 0) 
-            {
-                this.mainPanel.Controls.RemoveAt(0);
-            }
-            Form frm = Form as Form;
-            frm.TopLevel = false;
-            frm.Dock = DockStyle.Fill;
-            this.mainPanel.Controls.Add(frm);
-            this.mainPanel.Tag = frm;
-            frm.Show();
-        }
-
         private void buttonSchedule_Click(object sender, EventArgs e)
         {
-            loadform(new Schedule());
+            LoadForm.AddForms(this.mainPanel, new Schedule());
         }
 
         private void buttonStandings_Click(object sender, EventArgs e)
         {
-            loadform(new Standings());
+            LoadForm.AddForms(this.mainPanel, new Standings());
         }
 
         private void buttonTeams_Click(object sender, EventArgs e)
         {
-            loadform(new Teams());
+            LoadForm.AddForms(this.mainPanel, new Teams());
+
         }
 
         private void buttonResults_Click(object sender, EventArgs e)
         {
-            loadform(new Results());
+            LoadForm.AddForms(this.mainPanel, new Results());
+        }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            this.mainPanel.Controls.Clear();
         }
     }
 }

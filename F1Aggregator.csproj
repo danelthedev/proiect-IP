@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LoadingForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\LoadingForms.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,6 +58,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Results.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,14 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Results.resx">
       <DependentUpon>Results.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +131,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\backgroundTintBlur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\342819.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\menuBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ScheduleBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ResultsBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ResultBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\standingsBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\StandingsBG_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\teamsBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ResultsBG_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ScheduleBG_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\standingsBG_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\teamsBG_v2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
