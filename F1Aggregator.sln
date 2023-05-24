@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Aggregator", "F1Aggregator.csproj", "{5C7387E7-C889-47F0-8BC8-0931EFB43961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingForms", "..\LoadingForms\LoadingForms.csproj", "{D64E37BD-6033-4935-8120-85E5B6874740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C7387E7-C889-47F0-8BC8-0931EFB43961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7387E7-C889-47F0-8BC8-0931EFB43961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7387E7-C889-47F0-8BC8-0931EFB43961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7387E7-C889-47F0-8BC8-0931EFB43961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64E37BD-6033-4935-8120-85E5B6874740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64E37BD-6033-4935-8120-85E5B6874740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64E37BD-6033-4935-8120-85E5B6874740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64E37BD-6033-4935-8120-85E5B6874740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEB1571A-09F2-4356-8E73-D4486681C7A2}
+	EndGlobalSection
+EndGlobal
