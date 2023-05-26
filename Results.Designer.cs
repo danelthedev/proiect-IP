@@ -160,6 +160,7 @@ namespace F1Aggregator
             this.panelResults.Name = "panelResults";
             this.panelResults.Size = new System.Drawing.Size(1084, 681);
             this.panelResults.TabIndex = 1;
+            this.panelResults.Paint += new System.Windows.Forms.PaintEventHandler(this.panelResults_Paint);
             // 
             // groupBox3
             // 

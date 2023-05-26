@@ -21,5 +21,10 @@ namespace F1Aggregator
         {
             Application.Exit();
         }
+
+        private void panelTeams_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

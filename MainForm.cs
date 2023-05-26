@@ -20,28 +20,38 @@ namespace F1Aggregator
 
         private void buttonSchedule_Click(object sender, EventArgs e)
         {
-            LoadForm.AddForms(this.mainPanel, new Schedule());
+            Program.state = new ScheduleState(Program.state.Context);
+            Program.state.loadPage();
         }
 
         private void buttonStandings_Click(object sender, EventArgs e)
         {
-            LoadForm.AddForms(this.mainPanel, new Standings());
+            Program.state = new StandingsState(Program.state.Context);
+            Program.state.loadPage();
         }
 
         private void buttonTeams_Click(object sender, EventArgs e)
         {
-            LoadForm.AddForms(this.mainPanel, new Teams());
-
+            Program.state = new TeamsState(Program.state.Context);
+            Program.state.loadPage();
         }
 
         private void buttonResults_Click(object sender, EventArgs e)
         {
-            LoadForm.AddForms(this.mainPanel, new Results());
+            Program.state = new ResultsState(Program.state.Context);
+            Program.state.loadPage();
         }
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
             this.mainPanel.Controls.Clear();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            Program.state.Context = this.mainPanel;
+            //Program.state = new HomeState();
+            //Program.state.loadPage();
         }
     }
 }

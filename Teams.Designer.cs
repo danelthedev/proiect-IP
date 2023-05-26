@@ -162,6 +162,7 @@ namespace F1Aggregator
             this.panelTeams.Name = "panelTeams";
             this.panelTeams.Size = new System.Drawing.Size(1084, 681);
             this.panelTeams.TabIndex = 3;
+            this.panelTeams.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTeams_Paint);
             // 
             // groupBox11
             // 

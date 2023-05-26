@@ -18,5 +18,10 @@ namespace F1Aggregator
         {
             InitializeComponent();
         }
+
+        private void panelResults_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

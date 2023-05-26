@@ -85,41 +85,6 @@ namespace F1Aggregator
             }
         }
 
-    private void CreateDynamicTablePlayers()
-        {
-            //Create the DataGridView
-            _dataGridView1 = new DataGridView();
-            _dataGridView1.Dock = DockStyle.Fill;
-
-
-            //Set properties for the DataGridView
-            _dataGridView1.Name = "dynamicDataGridView";
-            _dataGridView1.Location = new Point(30, 10);
-            _dataGridView1.Size = new Size(1000, 500);
-
-            //Add the DataGridView to the form's controls
-            panelStandings.Controls.Add(_dataGridView1);
-
-            //Add columns to the DataGridView
-            _dataGridView1.Columns.Add("Position", "Position");
-            _dataGridView1.Columns["Position"].Width = 200;
-
-            _dataGridView1.Columns.Add("Name", "Name");
-            _dataGridView1.Columns["Name"].Width = 200;
-
-            _dataGridView1.Columns.Add("Nationality", "Nationality");
-            _dataGridView1.Columns["Nationality"].Width = 200;
-
-            _dataGridView1.Columns.Add("Car", "Car");
-            _dataGridView1.Columns["Car"].Width = 200;
-
-            _dataGridView1.Columns.Add("Points", "Points");
-            _dataGridView1.Columns["Points"].Width = 157;
-
-            //Add rows to the DataGridView
-            _dataGridView1.Rows.Add("Value1", "Value2", "Value3", "Value4", "Value5");
-        }
-
         private void Standings_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
@@ -176,6 +141,42 @@ namespace F1Aggregator
             }
         }
 
+        /*
+        private void CreateDynamicTablePlayers()
+        {
+            //Create the DataGridView
+            _dataGridView1 = new DataGridView();
+            _dataGridView1.Dock = DockStyle.Fill;
+
+
+            //Set properties for the DataGridView
+            _dataGridView1.Name = "dynamicDataGridView";
+            _dataGridView1.Location = new Point(30, 10);
+            _dataGridView1.Size = new Size(1000, 500);
+
+            //Add the DataGridView to the form's controls
+            panelStandings.Controls.Add(_dataGridView1);
+
+            //Add columns to the DataGridView
+            _dataGridView1.Columns.Add("Position", "Position");
+            _dataGridView1.Columns["Position"].Width = 200;
+
+            _dataGridView1.Columns.Add("Name", "Name");
+            _dataGridView1.Columns["Name"].Width = 200;
+
+            _dataGridView1.Columns.Add("Nationality", "Nationality");
+            _dataGridView1.Columns["Nationality"].Width = 200;
+
+            _dataGridView1.Columns.Add("Car", "Car");
+            _dataGridView1.Columns["Car"].Width = 200;
+
+            _dataGridView1.Columns.Add("Points", "Points");
+            _dataGridView1.Columns["Points"].Width = 157;
+
+            //Add rows to the DataGridView
+            _dataGridView1.Rows.Add("Value1", "Value2", "Value3", "Value4", "Value5");
+        }
+
         private void CreateDynamicTableTeams()
         {
             //Create the DataGridView
@@ -203,5 +204,6 @@ namespace F1Aggregator
             //Add rows to the DataGridView
             _dataGridView2.Rows.Add("Value1", "Value2", "Value3");
         }
+        */
     }
 }
