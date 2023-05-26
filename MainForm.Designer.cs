@@ -102,6 +102,7 @@
             this.buttonAbout.TabIndex = 9;
             this.buttonAbout.Text = "About";
             this.buttonAbout.UseVisualStyleBackColor = false;
+            this.buttonAbout.Click += new System.EventHandler(this.buttonAbout_Click);
             // 
             // buttonHelp
             // 
@@ -208,6 +209,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F1 Aggregator";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.panelTabs.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

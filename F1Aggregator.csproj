@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppState.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +168,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\teamsBG_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HTMLDataGrabber\HTMLDataGrabber.csproj">
+      <Project>{c56275b0-33d2-49b9-a045-05118a3c025e}</Project>
+      <Name>HTMLDataGrabber</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
