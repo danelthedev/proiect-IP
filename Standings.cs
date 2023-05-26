@@ -1,4 +1,23 @@
-﻿using HTMLDataGrabber;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Standings.cs                                             *
+ *  Copyright:   (c) 2023, Hrițcu Marina-Dumitrița                        *
+ *  E-mail:      marina-dumitrita.hritcu@student.tuiasi.ro                *
+ *  Description: It represents the page dedicated to the results, where   *
+ *               we display the ranking of the pilots, but also of the    *
+ *               teams.                                                   *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using HTMLDataGrabber;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -80,24 +99,24 @@ namespace F1Aggregator
                         // Data rows
                         switch (col) {
                             case 0:
-                                 label.Text = row.ToString();
+                                 label.Text = "                    " + row.ToString();
                             break;
                             case 1:
-                                label.Text = names1[row-1].Trim() + " " + names2[row - 1].Trim();
+                                label.Text = "          " + names1[row-1].Trim() + " " + names2[row - 1].Trim();
                             break;
                             case 2:
-                                label.Text = nationalities[row-1].Trim();
+                                label.Text = "                    " + nationalities[row-1].Trim();
                             break;
                             case 3:
                                 label.Text = cars[row-1].Trim();
                             break;
                             case 4:
-                                label.Text = points[row-1].Trim();
+                                label.Text = "                      " + points[row-1].Trim();
                             break;
                         }
                     }
 
-                label.Location = new Point(col * cellWidth, row * cellHeight);
+                    label.Location = new Point(col * cellWidth, row * cellHeight);
                     label.Size = new Size(cellWidth, cellHeight);
 
                     panelStandings.Controls.Add(label);
@@ -110,11 +129,11 @@ namespace F1Aggregator
         {
             switch (column)
             {
-                case 0: return "Position";
-                case 1: return "Name";
-                case 2: return "Nationality";
-                case 3: return "Car";
-                case 4: return "Points";
+                case 0: return "               Position";
+                case 1: return "               Name";
+                case 2: return "               Nationality";
+                case 3: return "                   Car";
+                case 4: return "                    Points";
                 default: return "";
             }
         }
@@ -156,13 +175,13 @@ namespace F1Aggregator
                         switch (col)
                         {
                             case 0:
-                                label.Text = row.ToString();
+                                label.Text = "                    " + row.ToString();
                                 break;
                             case 1:
                                 label.Text = teams[row - 1].Trim();
                                 break;
                             case 2:
-                                label.Text = points[row - 1].Trim();
+                                label.Text = "                 " + points[row - 1].Trim();
                                 break;
                         }
                     }
@@ -179,76 +198,11 @@ namespace F1Aggregator
         {
             switch (column)
             {
-                case 0: return "Position";
-                case 1: return "Name";
-                case 2: return "Points";
+                case 0: return "               Position";
+                case 1: return "                 Name";
+                case 2: return "               Points";
                 default: return "";
             }
         }
-
-        /*
-        private void CreateDynamicTablePlayers()
-        {
-            //Create the DataGridView
-            _dataGridView1 = new DataGridView();
-            _dataGridView1.Dock = DockStyle.Fill;
-
-
-            //Set properties for the DataGridView
-            _dataGridView1.Name = "dynamicDataGridView";
-            _dataGridView1.Location = new Point(30, 10);
-            _dataGridView1.Size = new Size(1000, 500);
-
-            //Add the DataGridView to the form's controls
-            panelStandings.Controls.Add(_dataGridView1);
-
-            //Add columns to the DataGridView
-            _dataGridView1.Columns.Add("Position", "Position");
-            _dataGridView1.Columns["Position"].Width = 200;
-
-            _dataGridView1.Columns.Add("Name", "Name");
-            _dataGridView1.Columns["Name"].Width = 200;
-
-            _dataGridView1.Columns.Add("Nationality", "Nationality");
-            _dataGridView1.Columns["Nationality"].Width = 200;
-
-            _dataGridView1.Columns.Add("Car", "Car");
-            _dataGridView1.Columns["Car"].Width = 200;
-
-            _dataGridView1.Columns.Add("Points", "Points");
-            _dataGridView1.Columns["Points"].Width = 157;
-
-            //Add rows to the DataGridView
-            _dataGridView1.Rows.Add("Value1", "Value2", "Value3", "Value4", "Value5");
-        }
-
-        private void CreateDynamicTableTeams()
-        {
-            //Create the DataGridView
-            _dataGridView2 = new DataGridView();
-
-            //Set properties for the DataGridView
-            _dataGridView2.Name = "dynamicDataGridView";
-            _dataGridView2.Location = new Point(30, 10);
-            _dataGridView2.Size = new Size(1000, 500);
-
-            //Add the DataGridView to the form's controls
-            panelStandings.Controls.Add(_dataGridView2);
-
-            //Add columns to the DataGridView
-            _dataGridView2.Columns.Add("Position", "Position");
-            _dataGridView2.Columns["Position"].Width = 319;
-
-            _dataGridView2.Columns.Add("Name", "Name");
-            _dataGridView2.Columns["Name"].Width = 319;
-
-            _dataGridView2.Columns.Add("Points", "Points");
-            _dataGridView2.Columns["Points"].Width = 319;
-
-
-            //Add rows to the DataGridView
-            _dataGridView2.Rows.Add("Value1", "Value2", "Value3");
-        }
-        */
     }
 }

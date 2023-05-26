@@ -1,4 +1,22 @@
-﻿using HTMLDataGrabber;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Results.cs                                               *
+ *  Copyright:   (c) 2023, Hrițcu Marina-Dumitrița                        *
+ *  E-mail:      marina-dumitrita.hritcu@student.tuiasi.ro                *
+ *  Description: It represents the page dedicated to the results of the   *
+ *               races that have taken place up to this moment.           *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using HTMLDataGrabber;
 using System.Collections.Generic;
 using System.Media;
 using System.Windows.Forms;

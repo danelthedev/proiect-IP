@@ -40,6 +40,8 @@ namespace F1Aggregator
             // panelStandings
             // 
             this.panelStandings.BackColor = System.Drawing.Color.Transparent;
+            this.panelStandings.BackgroundImage = global::F1Aggregator.Properties.Resources.standingsBG_2;
+            this.panelStandings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelStandings.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelStandings.Location = new System.Drawing.Point(0, 100);
             this.panelStandings.Name = "panelStandings";
@@ -48,7 +50,7 @@ namespace F1Aggregator
             // 
             // panelMenuButtons
             // 
-            this.panelMenuButtons.BackColor = System.Drawing.Color.Transparent;
+            this.panelMenuButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
             this.panelMenuButtons.Controls.Add(this.buttonStandingsTeams);
             this.panelMenuButtons.Controls.Add(this.buttonStandingsPlayers);
             this.panelMenuButtons.Dock = System.Windows.Forms.DockStyle.Top;
@@ -94,8 +96,7 @@ namespace F1Aggregator
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::F1Aggregator.Properties.Resources.standingsBG_2;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1084, 681);
             this.Controls.Add(this.panelStandings);

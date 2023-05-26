@@ -71,6 +71,7 @@ namespace F1Aggregator
             this.labelScheduleTime4 = new System.Windows.Forms.Label();
             this.labelScheduleName4 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.buttonScheduleShow10 = new System.Windows.Forms.Button();
             this.labelScheduleTime10 = new System.Windows.Forms.Label();
             this.labelScheduleName10 = new System.Windows.Forms.Label();
@@ -90,7 +91,6 @@ namespace F1Aggregator
             this.labelScheduleTime7 = new System.Windows.Forms.Label();
             this.labelScheduleName7 = new System.Windows.Forms.Label();
             this.panelSchedule = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScheduleTrack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSchedulePresentation)).BeginInit();
@@ -107,6 +107,7 @@ namespace F1Aggregator
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.groupBox11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.groupBox12.SuspendLayout();
@@ -114,7 +115,6 @@ namespace F1Aggregator
             this.groupBox13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panelSchedule.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -142,7 +142,7 @@ namespace F1Aggregator
             this.labelPractice2.AutoSize = true;
             this.labelPractice2.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPractice2.ForeColor = System.Drawing.Color.White;
-            this.labelPractice2.Location = new System.Drawing.Point(785, 103);
+            this.labelPractice2.Location = new System.Drawing.Point(804, 102);
             this.labelPractice2.Name = "labelPractice2";
             this.labelPractice2.Size = new System.Drawing.Size(93, 29);
             this.labelPractice2.TabIndex = 12;
@@ -153,7 +153,7 @@ namespace F1Aggregator
             this.labelScheduleTime.AutoSize = true;
             this.labelScheduleTime.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScheduleTime.ForeColor = System.Drawing.Color.White;
-            this.labelScheduleTime.Location = new System.Drawing.Point(785, 22);
+            this.labelScheduleTime.Location = new System.Drawing.Point(804, 21);
             this.labelScheduleTime.Name = "labelScheduleTime";
             this.labelScheduleTime.Size = new System.Drawing.Size(50, 29);
             this.labelScheduleTime.TabIndex = 7;
@@ -164,7 +164,7 @@ namespace F1Aggregator
             this.labelQuali.AutoSize = true;
             this.labelQuali.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelQuali.ForeColor = System.Drawing.Color.White;
-            this.labelQuali.Location = new System.Drawing.Point(785, 179);
+            this.labelQuali.Location = new System.Drawing.Point(804, 178);
             this.labelQuali.Name = "labelQuali";
             this.labelQuali.Size = new System.Drawing.Size(55, 29);
             this.labelQuali.TabIndex = 14;
@@ -175,7 +175,7 @@ namespace F1Aggregator
             this.labelScheduleRaceName.AutoSize = true;
             this.labelScheduleRaceName.Font = new System.Drawing.Font("Bahnschrift Condensed", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScheduleRaceName.ForeColor = System.Drawing.Color.White;
-            this.labelScheduleRaceName.Location = new System.Drawing.Point(21, 6);
+            this.labelScheduleRaceName.Location = new System.Drawing.Point(21, 22);
             this.labelScheduleRaceName.Name = "labelScheduleRaceName";
             this.labelScheduleRaceName.Size = new System.Drawing.Size(120, 36);
             this.labelScheduleRaceName.TabIndex = 6;
@@ -186,7 +186,7 @@ namespace F1Aggregator
             this.labelPractice3.AutoSize = true;
             this.labelPractice3.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPractice3.ForeColor = System.Drawing.Color.White;
-            this.labelPractice3.Location = new System.Drawing.Point(785, 141);
+            this.labelPractice3.Location = new System.Drawing.Point(804, 140);
             this.labelPractice3.Name = "labelPractice3";
             this.labelPractice3.Size = new System.Drawing.Size(93, 29);
             this.labelPractice3.TabIndex = 13;
@@ -195,10 +195,11 @@ namespace F1Aggregator
             // pictureBoxScheduleTrack
             // 
             this.pictureBoxScheduleTrack.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxScheduleTrack.Location = new System.Drawing.Point(18, 41);
+            this.pictureBoxScheduleTrack.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBoxScheduleTrack.Location = new System.Drawing.Point(18, 17);
             this.pictureBoxScheduleTrack.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxScheduleTrack.Name = "pictureBoxScheduleTrack";
-            this.pictureBoxScheduleTrack.Size = new System.Drawing.Size(192, 149);
+            this.pictureBoxScheduleTrack.Size = new System.Drawing.Size(280, 234);
             this.pictureBoxScheduleTrack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBoxScheduleTrack.TabIndex = 1;
             this.pictureBoxScheduleTrack.TabStop = false;
@@ -208,7 +209,7 @@ namespace F1Aggregator
             this.labelPractice1.AutoSize = true;
             this.labelPractice1.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPractice1.ForeColor = System.Drawing.Color.White;
-            this.labelPractice1.Location = new System.Drawing.Point(785, 64);
+            this.labelPractice1.Location = new System.Drawing.Point(804, 63);
             this.labelPractice1.Name = "labelPractice1";
             this.labelPractice1.Size = new System.Drawing.Size(89, 29);
             this.labelPractice1.TabIndex = 11;
@@ -219,7 +220,7 @@ namespace F1Aggregator
             this.labelRace.AutoSize = true;
             this.labelRace.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRace.ForeColor = System.Drawing.Color.White;
-            this.labelRace.Location = new System.Drawing.Point(785, 217);
+            this.labelRace.Location = new System.Drawing.Point(804, 216);
             this.labelRace.Name = "labelRace";
             this.labelRace.Size = new System.Drawing.Size(52, 29);
             this.labelRace.TabIndex = 15;
@@ -231,8 +232,8 @@ namespace F1Aggregator
             this.pictureBoxSchedulePresentation.Location = new System.Drawing.Point(329, 17);
             this.pictureBoxSchedulePresentation.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxSchedulePresentation.Name = "pictureBoxSchedulePresentation";
-            this.pictureBoxSchedulePresentation.Size = new System.Drawing.Size(721, 234);
-            this.pictureBoxSchedulePresentation.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSchedulePresentation.Size = new System.Drawing.Size(451, 234);
+            this.pictureBoxSchedulePresentation.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxSchedulePresentation.TabIndex = 3;
             this.pictureBoxSchedulePresentation.TabStop = false;
             // 
@@ -622,6 +623,17 @@ namespace F1Aggregator
             this.groupBox10.TabIndex = 12;
             this.groupBox10.TabStop = false;
             // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.Location = new System.Drawing.Point(94, 7);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(112, 85);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 25;
+            this.pictureBox10.TabStop = false;
+            // 
             // buttonScheduleShow10
             // 
             this.buttonScheduleShow10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
@@ -867,17 +879,6 @@ namespace F1Aggregator
             this.panelSchedule.TabIndex = 6;
             this.panelSchedule.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSchedule_Paint);
             // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Location = new System.Drawing.Point(94, 7);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(112, 85);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 25;
-            this.pictureBox10.TabStop = false;
-            // 
             // Schedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -921,6 +922,7 @@ namespace F1Aggregator
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -931,7 +933,6 @@ namespace F1Aggregator
             this.groupBox13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panelSchedule.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
         }

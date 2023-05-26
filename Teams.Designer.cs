@@ -146,6 +146,7 @@ namespace F1Aggregator
             // 
             this.panelTeams.AutoScroll = true;
             this.panelTeams.BackColor = System.Drawing.Color.Transparent;
+            this.panelTeams.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panelTeams.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelTeams.Controls.Add(this.groupBox11);
             this.panelTeams.Controls.Add(this.groupBox12);
@@ -214,10 +215,10 @@ namespace F1Aggregator
             // labelTeamsPoints8
             // 
             this.labelTeamsPoints8.AutoSize = true;
-            this.labelTeamsPoints8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints8.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints8.Location = new System.Drawing.Point(434, 18);
             this.labelTeamsPoints8.Name = "labelTeamsPoints8";
-            this.labelTeamsPoints8.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints8.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints8.TabIndex = 9;
             this.labelTeamsPoints8.Text = "a";
             // 
@@ -289,10 +290,10 @@ namespace F1Aggregator
             // labelTeamsPoints7
             // 
             this.labelTeamsPoints7.AutoSize = true;
-            this.labelTeamsPoints7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints7.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints7.Location = new System.Drawing.Point(433, 18);
             this.labelTeamsPoints7.Name = "labelTeamsPoints7";
-            this.labelTeamsPoints7.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints7.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints7.TabIndex = 9;
             this.labelTeamsPoints7.Text = "a";
             // 
@@ -364,10 +365,10 @@ namespace F1Aggregator
             // labelTeamsPoints6
             // 
             this.labelTeamsPoints6.AutoSize = true;
-            this.labelTeamsPoints6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints6.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints6.Location = new System.Drawing.Point(434, 11);
             this.labelTeamsPoints6.Name = "labelTeamsPoints6";
-            this.labelTeamsPoints6.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints6.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints6.TabIndex = 9;
             this.labelTeamsPoints6.Text = "a";
             // 
@@ -439,10 +440,10 @@ namespace F1Aggregator
             // labelTeamsPoints5
             // 
             this.labelTeamsPoints5.AutoSize = true;
-            this.labelTeamsPoints5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints5.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints5.Location = new System.Drawing.Point(433, 11);
             this.labelTeamsPoints5.Name = "labelTeamsPoints5";
-            this.labelTeamsPoints5.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints5.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints5.TabIndex = 9;
             this.labelTeamsPoints5.Text = "a";
             // 
@@ -514,10 +515,10 @@ namespace F1Aggregator
             // labelTeamsPoints10
             // 
             this.labelTeamsPoints10.AutoSize = true;
-            this.labelTeamsPoints10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints10.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints10.Location = new System.Drawing.Point(434, 14);
             this.labelTeamsPoints10.Name = "labelTeamsPoints10";
-            this.labelTeamsPoints10.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints10.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints10.TabIndex = 9;
             this.labelTeamsPoints10.Text = "a";
             // 
@@ -589,10 +590,10 @@ namespace F1Aggregator
             // labelTeamsPoints9
             // 
             this.labelTeamsPoints9.AutoSize = true;
-            this.labelTeamsPoints9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints9.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints9.Location = new System.Drawing.Point(433, 14);
             this.labelTeamsPoints9.Name = "labelTeamsPoints9";
-            this.labelTeamsPoints9.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints9.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints9.TabIndex = 9;
             this.labelTeamsPoints9.Text = "a";
             // 
@@ -666,10 +667,10 @@ namespace F1Aggregator
             // labelTeamsPoints4
             // 
             this.labelTeamsPoints4.AutoSize = true;
-            this.labelTeamsPoints4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints4.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints4.Location = new System.Drawing.Point(434, 14);
             this.labelTeamsPoints4.Name = "labelTeamsPoints4";
-            this.labelTeamsPoints4.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints4.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints4.TabIndex = 15;
             this.labelTeamsPoints4.Text = "a";
             // 
@@ -855,10 +856,10 @@ namespace F1Aggregator
             // labelTeamsPoints3
             // 
             this.labelTeamsPoints3.AutoSize = true;
-            this.labelTeamsPoints3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints3.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints3.Location = new System.Drawing.Point(433, 14);
             this.labelTeamsPoints3.Name = "labelTeamsPoints3";
-            this.labelTeamsPoints3.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints3.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints3.TabIndex = 9;
             this.labelTeamsPoints3.Text = "a";
             // 
@@ -930,10 +931,10 @@ namespace F1Aggregator
             // labelTeamsPoints2
             // 
             this.labelTeamsPoints2.AutoSize = true;
-            this.labelTeamsPoints2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints2.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints2.Location = new System.Drawing.Point(434, 16);
             this.labelTeamsPoints2.Name = "labelTeamsPoints2";
-            this.labelTeamsPoints2.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints2.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints2.TabIndex = 9;
             this.labelTeamsPoints2.Text = "a";
             // 
@@ -1005,10 +1006,10 @@ namespace F1Aggregator
             // labelTeamsPoints1
             // 
             this.labelTeamsPoints1.AutoSize = true;
-            this.labelTeamsPoints1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTeamsPoints1.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTeamsPoints1.Location = new System.Drawing.Point(433, 16);
             this.labelTeamsPoints1.Name = "labelTeamsPoints1";
-            this.labelTeamsPoints1.Size = new System.Drawing.Size(24, 25);
+            this.labelTeamsPoints1.Size = new System.Drawing.Size(23, 29);
             this.labelTeamsPoints1.TabIndex = 5;
             this.labelTeamsPoints1.Text = "a";
             // 
