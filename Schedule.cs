@@ -21,26 +21,8 @@ namespace F1Aggregator
 
         public void setSchedulePictures(string raceName)
         {
-            MemoryStream ms;
-            //get track image
-            byte[] trackImg = dataGrabber.DownloadImage("https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/Track%20icons%204x3/" + raceName + ".png.transform/2col/image.png");
-            
-            if(trackImg != null) { 
-                //set image of picturebox
-                ms = new MemoryStream(trackImg);
-                pictureBoxScheduleTrack.Image = Image.FromStream(ms);
-            }
-
-            //get presentation image
-            byte[] presentationImg = dataGrabber.DownloadImage("https://media.formula1.com/content/dam/fom-website/races/2023/race-listing/" + raceName + ".jpg.transform/9col/image.jpg");
-
-            if (presentationImg != null)
-            {
-                //set image of picturebox
-                ms = new MemoryStream(presentationImg);
-                pictureBoxSchedulePresentation.Image = Image.FromStream(ms);
-            }
-
+            pictureBoxScheduleTrack.ImageLocation = "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/Track%20icons%204x3/" + raceName + ".png.transform/2col/image.png";
+            pictureBoxSchedulePresentation.ImageLocation = "https://media.formula1.com/content/dam/fom-website/races/2023/race-listing/" + raceName + ".jpg.transform/9col/image.jpg";
         }
 
         public Schedule()

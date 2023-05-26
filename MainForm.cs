@@ -53,5 +53,10 @@ namespace F1Aggregator
             //Program.state = new HomeState();
             //Program.state.loadPage();
         }
+
+        private void buttonAbout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Proiect realizat de Arhip Alexandru Constantin, Hrițcu Marina Dumitrița și Imbrea Daniel.");
+        }
     }
 }

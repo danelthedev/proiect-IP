@@ -1,20 +1,26 @@
-﻿using System;
+﻿using HTMLDataGrabber;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace F1Aggregator
 {
     public partial class Standings : Form
     {
         private DataGridView _dataGridView1, _dataGridView2;
+        
+        public DataGrabber dataGrabber = new DataGrabber();
+
         public Standings()
         {
             InitializeComponent();
@@ -33,11 +39,21 @@ namespace F1Aggregator
             CreateDynamicTableTeamsV2();
         }
 
+
         //Creating table for players with no background, only with labels
         private void CreateDynamicTablePlayersV2()
         {
+            dataGrabber.setPage("https://www.formula1.com/en/results.html/2023/drivers.html");
+            //grab data from web
+            List<string> names1 = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]//span[not(contains(@class, 'uppercase hide-for-desktop'))][1]");
+            List<string> names2 = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]//span[not(contains(@class, 'uppercase hide-for-desktop'))][2]");
+            List<string> nationalities = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[4]");
+            List<string> cars = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[5]");
+            List<string> points = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[6]");
+
+
             var columnCount = 5;
-            var rowCount = 6;
+            var rowCount = 21;
 
             var cellWidth = ClientSize.Width / columnCount;
             var cellHeight = ClientSize.Height / rowCount;
@@ -51,7 +67,8 @@ namespace F1Aggregator
                     label.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F, System.Drawing.FontStyle.Bold);
                     label.ForeColor = System.Drawing.Color.White;
                     label.Name = "labelTablePlayers_" + row + "_" + col;
-                    label.TextAlign = ContentAlignment.MiddleCenter;
+                    label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+
 
                     if (row == 0)
                     {
@@ -61,15 +78,32 @@ namespace F1Aggregator
                     else
                     {
                         // Data rows
-                        //label.Text = GetCellData(row - 1, col);
+                        switch (col) {
+                            case 0:
+                                 label.Text = row.ToString();
+                            break;
+                            case 1:
+                                label.Text = names1[row-1].Trim() + " " + names2[row - 1].Trim();
+                            break;
+                            case 2:
+                                label.Text = nationalities[row-1].Trim();
+                            break;
+                            case 3:
+                                label.Text = cars[row-1].Trim();
+                            break;
+                            case 4:
+                                label.Text = points[row-1].Trim();
+                            break;
+                        }
                     }
 
-                    label.Location = new Point(col * cellWidth, row * cellHeight);
+                label.Location = new Point(col * cellWidth, row * cellHeight);
                     label.Size = new Size(cellWidth, cellHeight);
 
                     panelStandings.Controls.Add(label);
                 }
             }
+
         }
 
         private string GetHeaderLabel(int column)
@@ -85,17 +119,17 @@ namespace F1Aggregator
             }
         }
 
-        private void Standings_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
-        }
-
         //Creating table for teams with no background, only with labels
 
         private void CreateDynamicTableTeamsV2()
         {
+            dataGrabber.setPage("https://www.formula1.com/en/results.html/2023/team.html");
+            //grab data from web
+            List<string> teams = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]");
+            List<string> points = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[4]");
+
             var columnCount = 3;
-            var rowCount = 10;
+            var rowCount = 11;
 
             var cellWidth = ClientSize.Width / columnCount;
             var cellHeight = ClientSize.Height / rowCount;
@@ -109,7 +143,7 @@ namespace F1Aggregator
                     label.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F, System.Drawing.FontStyle.Bold);
                     label.ForeColor = System.Drawing.Color.White;
                     label.Name = "labelTablePlayers_" + row + "_" + col;
-                    label.TextAlign = ContentAlignment.MiddleCenter;
+                    label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 
                     if (row == 0)
                     {
@@ -119,7 +153,18 @@ namespace F1Aggregator
                     else
                     {
                         // Data rows
-                        //label.Text = GetCellDatav2(row - 1, col);
+                        switch (col)
+                        {
+                            case 0:
+                                label.Text = row.ToString();
+                                break;
+                            case 1:
+                                label.Text = teams[row - 1].Trim();
+                                break;
+                            case 2:
+                                label.Text = points[row - 1].Trim();
+                                break;
+                        }
                     }
 
                     label.Location = new Point(col * cellWidth, row * cellHeight);

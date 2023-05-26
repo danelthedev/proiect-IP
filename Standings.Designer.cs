@@ -32,8 +32,8 @@ namespace F1Aggregator
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Standings));
             this.panelStandings = new System.Windows.Forms.Panel();
             this.panelMenuButtons = new System.Windows.Forms.Panel();
-            this.buttonStandingsPlayers = new System.Windows.Forms.Button();
             this.buttonStandingsTeams = new System.Windows.Forms.Button();
+            this.buttonStandingsPlayers = new System.Windows.Forms.Button();
             this.panelMenuButtons.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,22 +57,6 @@ namespace F1Aggregator
             this.panelMenuButtons.Size = new System.Drawing.Size(1084, 100);
             this.panelMenuButtons.TabIndex = 6;
             // 
-            // buttonStandingsPlayers
-            // 
-            this.buttonStandingsPlayers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
-            this.buttonStandingsPlayers.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.buttonStandingsPlayers.FlatAppearance.BorderSize = 0;
-            this.buttonStandingsPlayers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonStandingsPlayers.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonStandingsPlayers.ForeColor = System.Drawing.Color.White;
-            this.buttonStandingsPlayers.Location = new System.Drawing.Point(392, 22);
-            this.buttonStandingsPlayers.Name = "buttonStandingsPlayers";
-            this.buttonStandingsPlayers.Size = new System.Drawing.Size(147, 41);
-            this.buttonStandingsPlayers.TabIndex = 13;
-            this.buttonStandingsPlayers.Text = "Players";
-            this.buttonStandingsPlayers.UseVisualStyleBackColor = false;
-            this.buttonStandingsPlayers.Click += new System.EventHandler(this.buttonStandingsPlayers_Click);
-            // 
             // buttonStandingsTeams
             // 
             this.buttonStandingsTeams.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
@@ -88,6 +72,22 @@ namespace F1Aggregator
             this.buttonStandingsTeams.Text = "Teams";
             this.buttonStandingsTeams.UseVisualStyleBackColor = false;
             this.buttonStandingsTeams.Click += new System.EventHandler(this.buttonStandingsTeams_Click);
+            // 
+            // buttonStandingsPlayers
+            // 
+            this.buttonStandingsPlayers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(31)))));
+            this.buttonStandingsPlayers.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.buttonStandingsPlayers.FlatAppearance.BorderSize = 0;
+            this.buttonStandingsPlayers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonStandingsPlayers.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStandingsPlayers.ForeColor = System.Drawing.Color.White;
+            this.buttonStandingsPlayers.Location = new System.Drawing.Point(392, 22);
+            this.buttonStandingsPlayers.Name = "buttonStandingsPlayers";
+            this.buttonStandingsPlayers.Size = new System.Drawing.Size(147, 41);
+            this.buttonStandingsPlayers.TabIndex = 13;
+            this.buttonStandingsPlayers.Text = "Players";
+            this.buttonStandingsPlayers.UseVisualStyleBackColor = false;
+            this.buttonStandingsPlayers.Click += new System.EventHandler(this.buttonStandingsPlayers_Click);
             // 
             // Standings
             // 
@@ -108,7 +108,6 @@ namespace F1Aggregator
             this.Name = "Standings";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Standings";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Standings_FormClosed);
             this.panelMenuButtons.ResumeLayout(false);
             this.ResumeLayout(false);
 
