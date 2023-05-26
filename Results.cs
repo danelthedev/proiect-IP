@@ -1,5 +1,6 @@
 ﻿using HTMLDataGrabber;
 using System.Collections.Generic;
+using System.Media;
 using System.Windows.Forms;
 
 //Comment
@@ -8,6 +9,7 @@ namespace F1Aggregator
     public partial class Results : Form
     {
         public static DataGrabber dataGrabber = new DataGrabber();
+        private static int verstappenCount = 0;
 
         public void setPicture(PictureBox pictureBox, string playerName)
         {
@@ -54,8 +56,23 @@ namespace F1Aggregator
                 setPicture(pictureBoxResults1stPlayer[4 - i], shortenName(labelResults1stPlayer[4 - i].Text));
                 setPicture(pictureBoxResults2stPlayer[4 - i], shortenName(labelResults2ndPlayer[4 - i].Text));
                 setPicture(pictureBoxResults3stPlayer[4 - i], shortenName(labelResults3rdPlayer[4 - i].Text));
+
+                if (labelResults1stPlayer[4 - i].Text == "Max Verstappen")
+                {
+                    pictureBoxResults1stPlayer[4 - i].Click += new System.EventHandler(this.pictureBoxResults1stPlayer_Click);
+                }
             }
 
+        }
+
+        private void pictureBoxResults1stPlayer_Click(object sender, System.EventArgs e)
+        {
+            verstappenCount++;
+            if(verstappenCount == 10)
+            {
+                SoundPlayer simpleSound = new SoundPlayer("./maxSong.wav");
+                simpleSound.Play();
+            }
         }
 
         private void panelResults_Paint(object sender, PaintEventArgs e)
