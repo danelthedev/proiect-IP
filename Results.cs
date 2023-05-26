@@ -13,7 +13,7 @@ namespace F1Aggregator
 
         public void setPicture(PictureBox pictureBox, string playerName)
         {
-            pictureBox.ImageLocation = "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Drivers/2018/" + playerName + "01.png.transform/2col/image.png";
+            pictureBox.ImageLocation = "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Drivers/2023/" + playerName + "01.png.transform/2col/image.png";
         }
 
         public string shortenName(string name)
