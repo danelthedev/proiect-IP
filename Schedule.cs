@@ -34,7 +34,7 @@ namespace F1Aggregator
             Label[] raceDateLabels = new Label[] { labelScheduleTime1, labelScheduleTime2, labelScheduleTime3, labelScheduleTime4, labelScheduleTime5, labelScheduleTime6, labelScheduleTime7, labelScheduleTime8, labelScheduleTime9, labelScheduleTime10 };
             Button[] buttons = new Button[] { buttonScheduleShow1, buttonScheduleShow2, buttonScheduleShow3, buttonScheduleShow4, buttonScheduleShow5, buttonScheduleShow6, buttonScheduleShow7, buttonScheduleShow8, buttonScheduleShow9, buttonScheduleShow10 };
 
-            PictureBox[] raceTrackPicture = new PictureBox[] { pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox6, pictureBox7, pictureBox8, pictureBox9, pictureBox10 };
+            PictureBox[] raceTrackPicture = new PictureBox[] { pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox7, pictureBox8, pictureBox9, pictureBox10 };
 
             dataGrabber.setPage("https://www.skysports.com/f1/schedule-results");
 
