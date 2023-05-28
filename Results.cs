@@ -1,8 +1,7 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        Results.cs                                               *
- *  Copyright:   (c) 2023, Hrițcu Marina-Dumitrița                        *
- *  E-mail:      marina-dumitrita.hritcu@student.tuiasi.ro                *
+ *  Copyright:   (c) 2023, Daniel, Marina, Alexandru                      *
  *  Description: It represents the page dedicated to the results of the   *
  *               races that have taken place up to this moment.           *
  *                                                                        *
@@ -15,7 +14,6 @@
  *                                                                        *
  **************************************************************************/
 
-
 using HTMLDataGrabber;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,32 +23,48 @@ using System.Windows.Forms;
 //Comment
 namespace F1Aggregator
 {
+    /// <summary>
+    /// Class for the results page.
+    /// </summary>
     public partial class Results : Form
     {
         public static DataGrabber dataGrabber = new DataGrabber();
-        private static int verstappenCount = 0;
+        private static int _verstappenCount = 0;
 
-        public void setPicture(PictureBox pictureBox, string playerName)
+        /// <summary>
+        /// Setting the picture for the player.
+        /// </summary>
+        /// <param name="pictureBox"></param>
+        /// <param name="playerName"></param>
+        public void SetPicture(PictureBox pictureBox, string playerName)
         {
             pictureBox.ImageLocation = "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Drivers/2023/" + playerName + "01.png.transform/2col/image.png";
         }
 
-        public string shortenName(string name)
+        /// <summary>
+        /// Getting the name of the player.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public string ShortenName(string name)
         {
             string[] splitName = name.Split(' ');
             string shortName = splitName[0].Substring(0, 3) + splitName[1].Substring(0, 3);
             return shortName;
         }
 
+        /// <summary>
+        /// Constructor for the class where we are getting the data from the website and displaying it.
+        /// </summary>
         public Results()
         {
             InitializeComponent();
-            dataGrabber.setPage("https://www.skysports.com/f1/schedule-results");
-            List<string> firstPlaces = dataGrabber.getTextListByXpath("(//a[@class='f1-races__race']//table[@class='standing-table__table']//tr[1]//td[@data-long-name])");
-            List<string> secondPlaces = dataGrabber.getTextListByXpath("(//a[@class='f1-races__race']//table[@class='standing-table__table']//tr[2]//td[@data-long-name])");
-            List<string> thirdPlaces = dataGrabber.getTextListByXpath("(//a[@class='f1-races__race']//table[@class='standing-table__table']//tr[3]//td[@data-long-name])");
-            List<string> locations = dataGrabber.getTextListByXpath("//a[@class='f1-races__race']//h2[@class='f1-races__race-name']");
-            List<string> dates = dataGrabber.getTextListByXpath("//a[@class='f1-races__race']//p[@class='f1-races__race-date']");
+            dataGrabber.SetPage("https://www.skysports.com/f1/schedule-results");
+            List<string> firstPlaces = dataGrabber.GetTextListByXpath("(//a[@class='f1-races__race']//table[@class='standing-table__table']//tr[1]//td[@data-long-name])");
+            List<string> secondPlaces = dataGrabber.GetTextListByXpath("(//a[@class='f1-races__race']//table[@class='standing-table__table']//tr[2]//td[@data-long-name])");
+            List<string> thirdPlaces = dataGrabber.GetTextListByXpath("(//a[@class='f1-races__race']//table[@class='standing-table__table']//tr[3]//td[@data-long-name])");
+            List<string> locations = dataGrabber.GetTextListByXpath("//a[@class='f1-races__race']//h2[@class='f1-races__race-name']");
+            List<string> dates = dataGrabber.GetTextListByXpath("//a[@class='f1-races__race']//p[@class='f1-races__race-date']");
 
             Label[] labelResults1stPlayer = { labelResults1stPlayer1, labelResults1stPlayer2, labelResults1stPlayer3, labelResults1stPlayer4, labelResults1stPlayer5 };
             Label[] labelResults2ndPlayer = { labelResults2ndPlayer1, labelResults2ndPlayer2, labelResults2ndPlayer3, labelResults2ndPlayer4, labelResults2ndPlayer5 };
@@ -73,29 +87,29 @@ namespace F1Aggregator
                 labelResultsLocations[i].Text = locations[firstPlaces.Count - i - 1].Trim();
                 labelResultsDates[i].Text = dates[i];
 
-                setPicture(pictureBoxResults1stPlayer[i], shortenName(labelResults1stPlayer[i].Text));
-                setPicture(pictureBoxResults2stPlayer[i], shortenName(labelResults2ndPlayer[i].Text));
-                setPicture(pictureBoxResults3stPlayer[i], shortenName(labelResults3rdPlayer[i].Text));
+                SetPicture(pictureBoxResults1stPlayer[i], ShortenName(labelResults1stPlayer[i].Text));
+                SetPicture(pictureBoxResults2stPlayer[i], ShortenName(labelResults2ndPlayer[i].Text));
+                SetPicture(pictureBoxResults3stPlayer[i], ShortenName(labelResults3rdPlayer[i].Text));
 
                 if (labelResults1stPlayer[i].Text == "Max Verstappen")
                 {
-                    pictureBoxResults1stPlayer[i].Click += new System.EventHandler(this.pictureBoxResults1stPlayer_Click);
+                    pictureBoxResults1stPlayer[i].Click += new System.EventHandler(this.PictureBoxResults1stPlayer_Click);
                 }
             }
 
         }
 
-        private void pictureBoxResults1stPlayer_Click(object sender, System.EventArgs e)
+        private void PictureBoxResults1stPlayer_Click(object sender, System.EventArgs e)
         {
-            verstappenCount++;
-            if(verstappenCount == 10)
+            _verstappenCount++;
+            if(_verstappenCount == 10)
             {
                 SoundPlayer simpleSound = new SoundPlayer("./maxSong.wav");
                 simpleSound.Play();
             }
         }
 
-        private void panelResults_Paint(object sender, PaintEventArgs e)
+        private void PanelResults_Paint(object sender, PaintEventArgs e)
         {
             
         }

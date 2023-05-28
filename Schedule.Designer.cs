@@ -877,7 +877,7 @@ namespace F1Aggregator
             this.panelSchedule.Name = "panelSchedule";
             this.panelSchedule.Size = new System.Drawing.Size(1084, 681);
             this.panelSchedule.TabIndex = 6;
-            this.panelSchedule.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSchedule_Paint);
+            this.panelSchedule.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelSchedule_Paint);
             // 
             // Schedule
             // 

@@ -60,6 +60,10 @@
       <Project>{c56275b0-33d2-49b9-a045-05118a3c025e}</Project>
       <Name>HTMLDataGrabber</Name>
     </ProjectReference>
+    <ProjectReference Include="..\F1Aggregator.csproj">
+      <Project>{5c7387e7-c889-47f0-8bc8-0931efb43961}</Project>
+      <Name>F1Aggregator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

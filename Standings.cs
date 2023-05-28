@@ -1,8 +1,7 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        Standings.cs                                             *
- *  Copyright:   (c) 2023, Hrițcu Marina-Dumitrița                        *
- *  E-mail:      marina-dumitrita.hritcu@student.tuiasi.ro                *
+ *  Copyright:   (c) 2023, Daniel, Marina, Alexandru                      *
  *  Description: It represents the page dedicated to the results, where   *
  *               we display the ranking of the pilots, but also of the    *
  *               teams.                                                   *
@@ -34,41 +33,47 @@ using System.Windows.Forms.VisualStyles;
 
 namespace F1Aggregator
 {
+    /// <summary>
+    /// Class that represents the standings page.
+    /// </summary>
     public partial class Standings : Form
-    {
-        private DataGridView _dataGridView1, _dataGridView2;
-        
+    {        
         public DataGrabber dataGrabber = new DataGrabber();
 
+        /// <summary>
+        /// Constructor of the class.
+        /// </summary>
         public Standings()
         {
             InitializeComponent();
             panelStandings.AutoScroll = true;
         }
 
-        private void buttonStandingsPlayers_Click(object sender, EventArgs e)
+        private void ButtonStandingsPlayers_Click(object sender, EventArgs e)
         {
             panelStandings.Controls.Clear();
             CreateDynamicTablePlayersV2();
         }
 
-        private void buttonStandingsTeams_Click(object sender, EventArgs e)
+        private void ButtonStandingsTeams_Click(object sender, EventArgs e)
         {
             panelStandings.Controls.Clear();
             CreateDynamicTableTeamsV2();
         }
 
 
-        //Creating table for players with no background, only with labels
+        /// <summary>
+        /// Creating table for players with no background, only with labels
+        /// </summary>
         private void CreateDynamicTablePlayersV2()
         {
-            dataGrabber.setPage("https://www.formula1.com/en/results.html/2023/drivers.html");
+            dataGrabber.SetPage("https://www.formula1.com/en/results.html/2023/drivers.html");
             //grab data from web
-            List<string> names1 = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]//span[not(contains(@class, 'uppercase hide-for-desktop'))][1]");
-            List<string> names2 = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]//span[not(contains(@class, 'uppercase hide-for-desktop'))][2]");
-            List<string> nationalities = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[4]");
-            List<string> cars = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[5]");
-            List<string> points = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[6]");
+            List<string> names1 = dataGrabber.GetTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]//span[not(contains(@class, 'uppercase hide-for-desktop'))][1]");
+            List<string> names2 = dataGrabber.GetTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]//span[not(contains(@class, 'uppercase hide-for-desktop'))][2]");
+            List<string> nationalities = dataGrabber.GetTextListByXpath("//table[@class='resultsarchive-table']//tr//td[4]");
+            List<string> cars = dataGrabber.GetTextListByXpath("//table[@class='resultsarchive-table']//tr//td[5]");
+            List<string> points = dataGrabber.GetTextListByXpath("//table[@class='resultsarchive-table']//tr//td[6]");
 
 
             var columnCount = 5;
@@ -125,6 +130,11 @@ namespace F1Aggregator
 
         }
 
+        /// <summary>
+        /// Method that returns the header label for the table.
+        /// </summary>
+        /// <param name="column"></param>
+        /// <returns></returns>
         private string GetHeaderLabel(int column)
         {
             switch (column)
@@ -138,14 +148,15 @@ namespace F1Aggregator
             }
         }
 
-        //Creating table for teams with no background, only with labels
-
+        /// <summary>
+        /// Creating table for teams with no background, only with labels
+        /// </summary>
         private void CreateDynamicTableTeamsV2()
         {
-            dataGrabber.setPage("https://www.formula1.com/en/results.html/2023/team.html");
+            dataGrabber.SetPage("https://www.formula1.com/en/results.html/2023/team.html");
             //grab data from web
-            List<string> teams = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]");
-            List<string> points = dataGrabber.getTextListByXpath("//table[@class='resultsarchive-table']//tr//td[4]");
+            List<string> teams = dataGrabber.GetTextListByXpath("//table[@class='resultsarchive-table']//tr//td[3]");
+            List<string> points = dataGrabber.GetTextListByXpath("//table[@class='resultsarchive-table']//tr//td[4]");
 
             var columnCount = 3;
             var rowCount = 11;
@@ -194,6 +205,11 @@ namespace F1Aggregator
             }
         }
 
+        /// <summary>
+        /// Method that returns the header label for the table.
+        /// </summary>
+        /// <param name="column"></param>
+        /// <returns></returns>
         private string GetHeaderLabelv2(int column)
         {
             switch (column)
