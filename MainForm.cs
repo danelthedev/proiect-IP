@@ -1,8 +1,7 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        MainForm.cs                                              *
- *  Copyright:   (c) 2023, Hrițcu Marina-Dumitrița                        *
- *  E-mail:      marina-dumitrita.hritcu@student.tuiasi.ro                *
+ *  Copyright:   (c) 2023, Daniel, Marina, Alexandru                      *
  *  Description: It represents the main menu where we load the other      *
  *               forms(pages).                                            *
  *                                                                        *
@@ -29,6 +28,9 @@ using LoadingForms;
 
 namespace F1Aggregator
 {
+    /// <summary>
+    /// This is the main form of the application. It contains the main menu and the main panel where the pages are loaded.
+    /// </summary>
     public partial class MainForm : Form
     {
         public MainForm()
@@ -36,31 +38,31 @@ namespace F1Aggregator
             InitializeComponent();
         }
 
-        private void buttonSchedule_Click(object sender, EventArgs e)
+        private void ButtonSchedule_Click(object sender, EventArgs e)
         {
             Program.state = new ScheduleState(Program.state.Context);
             Program.state.loadPage();
         }
 
-        private void buttonStandings_Click(object sender, EventArgs e)
+        private void ButtonStandings_Click(object sender, EventArgs e)
         {
             Program.state = new StandingsState(Program.state.Context);
             Program.state.loadPage();
         }
 
-        private void buttonTeams_Click(object sender, EventArgs e)
+        private void ButtonTeams_Click(object sender, EventArgs e)
         {
             Program.state = new TeamsState(Program.state.Context);
             Program.state.loadPage();
         }
 
-        private void buttonResults_Click(object sender, EventArgs e)
+        private void ButtonResults_Click(object sender, EventArgs e)
         {
             Program.state = new ResultsState(Program.state.Context);
             Program.state.loadPage();
         }
 
-        private void buttonHome_Click(object sender, EventArgs e)
+        private void ButtonHome_Click(object sender, EventArgs e)
         {
             this.mainPanel.Controls.Clear();
         }
@@ -72,9 +74,17 @@ namespace F1Aggregator
             //Program.state.loadPage();
         }
 
-        private void buttonAbout_Click(object sender, EventArgs e)
+        private void ButtonAbout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Proiect realizat de Arhip Alexandru Constantin, Hrițcu Marina Dumitrița și Imbrea Daniel.");
+            MessageBox.Show("Project made by: \n\n" +
+                "* Arhip Alexandru Constantin \n" +
+                "* Hrițcu Marina Dumitrița \n" +
+                "* Imbrea Daniel");
+        }
+
+        private void ButtonHelp_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "HelpF1Aggregator.chm");
         }
     }
 }

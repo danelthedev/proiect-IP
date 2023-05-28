@@ -73,7 +73,7 @@ namespace F1Aggregator
             this.buttonStandingsTeams.TabIndex = 14;
             this.buttonStandingsTeams.Text = "Teams";
             this.buttonStandingsTeams.UseVisualStyleBackColor = false;
-            this.buttonStandingsTeams.Click += new System.EventHandler(this.buttonStandingsTeams_Click);
+            this.buttonStandingsTeams.Click += new System.EventHandler(this.ButtonStandingsTeams_Click);
             // 
             // buttonStandingsPlayers
             // 
@@ -89,7 +89,7 @@ namespace F1Aggregator
             this.buttonStandingsPlayers.TabIndex = 13;
             this.buttonStandingsPlayers.Text = "Players";
             this.buttonStandingsPlayers.UseVisualStyleBackColor = false;
-            this.buttonStandingsPlayers.Click += new System.EventHandler(this.buttonStandingsPlayers_Click);
+            this.buttonStandingsPlayers.Click += new System.EventHandler(this.ButtonStandingsPlayers_Click);
             // 
             // Standings
             // 

@@ -86,7 +86,7 @@
             this.buttonHome.TabIndex = 10;
             this.buttonHome.Text = "Home";
             this.buttonHome.UseVisualStyleBackColor = false;
-            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
+            this.buttonHome.Click += new System.EventHandler(this.ButtonHome_Click);
             // 
             // buttonAbout
             // 
@@ -102,7 +102,7 @@
             this.buttonAbout.TabIndex = 9;
             this.buttonAbout.Text = "About";
             this.buttonAbout.UseVisualStyleBackColor = false;
-            this.buttonAbout.Click += new System.EventHandler(this.buttonAbout_Click);
+            this.buttonAbout.Click += new System.EventHandler(this.ButtonAbout_Click);
             // 
             // buttonHelp
             // 
@@ -118,6 +118,7 @@
             this.buttonHelp.TabIndex = 8;
             this.buttonHelp.Text = "Help";
             this.buttonHelp.UseVisualStyleBackColor = false;
+            this.buttonHelp.Click += new System.EventHandler(this.ButtonHelp_Click);
             // 
             // buttonResults
             // 
@@ -133,7 +134,7 @@
             this.buttonResults.TabIndex = 7;
             this.buttonResults.Text = "Results";
             this.buttonResults.UseVisualStyleBackColor = false;
-            this.buttonResults.Click += new System.EventHandler(this.buttonResults_Click);
+            this.buttonResults.Click += new System.EventHandler(this.ButtonResults_Click);
             // 
             // buttonTeams
             // 
@@ -149,7 +150,7 @@
             this.buttonTeams.TabIndex = 6;
             this.buttonTeams.Text = "Teams";
             this.buttonTeams.UseVisualStyleBackColor = false;
-            this.buttonTeams.Click += new System.EventHandler(this.buttonTeams_Click);
+            this.buttonTeams.Click += new System.EventHandler(this.ButtonTeams_Click);
             // 
             // buttonStandings
             // 
@@ -165,7 +166,7 @@
             this.buttonStandings.TabIndex = 5;
             this.buttonStandings.Text = "Standings";
             this.buttonStandings.UseVisualStyleBackColor = false;
-            this.buttonStandings.Click += new System.EventHandler(this.buttonStandings_Click);
+            this.buttonStandings.Click += new System.EventHandler(this.ButtonStandings_Click);
             // 
             // buttonSchedule
             // 
@@ -181,7 +182,7 @@
             this.buttonSchedule.TabIndex = 1;
             this.buttonSchedule.Text = "Schedule";
             this.buttonSchedule.UseVisualStyleBackColor = false;
-            this.buttonSchedule.Click += new System.EventHandler(this.buttonSchedule_Click);
+            this.buttonSchedule.Click += new System.EventHandler(this.ButtonSchedule_Click);
             // 
             // mainPanel
             // 
