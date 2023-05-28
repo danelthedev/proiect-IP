@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingForms", "..\LoadingF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLDataGrabber", "..\HTMLDataGrabber\HTMLDataGrabber.csproj", "{C56275B0-33D2-49B9-A045-05118A3C025E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLDataGrabberUnitTests", "..\HTMLDataGrabberUnitTests\HTMLDataGrabberUnitTests.csproj", "{5F36F916-62AF-4F6D-9C7D-025B3DDC66F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLDataGrabberUnitTests", "HTMLDataGrabberUnitTests\HTMLDataGrabberUnitTests.csproj", "{1EF4DA43-4D1A-4A8B-99DE-088794F91957}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{C56275B0-33D2-49B9-A045-05118A3C025E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56275B0-33D2-49B9-A045-05118A3C025E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C56275B0-33D2-49B9-A045-05118A3C025E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F36F916-62AF-4F6D-9C7D-025B3DDC66F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F36F916-62AF-4F6D-9C7D-025B3DDC66F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F36F916-62AF-4F6D-9C7D-025B3DDC66F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F36F916-62AF-4F6D-9C7D-025B3DDC66F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF4DA43-4D1A-4A8B-99DE-088794F91957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF4DA43-4D1A-4A8B-99DE-088794F91957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF4DA43-4D1A-4A8B-99DE-088794F91957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF4DA43-4D1A-4A8B-99DE-088794F91957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
