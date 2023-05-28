@@ -85,7 +85,7 @@ namespace F1Aggregator
                 labelResults2ndPlayer[i].Text = secondPlaces[firstPlaces.Count - i - 1].Trim();
                 labelResults3rdPlayer[i].Text = thirdPlaces[firstPlaces.Count - i - 1].Trim();
                 labelResultsLocations[i].Text = locations[firstPlaces.Count - i - 1].Trim();
-                labelResultsDates[i].Text = dates[i];
+                labelResultsDates[i].Text = dates[5 - i];
 
                 SetPicture(pictureBoxResults1stPlayer[i], ShortenName(labelResults1stPlayer[i].Text));
                 SetPicture(pictureBoxResults2stPlayer[i], ShortenName(labelResults2ndPlayer[i].Text));
