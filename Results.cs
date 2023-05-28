@@ -18,6 +18,7 @@
 
 using HTMLDataGrabber;
 using System.Collections.Generic;
+using System.Linq;
 using System.Media;
 using System.Windows.Forms;
 
@@ -65,19 +66,20 @@ namespace F1Aggregator
             //set text for all labels
             for (int i = 0; i < 5; i++)
             {
-                labelResults1stPlayer[4 - i].Text = firstPlaces[i].Trim();
-                labelResults2ndPlayer[4 - i].Text = secondPlaces[i].Trim();
-                labelResults3rdPlayer[4 - i].Text = thirdPlaces[i].Trim();
-                labelResultsLocations[4 - i].Text = locations[i].Trim();
-                labelResultsDates[4- i].Text = dates[i];
+                
+                labelResults1stPlayer[i].Text = firstPlaces[firstPlaces.Count - i - 1].Trim();
+                labelResults2ndPlayer[i].Text = secondPlaces[firstPlaces.Count - i - 1].Trim();
+                labelResults3rdPlayer[i].Text = thirdPlaces[firstPlaces.Count - i - 1].Trim();
+                labelResultsLocations[i].Text = locations[firstPlaces.Count - i - 1].Trim();
+                labelResultsDates[i].Text = dates[i];
 
-                setPicture(pictureBoxResults1stPlayer[4 - i], shortenName(labelResults1stPlayer[4 - i].Text));
-                setPicture(pictureBoxResults2stPlayer[4 - i], shortenName(labelResults2ndPlayer[4 - i].Text));
-                setPicture(pictureBoxResults3stPlayer[4 - i], shortenName(labelResults3rdPlayer[4 - i].Text));
+                setPicture(pictureBoxResults1stPlayer[i], shortenName(labelResults1stPlayer[i].Text));
+                setPicture(pictureBoxResults2stPlayer[i], shortenName(labelResults2ndPlayer[i].Text));
+                setPicture(pictureBoxResults3stPlayer[i], shortenName(labelResults3rdPlayer[i].Text));
 
-                if (labelResults1stPlayer[4 - i].Text == "Max Verstappen")
+                if (labelResults1stPlayer[i].Text == "Max Verstappen")
                 {
-                    pictureBoxResults1stPlayer[4 - i].Click += new System.EventHandler(this.pictureBoxResults1stPlayer_Click);
+                    pictureBoxResults1stPlayer[i].Click += new System.EventHandler(this.pictureBoxResults1stPlayer_Click);
                 }
             }
 
