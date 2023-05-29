@@ -29,6 +29,9 @@ using System.Windows.Forms;
 
 namespace F1Aggregator
 {
+    /// <summary>
+    /// Class for the teams page.
+    /// </summary>
     public partial class Teams : Form
     {
         public static DataGrabber dataGrabber = new DataGrabber();
