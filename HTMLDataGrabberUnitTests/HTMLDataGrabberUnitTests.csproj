@@ -56,13 +56,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\HTMLDataGrabber\HTMLDataGrabber.csproj">
-      <Project>{c56275b0-33d2-49b9-a045-05118a3c025e}</Project>
-      <Name>HTMLDataGrabber</Name>
-    </ProjectReference>
     <ProjectReference Include="..\F1Aggregator.csproj">
       <Project>{5c7387e7-c889-47f0-8bc8-0931efb43961}</Project>
       <Name>F1Aggregator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HTMLDataGrabber\HTMLDataGrabber.csproj">
+      <Project>{c56275b0-33d2-49b9-a045-05118a3c025e}</Project>
+      <Name>HTMLDataGrabber</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoadingForms\LoadingForms.csproj">
+      <Project>{d64e37bd-6033-4935-8120-85e5b6874740}</Project>
+      <Name>LoadingForms</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

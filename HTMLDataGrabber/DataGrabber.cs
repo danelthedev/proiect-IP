@@ -26,16 +26,28 @@ using HtmlAgilityPack;
 
 namespace HTMLDataGrabber
 {
+    /// <summary>
+    /// Class used to retrieve the information from formula 1 website.
+    /// </summary>
     public class DataGrabber
     {
         private string _url;
         
-        public void setPage(string url)
+        /// <summary>
+        /// Sets the page to be used.
+        /// </summary>
+        /// <param name="url"></param>
+        public void SetPage(string url)
         {
             _url = url;
         }
 
-        public string getTextById(string id)
+        /// <summary>
+        /// Get the text from a specific id.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public string GetTextById(string id)
         {
             HtmlWeb web = new HtmlWeb();
             HtmlDocument doc = web.Load(_url);
@@ -43,7 +55,12 @@ namespace HTMLDataGrabber
             return node.InnerText;
         }
 
-        public List<string> getTextListByXpath(string xpath)
+        /// <summary>
+        /// Get the entire text from a specific xpath.
+        /// </summary>
+        /// <param name="xpath"></param>
+        /// <returns></returns>
+        public List<string> GetTextListByXpath(string xpath)
         {
             HtmlWeb web = new HtmlWeb();
             HtmlDocument doc = web.Load(_url);
@@ -56,7 +73,12 @@ namespace HTMLDataGrabber
             return list;
         }
 
-        public string getTextByXpath(string xpath)
+        /// <summary>
+        /// Get the text from a specific xpath.
+        /// </summary>
+        /// <param name="xpath"></param>
+        /// <returns></returns>
+        public string GetTextByXpath(string xpath)
         {
             HtmlWeb web = new HtmlWeb();
             HtmlDocument doc = web.Load(_url);
@@ -64,6 +86,11 @@ namespace HTMLDataGrabber
             return node.InnerText;
         }
 
+        /// <summary>
+        /// Get the image from website.
+        /// </summary>
+        /// <param name="imageUrl"></param>
+        /// <returns></returns>
         public byte[] DownloadImage(string imageUrl)
         {
             try
