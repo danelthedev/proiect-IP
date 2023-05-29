@@ -38,6 +38,11 @@ namespace F1Aggregator
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Getting the drivers name by team name.
+        /// </summary>
+        /// <param name="teamName"></param>
+        /// <returns></returns>
         public List<string> GetDriversByTeam(string teamName)
         {
             string xpath = "//a[@class='listing-item--link ']//p[contains(text(), '" + teamName.Trim() + "')]/..//div[contains(@class, 'listing-item--name')]//span";
@@ -52,6 +57,11 @@ namespace F1Aggregator
             return driverNames;
         }
 
+        /// <summary>
+        /// Getting the image of the car by team name.
+        /// </summary>
+        /// <param name="pictureBox"></param>
+        /// <param name="teamName"></param>
         public void SetCarPicture(PictureBox pictureBox, string teamName)
         {
             teamName = teamName.Trim().Replace(" ", "-");
@@ -64,6 +74,11 @@ namespace F1Aggregator
 
         }
 
+        /// <summary>
+        /// Loading the page and setting the data.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Teams_Load(object sender, EventArgs e)
         {
             dataGrabber.SetPage("https://www.formula1.com/en/teams.html");
