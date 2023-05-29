@@ -20,7 +20,6 @@ using System.Linq;
 using System.Media;
 using System.Windows.Forms;
 
-//Comment
 namespace F1Aggregator
 {
     /// <summary>
