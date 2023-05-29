@@ -21,8 +21,16 @@ using System.Windows.Forms;
 
 namespace LoadingForms
 {
+    /// <summary>
+    /// Class used to load forms inside other forms.
+    /// </summary>
     public static class LoadForm
     {
+        /// <summary>
+        /// Method used to load forms inside other forms.
+        /// </summary>
+        /// <param name="mainPanel"></param>
+        /// <param name="Form"></param>
         public static void AddForms(Panel mainPanel, object Form)
         {
             if (mainPanel.Controls.Count > 0)
